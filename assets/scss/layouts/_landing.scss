@@ -5,22 +5,11 @@
 @use "../organisms" as *;
 @use "../../.././node_modules/rfs/scss" as rfs;
 
-%snowbank {
-    background-color: $primary-background-color;
-    margin-top: 0;
-//    border-top: 3em solid $primary-background-color;
-//    border-image: url("/assets/images/site/background-snow.svg");
-//    border-image-slice: 100%;
-//    border-image-repeat: repeat;
-//    border-image-width: 100%;
-}
-
 .landing {
     grid-template-areas: 
         "j j j j j j"
         "c c c c c c"
         "f f f f f f";
-        background-image: url("/assets/images/site/background-eastford.svg");
         background-size: cover;
         background-repeat: no-repeat;
         background-position: center;
@@ -33,9 +22,6 @@
     }
     &__container {
         grid-area: c;
-    }
-    &__content {
-        @extend %snowbank;
     }
     &__fullscreen {
         height: 100vh;
@@ -66,6 +52,5 @@
     }
     .footer {
         background-color: $primary-background-color;
-        @extend %snowbank;
     }
 }

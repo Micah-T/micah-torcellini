@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Meet Scramble!
+title: About me
 permalink: /about/
 ---
 Every year, Nutmeggers, (human and duck) wake up on February 2 awaiting Punxsutawney Phil’s and Chuckles the groundhog’s prediction. Connecticut must know the season’s timing for when to plant crops and gardens, shovel snow, buy springtime clothing, and more. Year after year, Nutmeggers have been plagued by the fact that groundhogs are usually wrong.

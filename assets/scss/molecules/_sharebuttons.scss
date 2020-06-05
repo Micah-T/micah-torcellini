@@ -11,7 +11,7 @@
     background-repeat: no-repeat;
     display: inline-block;
 }
-@each $icon in fb, tw, inst, print {
+@each $icon in fb, tw, print {
     .share__button.-#{$icon} {
         @include shareicon($icon);
         }
