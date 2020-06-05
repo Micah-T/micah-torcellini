@@ -4,5 +4,7 @@
     {"name": "About",
         "url" : "/about/"},
     {"name": "Writing",
-        "url": "/writing/"}
+        "url": "/writing/"},
+    {"name": "Developing", 
+        "url": "/developing"}
 ]
