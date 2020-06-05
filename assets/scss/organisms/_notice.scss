@@ -1,0 +1,11 @@
+@use "../global" as *;
+@use "../atoms" as *;
+.notice {
+    @extend .card;
+    font-size: 1.5em;
+    text-align: center;
+    &.-alert {
+        background-color: $alert-color;
+        color: $primary-background-color;
+    }    
+}

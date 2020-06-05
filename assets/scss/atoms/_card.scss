@@ -1,0 +1,23 @@
+@use "../global" as *;
+.card {
+    background-color: $primary-background-color;
+    border-radius: $border-radius;
+    margin: $primary-margin;
+    padding: $primary-margin;
+}
+main, .content-container {
+    img {
+        @extend .card;
+        padding: 0;
+    }
+}
+lite-youtube, .card.-iframe, img {
+    @extend .card;
+    padding: 0;
+}
+.header button img {
+    margin: 0;
+}
+img {
+    background-color: transparent;
+}

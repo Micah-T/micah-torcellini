@@ -1,0 +1,9 @@
+---
+layout: default
+templateClass: tmpl-post
+permalink: "/news/{{ page.date | date: '%Y/%m/%d' }}/{{ page.fileSlug }}/"
+---
+
+{{ content | safe }}
+
+<p><a href="{{ '/' | url }}">← Home</a></p>

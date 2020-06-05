@@ -1,0 +1,23 @@
+@use "variables" as *;
+@use "text" as *;
+@use "../../.././node_modules/rfs/scss" as rfs with(
+    $rfs-factor: 10
+);
+
+//semi-automatic font-size...
+@for $i from 1 through 6 {
+    h#{$i} {
+        @include rfs.font-size(( (1 /2) * ( 7 - $i) + (1/2) ) * 1rem);
+        margin-bottom: 0;
+        @extend %text-shadow;
+   }
+}
+
+h1, h2 {
+    a {
+        @extend %a-hover;
+        &:hover {
+            @extend %a;
+        }
+    }
+}

@@ -1,0 +1,24 @@
+{
+  "title": "Micah Torcellini's Website",
+  "short_title": "Micah Torcellini's Website",
+  "url": "undefined",
+  "description": "Scramble is a completely accurate weather-predicting duck in Eastford, Connecticut",
+  "keywords": "Duck Day, Scramble the Duck, Eastford, Groundhog Day",
+  "lang": "en-US",
+  "image": "/assets/images/site/og-image.jpeg",
+  "color": "#0011D1",
+  "color_background": "#e6e8ff",
+  "msvalidate01": "undefined",
+  "feed": {
+    "subtitle": "The RSS Feed for Micah Torcellini's Website",
+    "filename": "feed.xml",
+    "path": "/feed.xml",
+    "url": "undefined/feed.xml",
+    "id": "undefined/"
+  },
+  "author": {
+    "name": "Micah Torcellini",
+    "email": ""
+  },
+  "logo": "/assets/images/site/logo.svg"
+}

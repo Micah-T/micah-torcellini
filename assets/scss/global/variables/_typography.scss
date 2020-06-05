@@ -1,0 +1,25 @@
+// The font loading used to be here; see https://www.filamentgroup.com/lab/load-css-simpler/
+
+//https://getbootstrap.com/docs/4.2/content/reboot/#native-font-stack
+$font-family-default:
+  // Safari for macOS and iOS (San Francisco)
+  -apple-system,
+  // Chrome < 56 for macOS (San Francisco)
+  BlinkMacSystemFont,
+  // Windows
+  "Segoe UI",
+  // Android
+  "Roboto",
+  // Basic web fallback
+  "Helvetica Neue", Arial, sans-serif,
+  // Emoji fonts
+  "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol" !default;
+
+
+//insert preferred font where $font-family-default is, leaving $font-family-default as a fallback, unless preferred font is much different
+$font-family: Rosario, #{$font-family-default};
+
+//font family for headings
+$font-family-headings: $font-family;
+$line-height: 1.5;
+$font-size: 1.1em;

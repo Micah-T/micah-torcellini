@@ -1,0 +1,10 @@
+@use "variables" as *;
+html {
+    scroll-behavior: smooth;
+}
+body {
+    background-color: $primary-background-color;
+}
+main {
+    padding: 0.5rem;
+}

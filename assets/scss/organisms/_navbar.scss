@@ -1,0 +1,125 @@
+﻿@use "../global" as *;
+@use "../layout/variables" as *;
+@use "../atoms" as *;
+
+//https://css-tricks.com/snippets/css/a-guide-to-flexbox/#flexbox-background
+//needs work on media queries
+
+
+//must be adjusted for different navbars and should probably be set higher than this for most scenarios
+$navbar-breakpoint: 60rem;
+//must be adjusted or different header content sizes, or bad things will happen
+$header-height: 7rem;
+
+.header {
+    @include flexbox($justify-content: space-between, $align-items: flex-start,);
+    height: $header-height;
+    background-color: $header-background-color;
+    z-index: 10;
+    
+    @at-root #{&}__logo {
+        padding: $textbox-padding;
+        a {
+            border: none;
+            img {
+                max-height: 5em;
+            }
+        }
+    }
+}
+
+.navbar {
+    @include flexbox($justify-content: center, $align-items: flex-end);
+    a, summary {
+        @extend %a-hover;
+        &:hover {
+            @extend %a;
+        }
+        &:focus, &:active {
+            @extend %a-focus;
+            outline: none;
+        }
+        display: block;
+        padding: 0;
+    }
+
+    
+    li.-active a, li.-active summary {
+        @extend %a;
+        &:hover {
+            @extend %a-hover;
+        }
+    }
+
+
+    @at-root #{&}__nav {
+        @include flexbox($justify-content: flex-end);
+        list-style-type: none;
+        width: fit-content;
+        padding: 0;
+        background-color: $navbar-dropdown-background-color;
+        @extend .card;
+
+        &__item {
+            display: inline;
+            padding: $textbox-padding $textbox-padding $textbox-padding 0;
+            &:first-child {
+                padding-left: $textbox-padding;
+            }
+            @media (max-width: $navbar-breakpoint) {
+                padding-left: $textbox-padding;
+            }
+        }
+    }
+    .a-dropdown, .dropdown {
+        padding: 0;
+        summary {
+            padding: 0;
+        }
+        ul {
+            flex-direction: column;
+            @extend .card;
+            margin: 0;
+            border-top-right-radius: 0;
+            border-top-left-radius: 0;
+            float: left;
+            width: fit-content;
+            li {
+                padding-bottom: $textbox-padding;
+                display: block;
+                white-space: normal;
+            }
+        }
+    }
+}
+
+@media (max-width: $navbar-breakpoint) {
+    .navbar {
+        flex-direction: column;
+
+        @at-root #{&}__nav {
+            flex-direction: column;
+            margin: 0;
+            transition: all $transition-time;
+            transform: scaleY(0);
+            transform-origin: top;
+            &.-open {
+                transform: scaleY(1);
+            }
+        }
+        @at-root #{&}__toggle {
+            display: block;
+            width: 2em;
+            height: 2em;
+            margin: 1em;
+            padding: 0;
+            background: none;
+            border: none;
+        }
+    }
+}
+@media (min-width: $navbar-breakpoint) {
+    .navbar__toggle {
+        display: none;
+    }
+}

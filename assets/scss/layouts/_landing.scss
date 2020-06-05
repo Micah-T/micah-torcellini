@@ -1,0 +1,71 @@
+// landing page styles
+@use "../global" as *;
+@use "../atoms" as *;
+// mostly to get the header-height
+@use "../organisms" as *;
+@use "../../.././node_modules/rfs/scss" as rfs;
+
+%snowbank {
+    background-color: $primary-background-color;
+    margin-top: 0;
+//    border-top: 3em solid $primary-background-color;
+//    border-image: url("/assets/images/site/background-snow.svg");
+//    border-image-slice: 100%;
+//    border-image-repeat: repeat;
+//    border-image-width: 100%;
+}
+
+.landing {
+    grid-template-areas: 
+        "j j j j j j"
+        "c c c c c c"
+        "f f f f f f";
+        background-image: url("/assets/images/site/background-eastford.svg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-attachment: fixed;
+    .header {
+        background-color: transparent;
+    }
+    .navbar__nav {
+        @extend .card;
+    }
+    &__container {
+        grid-area: c;
+    }
+    &__content {
+        @extend %snowbank;
+    }
+    &__fullscreen {
+        height: 100vh;
+        width: 100vw;
+        background-color: transparent;
+        grid-area: j;
+        text-align: center;
+    }
+    &__jumbotron {
+        &__header {
+            @extend .card;
+            background-color: transparent;
+            color: $blue-800;
+            text-align: left;
+            @media (max-height: 20rem) {
+                @include rfs.font-size(1.5em);
+            }
+            &__name {
+                font-size: .5em;
+                @extend %a;
+            }
+        }
+        &__arrow {
+            a {
+                border-bottom: none;
+            }
+        }
+    }
+    .footer {
+        background-color: $primary-background-color;
+        @extend %snowbank;
+    }
+}

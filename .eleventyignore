@@ -1,0 +1,9 @@
+README.md
+_11ty/
+assets/images/*
+assets/images/site/social-readme.md
+assets/scss/*
+gulpfile.js
+assets/js/polyfills/webcomponentsjs/README.md
+assets/js/polyfills/webcomponentsjs/LICENSE.md
+_drafts/*

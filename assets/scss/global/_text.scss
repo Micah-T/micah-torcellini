@@ -1,0 +1,65 @@
+@use "variables" as *;
+@use "sass:color";
+
+html {
+	font-size: $font-size;
+	line-height: $line-height;
+}
+body {
+    font-family: $font-family;
+	color: $primary-text-color;
+}
+%text-shadow {
+    text-shadow: -0.07rem -0.07rem 0em color.scale($primary-background-color, $alpha: -40%)
+}
+%selection {
+	background-color: $primary-text-color;
+    color: $primary-background-color;
+    border-color: transparent;
+    outline: none;
+}
+*::selection {
+	@extend %selection;
+}
+%a {
+	border-bottom-width: .15em;
+	border-bottom-style: solid;
+	border-bottom-color: $primary-text-color;
+	text-decoration: none;
+}
+%a-hover {
+	border-color: transparent;;
+	text-decoration: none;
+}
+%a-focus {
+    @extend %selection;
+}
+a {
+	@extend %a;
+	&:hover {
+		@extend %a-hover;
+        }
+    &:focus, &:active {
+        @extend %a-focus;
+    }
+}
+
+
+//https://css-tricks.com/snippets/css/simple-and-nice-blockquote-styling/
+blockquote {
+    background: $primary-background-color;
+    border-left: 10px solid $primary-text-color;
+    margin: 1.5em 10px;
+    padding: 0.5em 10px;
+    quotes: "\201C""\201D""\2018""\2019";
+  }
+  blockquote:before {
+    color: $primary-text-color;
+    content: open-quote;
+    font-size: 4em;
+    line-height: 0.1em;
+    vertical-align: -0.4em;
+  }
+  blockquote p {
+    display: inline;
+  }

@@ -1,0 +1,26 @@
+---
+layout: default
+title: News
+permalink: /news/
+---
+{% set postslist = collections.posts %}
+<ul reversed class="postlist">
+{% for post in postslist | reverse %}
+  <li class="postlist__item">
+    <h2><a href="{{ post.url | url }}" class="postlist__item__link">{% if post.data.title %}{{ post.data.title }}{% else %}<code>{{ post.url }}</code>{% endif %}</a></h2>
+    <p><time class="postlist__item__date" datetime="{{ post.date | htmlDateString }}">{{ post.date | readableDate }}</time></p>
+    <div class="postlist__item__share">
+                <a rel="noopener" title="Share on Facebook" href="http://www.facebook.com/sharer.php?u={{metadata.url}}{{post.url}}" target="_blank" class="share__link -fb">
+            <span class="share__button -fb">
+                <span class="-sr">Share on Facebook</span>
+            </span>
+        </a>
+        <a rel="noopener" title="Share on Twitter" href="http://twitter.com/share?url={{metadata.url}}{{post.url}}" target="_blank" class="share__link -tw">
+            <span class="share__button -tw">
+                <span class="-sr">Share on Twitter</span>
+            </span>
+        </a>
+       </div>
+  </li>
+{% endfor %}
+</ul>

@@ -1,0 +1,28 @@
+@use "../global" as *;
+@mixin shareicon($icon-name) {
+    background-image: url(/assets/images/site/social-#{$icon-name}.svg);
+
+}
+.share__button {
+    @extend %standard-transformation;
+    width: 2.5em;
+    height: 2.5em;
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: inline-block;
+}
+@each $icon in fb, tw, inst, print {
+    .share__button.-#{$icon} {
+        @include shareicon($icon);
+        }
+    }
+.share__link {
+    margin: $margin;
+    padding: 0;
+    background-color: transparent;
+    border-color: transparent;
+    border: none;
+    height: fit-content;
+    width: fit-content;
+    cursor: pointer;
+}

@@ -1,0 +1,90 @@
+    <meta charset="utf-8">
+    <title>
+        {%- if renderData.title or title -%}
+            {{  renderData.title or title }}
+        {%- endif %}
+        {%- if layout != "landing" %} | {{ metadata.title }}{%- endif -%}
+    </title>
+    <meta name="Description" content="{{ renderData.description or description or metadata.description }}">
+    <link rel="alternate" href="{{ metadata.feed.path | url }}" type="application/atom+xml" title="{{ metadata.title }}">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Rosario:400,400i,700,700i&display=swap&subset=latin-ext" media="print" onload="this.media='all'">
+        <noscript>
+    <noscript>
+         <style>
+            @import url('https://fonts.googleapis.com/css?family=Rosario:400,400i,700,700i&display=swap&subset=latin-ext');
+            .noscript-hide {
+                display: none;
+            }
+        </style>
+    </noscript>
+    <link rel="stylesheet" href="/assets/css/main.css">
+
+<meta name="msvalidate.01" content="{{ metadata.msvalidate01 }}" />
+<meta name="theme-color" content="{{ metadata.color }}">
+<meta property="og:image:width" content="1000">
+<meta property="og:image:height" content="524">
+<meta property="og:title" content="{{ title }}">
+<meta property="og:description" content="{{ renderData.description or description or metadata.description }}">
+<meta property="og:url" content="{{ metadata.url }}{{ permalink }}">
+<meta property="og:image" content="{{ metadata.url }}{{ card or image or metadata.image }}">
+<meta property="og:type" content="website" >
+<link rel="canonical" href="{{ metadata.url }}{{ permalink }}" >
+<meta name="keywords" content="{{ metadata.keywords }}">
+
+<script type="application/ld+json">[{"@context":"http:\/\/schema.org","@type":"EducationalOrganization","name":"Duck Day","url":"{{ metadata.url }}{{ permalink }}","image":"{{ metadata.url }}{{ metadata.card }}"},{"@context":"http:\/\/schema.org","@type":"Website","name":"{{ metadata.title }}","url":"{{ metadata.url }}{{ permalink}}","keywords":"{{ metadata.keywords }}"}]</script>
+
+
+<link rel="apple-touch-icon" sizes="180x180" href="/assets/images/site/favicon-apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/assets/images/site/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/assets/images/sitefavicon-16x16.png">
+<link rel="manifest" href="/site.webmanifest">
+
+<script src="/assets/js/modernizr.js"></script>
+<script id="loadCustomElementsPolyfill" src="/assets/js/polyfills/webcomponentsjs/webcomponents-loader.js"></script>
+<script id="loadDetailsPolyfill"></script>
+<script>
+    if (Modernizr.details == false) {
+        var loadDetailsPolyfill = document.getElementById("loadDetailsPolyfill");
+        loadDetailsPolyfill.setAttribute("src", "/assets/js/polyfills/details.js");
+    }
+</script>
+<script src="/assets/js/navbar.js" defer></script>
+<script id="loadLiteYtEmbed" defer></script>
+<script>
+    function loadLiteYtEmbed() {
+        var loadLiteYtEmbed = document.getElementById("loadLiteYtEmbed");
+        loadLiteYtEmbed.setAttribute("src", "/assets/js/lite-yt-embed.js"); 
+    }
+    if (Modernizr.customelements == true) {
+        loadLiteYtEmbed();
+    }
+    else {
+        WebComponents.waitFor = loadLiteYtEmbed();
+    }
+</script>
+<script src="/assets/js/timer.js" defer></script>
+<script src="/assets/js/instantpage-3.0.0.js" defer></script>
+
+
+<script>
+//https://developers.google.com/analytics/devguides/collection/analyticsjs/user-opt-out
+ window['ga-disable-UA-131485046-1'] = true;
+
+//https://developers.google.com/analytics/devguides/collection/analyticsjs/
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+//https://developers.google.com/analytics/devguides/collection/analyticsjs/ip-anonymization
+        ga('set', 'anonymizeIp', true);
+
+//https://developers.google.com/analytics/devguides/collection/analyticsjs/cookies-user-id#cookie_expiration
+        ga('create', 'UA-131485046-1', {
+         'cookieExpires': 0  // Time in seconds.
+        });
+        ga('send', 'pageview');
+</script>

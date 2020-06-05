@@ -1,0 +1,13 @@
+@media print {
+    footer, aside, .share, .print-hide {
+        display: none;
+    }
+    body {
+        background-color: white;
+    }
+
+    img {
+        max-width: 100%;
+        max-height: 100%;
+    }
+}

@@ -1,0 +1,5 @@
+  {% if livestream.id %}
+    <div class="notice -streaming {% if livestream.alert %} -alert {% endif %}">
+    <p><strong><a href="/livestream/">Watch Scramble live on {{ livestream.time }}!</a></strong></p>
+    </div>
+  {% endif %}

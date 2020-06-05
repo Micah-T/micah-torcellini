@@ -1,0 +1,40 @@
+//this file should contain all color variables
+$grey: hsl(235, 6%, 7%);
+$grey-1000: $grey;
+$grey-900: hsl(235, 6%, 20%);
+$grey-800: hsl(235, 6%, 30%);
+$grey-700: hsl(235, 6%, 40%);
+$grey-600: hsl(235, 6%, 50%);
+$grey-500: hsl(235, 6%, 60%);
+$grey-400: hsl(235, 6%, 70%);
+$grey-300: hsl(235, 6%, 80%);
+$grey-200: hsl(235, 6%, 90%);
+$grey-100: hsl(235, 6%, 100%);
+
+$blue: hsl(235, 100%, 15%);
+$blue-1000: $blue;
+$blue-900: hsl(235, 100%, 25%);
+$blue-800: hsl(235, 100%, 35%);
+$blue-700: hsl(235, 100%, 45%);
+$blue-600: hsl(235, 100%, 55%);
+$blue-500: hsl(235, 100%, 60%);
+$blue-400: hsl(235, 100%, 66%);
+$blue-300: hsl(235, 100%, 72%);
+$blue-200: hsl(235, 100%, 83%);
+$blue-100: hsl(235, 100%, 95%);
+
+$cream: hsl(60, 100%, 50%);
+$cream-500: $cream;
+$cream-400: hsl(60, 100%, 60%);
+$cream-300: hsl(60, 100%, 70%);
+$cream-200: hsl(60, 100%, 80%);
+$cream-100: hsl(60, 100%, 90%);
+
+
+$primary-background-color: $blue-100;
+$primary-text-color: $grey-1000;
+$header-background-color: $primary-background-color;
+$navbar-dropdown-background-color: $header-background-color;
+
+// special colors
+$alert-color: hsl(0, 57%, 50%);

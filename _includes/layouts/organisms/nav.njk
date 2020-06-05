@@ -1,0 +1,30 @@
+        <a href="#content" class="-skip-link">Skip to content</a>
+        <div class="header__logo col -w2 -n6">
+            <a href="/">
+              <img src="{{ metadata.logo }}" alt="">
+              <span class="-sr">Go to the home page</span>
+            </a>
+        </div>
+        <nav class="navbar col -w10 -n6 header_nav">
+            <button class="navbar__toggle" id="toggle">
+                <img src="/assets/images/site/hamburger.svg" alt="Menu">
+            </button>
+
+            <ul class="navbar__nav" id="collapse">
+              {%- for item in navigation -%}
+                <li  class="navbar__nav__item {% if item.url == page.url %} -active {% endif %}">
+                {% if item.subs %}
+                  <details class="dropdown">
+                    <summary>{{ item.name }}</summary>
+                    <ul>
+                      {% for sub in item.subs %}
+                        <li><a href="{{ sub.url }}">{{ sub.name }}</a></li>
+                      {% endfor %}
+                    </ul>
+                  </details>
+                {% else %} <a href="{{ item.url | url }}">{{ item.name }}</a>
+                {% endif %}
+                </li>
+              {%- endfor -%}
+            </ul>
+        </nav>

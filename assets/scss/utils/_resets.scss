@@ -1,0 +1,18 @@
+* {
+    box-sizing: border-box;
+    max-width: 100%;
+}
+iframe {
+    border: none;
+}
+button {
+    color: inherit;
+    border: 0;
+    padding: 0;
+    background-color: transparent;
+}
+
+body {
+    // a really hacky, bad idea
+    overflow-x: hidden;
+}

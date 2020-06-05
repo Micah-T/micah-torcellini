@@ -1,0 +1,36 @@
+@use "../global" as *;
+
+details.dropdown {
+    summary {
+        width: fit-content;
+        list-style-type: none;
+        display: block;
+        margin: 0;
+        padding: 1rem;
+        &::before {
+            content: none !important;
+        }
+        &::after {
+            content: ('↓');
+            transform: rotate(0deg);
+            transition: transform $transition-time;
+            display: inline-block;
+            padding-right: 1em;
+            padding-left: 1em;
+        }
+        &::-webkit-details-marker {
+            display: none;
+        }
+        list-style-type: none;
+    }
+    &[open] {
+        summary::after {
+            transform: rotate(180deg);
+        }
+    }
+    > *:not(summary) {
+        position: absolute;
+        background-color: $primary-background-color;
+        padding: 1em;
+    }
+}

@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <title>Test</title>
+    <meta charset="UTF-8">
+    <!--https://getbootstrap.com/docs/4.2/layout/overview/#responsive-breakpoints-->
+    <link rel="stylesheet" type="text/css" href="./main.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <script src="./js/modernizr.js"></script>
+    <script id="loadDetailsPolyfill"></script>
+    <script>
+        if (Modernizr.details == false) {
+            var loadDetailsPolyfill = document.getElementById("loadDetailsPolyfill");
+            loadDetailsPolyfill.setAttribute("src", "./js/polyfills/details.js");
+        }
+    </script>
+</head>
+<body>
+    <header class="header">
+        <a href="#content" class="-skip-link">Skip to content</a>
+        <div class="header__logo col -n1">
+            <a href="#">[LOGO]</a>
+        </div>
+        <nav class="navbar col -n11">
+            <button class="navbar__toggle" id="toggle">
+                <img src="./icons/hamburger.svg" alt="Menu">
+            </button>
+            <ul class="navbar__nav navbar__collapse" id="collapse">
+                <li><a href="#">One</a></li>
+                <li><a href="#">Two</a></li>
+                <li><a href="#">Three</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="container">
+        <main class="col -w9" id="content">
+            <h1>Ecce! Caput!</h1>
+            <p>Bacon ipsum dolor amet shoulder porchetta kevin ground round, shankle pork chop sausage frankfurter salami hamburger venison. Jerky tri-tip capicola, shoulder chuck bresaola filet mignon kevin porchetta alcatra leberkas sausage. Spare ribs ball tip meatball shoulder pastrami picanha shank tenderloin bresaola beef short ribs chicken.</p>
+            <h3>Ecce! Caput III!</h3>
+            <p>Ham hock ribeye boudin brisket shoulder. Turducken jowl kielbasa kevin. T-bone turkey hamburger filet mignon, ham pork loin meatball jowl buffalo ham hock jerky. Bresaola burgdoggen drumstick, meatloaf frankfurter pancetta ground round andouille jowl pastrami turkey venison bacon.</p>
+            <details class="dropdown">
+                <summary>See more!</summary>
+                <p>Hippopotamus Sum</p>
+            </details>
+            <p>Ham hock ribeye boudin brisket shoulder. Turducken jowl kielbasa kevin. T-bone turkey hamburger filet mignon, ham pork loin meatball jowl buffalo ham hock jerky. Bresaola burgdoggen drumstick, meatloaf frankfurter pancetta ground round andouille jowl pastrami turkey venison bacon.</p>
+        </main>
+        
+        <aside class="col -w3">
+            <h2>Ecce! Res!</h2>
+            <p>Flank salami tri-tip pork, tongue shoulder t-bone meatloaf turkey jowl andouille alcatra. Andouille corned beef burgdoggen kevin, rump filet mignon salami tail. Ham burgdoggen salami, tenderloin sausage pastrami pork loin doner pork chop. </p>
+        </aside>
+    </div>
+    <script src="./js/navbar.js"></script>
+</body>

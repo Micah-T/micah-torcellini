@@ -1,0 +1,9 @@
+<!doctype html>
+<html lang="{{ lang or metadata.lang }}" prefix="og: http://ogp.me/ns#">
+  <head>
+    {% include "layouts/partials/headcontent.njk" %}
+  </head>
+  <body class="{{ bodyclass }}">
+    {{ content | safe }}
+  </body>
+</html>

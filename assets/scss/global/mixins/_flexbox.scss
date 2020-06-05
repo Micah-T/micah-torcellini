@@ -1,0 +1,37 @@
+﻿@use "sass:math";
+//global flexbox control mixins
+//avoid directly editing per site
+
+//creates flexbox container
+@mixin flexbox($justify-content: center, $align-items: center, $align-content: flex-start) {
+    display: flex;
+    justify-content: $justify-content;
+    align-items: $align-items;
+    align-content: $align-content;
+}
+
+//creates the flexbox child
+//@mixin col depends on this
+@mixin flex($shrink: 0, $grow: 0, $size: auto,) {
+    @if $size != auto {
+        flex: $shrink $grow $size * 100%;
+    }
+    @else if $size == auto {
+        flex: $shrink $grow $size;
+    }
+}
+
+
+//creates a minimum width...
+$min-col-width: 5em;
+
+//creates a 12-column layout, refered to by layout/_generator's function
+@mixin col($size: auto) {
+    @include flex(
+        $size: math.floor(
+                ($size  * 10000 / 12)
+            )
+             / 10000
+        ,);
+    max-width: math.floor(($size  * 10000 / 12)) / 10000 * 100%;
+}

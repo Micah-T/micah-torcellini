@@ -1,0 +1,17 @@
+---
+layout: base
+---
+    <header class="header print-hide">
+      {% include "layouts/organisms/nav.njk" %}
+    </header>
+    <main class="main" id="content">
+        <h1>{{ title }}</h1>
+        {{ content | safe }}
+      </main>
+        
+      <aside class="aside" id="aside">
+        {% include "layouts/organisms/aside.njk" %}
+      </aside>
+    <footer id="footer" class="footer">
+      {% include "layouts/organisms/footer.njk" %}
+    </footer>

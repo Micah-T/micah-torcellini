@@ -1,0 +1,10 @@
+# modified from examples on Wikipedia
+User-agent: *
+Disallow:
+Disallow: /assets/images/site/social
+Disallow: /assets/images/site/icons
+
+User-agent: *
+Crawl-delay: 10
+
+Sitemap: https://scrambletheduck.org/sitemap.xml

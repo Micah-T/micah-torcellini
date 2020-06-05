@@ -1,0 +1,8 @@
+//creates a bottom background-image border
+@mixin background-border($height, $padding, $image) {
+    padding-bottom: $height + $padding;
+    background-size: auto $height;
+    background-image: $image;
+    background-position: bottom;
+    background-repeat: repeat-x;
+}

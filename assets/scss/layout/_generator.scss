@@ -1,0 +1,18 @@
+//generates columns
+@use "variables" as *;
+@use "../global" as *;
+
+@each $breakpoint, $width in $breakpoints {
+
+    @media (min-width: $width) {
+
+        @for $i from 1 through 12 {
+            .col.-#{$breakpoint}#{$i} {
+                @include col($size: $i);
+            }
+        }
+        .col.-#{$breakpoint}auto {
+            flex: 1 0 0;
+        }
+    }
+}

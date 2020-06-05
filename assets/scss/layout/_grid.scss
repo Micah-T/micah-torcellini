@@ -1,0 +1,45 @@
+@use "../global" as *;
+// global grid styling
+$margin: 1em;
+$breakpoint: 60em;
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: auto;
+    justify-items: center;
+}
+body {
+    @extend .grid-container;
+    grid-template-areas:
+        "h h h h h h" 
+        "m m m m m m"
+        "a a a a a a"
+        "f f f f f f";
+    @media (min-width: $breakpoint) {
+        grid-template-areas: 
+            "h h h h h h"
+            "m m m m a a"
+            "f f f f f f";
+    }
+}
+.header {
+    grid-area: h;
+    width: 100%;
+}
+.main {
+    grid-area: m;
+    margin: $margin;
+    min-width: 65%;
+    @media (max-width: $breakpoint) {
+        width: 100%;
+    }
+}
+.aside {
+    grid-area: a;
+    margin: $margin;
+}
+.footer {
+    grid-area: f;
+    margin-top: $margin;
+    width: 100%;
+}

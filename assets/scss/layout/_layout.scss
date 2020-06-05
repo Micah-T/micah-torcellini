@@ -1,0 +1,20 @@
+﻿@use "variables" as *;
+@use "generator" as *;
+@use "../global" as *;
+@use "grid" as *;
+
+.col {
+    padding-right: $textbox-padding;
+    padding-left: $textbox-padding;
+    width: 100%;
+    margin: $textbox-padding 0;
+}
+
+
+.container, .flex-container {
+    @include flexbox();
+    flex-wrap: wrap;
+    align-items: flex-start;
+    padding-top: $textbox-padding;
+    $padding-bottom: $textbox-padding;
+    }

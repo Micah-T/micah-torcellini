@@ -1,0 +1,7 @@
+%standard-transformation {
+	transition: all .2s ease-in-out;
+	transform: rotate(0deg);
+	&:hover {
+		transform: rotate(10deg);
+	}
+}
