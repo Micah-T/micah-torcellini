@@ -17,9 +17,12 @@ $font-family-default:
 
 
 //insert preferred font where $font-family-default is, leaving $font-family-default as a fallback, unless preferred font is much different
-$font-family: "EB Garamond", Garamond, Georgia, serif;
+$font-family: "EB Garamond", Garamond, Georgia, "Apple Color Emoji", "Segoe UI Emoji," "Segoe UI Symbol", serif;
 
 //font family for headings
 $font-family-headings: $font-family;
 $line-height: 1.5;
 $font-size: 1.1em;
+
+$font-weight: 400;
+$font-weight-headings: $font-weight;

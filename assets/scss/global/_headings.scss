@@ -14,6 +14,7 @@
 }
 
 h1, h2 {
+    font-weight: $font-weight-headings;
     a {
         @extend %a-hover;
         &:hover {
