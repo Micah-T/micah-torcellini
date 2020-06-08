@@ -1,5 +1,5 @@
 ---
-title: Welcome to Scramble the Duck's Official Website
+title: Micah Torcellini's Website
 layout: landing
 permalink: /
 tags:
@@ -12,7 +12,7 @@ navtitle: Home
       {% include "layouts/organisms/nav.njk" %}
     </header>
   <div class="landing__jumbotron" id="content">
-    <h1 class="landing__jumbotron__header"><span class="landing__jumbotron__header__name">Scramble the Duck</span><br>An Accurate Alternative to the Groundhog</h1>
+    <h1 class="landing__jumbotron__header"><span class="landing__jumbotron__header__name">Micah Torcellini</span><br>Web Developer</h1>
     <div class="landing__jumbotron__arrow">
       <a href="#main-content">
         <span class="-sr">Skip to content</span>
@@ -23,24 +23,18 @@ navtitle: Home
 </div>
 <div class="landing__container">
   <main class="landing__content flex-container" id="main-content">
-    <figure class="col -w4">
-      <img src="/assets/images/img_4077-w600.jpeg" alt="Duck Day">
-    </figure>
     <div class="col -w6">
-      <p>Welcome to Scramble the Duck's website! Scramble predicts the weather every <a href="/about#when-where">February 2, at 7:30 A.M. at the Ivy Glenn Memorial in Eastford, CT</a> in a free event. Scramble predicts the weather somewhat like a groundhog, looking for a shadow to determine whether there will be an early spring or six more weeks of winter. However, he is 100% <a href="/accuracy">accurate</a>, compared to Punxsutawney Phil's <a href="/accuracy#statistics">39%</a>. On February 2, he predicted six more weeks of winter.</p> 
-      <p class="notice"><strong><a href="/news/2020/03/19/scramble-proved-correct-again/">Scramble is correct again!</a></strong></p>
-      {% include "layouts/organisms/alerts/livestream.njk" %}
+      <p>Greetings! I am <a href="/about/">Micah Torcellini, a web developer from Connecticut. </p> 
     </div>
-    <figure class="col -w2">
-      <img src="/assets/images/scramble-redcarpet-w200.jpeg" alt="Scramble waddling down the red carpet">
-    </figure>
+    <div class="col-w6">
+      <h2>
+        <a href="/writing/">Writing</a>
+      </h2>
+        {% include "layouts/molecules/postlist.njk" %}
+    </div>
   </main>
 
   <div class="flex-container content-container">
-    <aside class="landing__countdown card col -wauto print-hide" >{% include "layouts/organisms/timer.njk" %}</aside>
-    <figure class="embed-responsive embed-responsive-16by9 landing__video col -wauto">
-      {% ytEmbed 'eP8ocAX6o1o', 16, 9, 'Scramble proved correct again'%}
-    </figure>
   </div>
 </div>
 <footer id="footer" class="footer">

@@ -34,7 +34,7 @@
         &__header {
             @extend .card;
             background-color: transparent;
-            color: $blue-800;
+            color: inherit;
             text-align: left;
             @media (max-height: 20rem) {
                 @include rfs.font-size(1.5em);
