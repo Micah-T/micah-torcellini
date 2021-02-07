@@ -9,6 +9,7 @@ body {
     font-family: $font-family;
     color: $primary-text-color;
     font-weight: $font-weight;
+    text-align: $text-align;
 }
 %text-shadow {
     text-shadow: -0.07rem -0.07rem 0em color.scale($primary-background-color, $alpha: -40%)
