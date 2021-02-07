@@ -1,9 +1,9 @@
 ---
 layout: default
 templateClass: tmpl-post
-permalink: "/news/{{ page.date | date: '%Y/%m/%d' }}/{{ page.fileSlug }}/"
+permalink: "/writing/{{ page.date | date: '%Y/%m/%d' }}/{{ page.fileSlug }}/"
 ---
+<p class="no-dropcap" style="font-style: italic"><time class="postlist-date" datetime="{{ page.date | htmlDateString }}">{{ page.date |readableDate }}</time></p>
+
 
 {{ content | safe }}
-
-<p><a href="{{ '/' | url }}">← Home</a></p>
