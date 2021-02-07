@@ -1,5 +1,5 @@
 @use "../global" as *;
-main h1 + p:not(.no-dropcap)::first-letter, h2 + p:not(.no-dropcap)::first-letter, .dropcap::first-letter, h1 + .no-dropcap + p:not(.no-dropcap)::first-letter {
+main h1 + p:not(.no-dropcap)::first-letter, h2 + p:not(.no-dropcap)::first-letter, .dropcap::first-letter, h1 + .no-dropcap + p:not(.no-dropcap)::first-letter, h2 + .no-dropcap + p:not(.no-dropcap)::first-letter {
     float: left;
     font-size: 9em;
     padding: 0;
