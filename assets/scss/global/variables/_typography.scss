@@ -1,5 +1,15 @@
 // The font loading used to be here; see https://www.filamentgroup.com/lab/load-css-simpler/
 
+@font-face {
+  font-family: 'Euclid Initials';
+  src: url('/assets/fonts/EuclidInitialsnormal.woff2') format('woff2'),
+      url('/assets/fonts/EuclidInitialsnormal.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: optional;
+}
+
+
 //https://getbootstrap.com/docs/4.2/content/reboot/#native-font-stack
 $font-family-default:
   // Safari for macOS and iOS (San Francisco)
@@ -21,8 +31,8 @@ $font-family: "EB Garamond", Garamond, Georgia, "Apple Color Emoji", "Segoe UI E
 
 //font family for headings
 $font-family-headings: $font-family;
-$line-height: 1.5;
-$font-size: 1.1em;
+$line-height: 1.25;
+$font-size: 1.1rem;
 
 $font-weight: 400;
 $font-weight-headings: $font-weight;

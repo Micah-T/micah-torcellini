@@ -181,13 +181,13 @@ qualities of Christianity in a pagan world.
 
 ## Bibliography
 
-Homer. *The Odyssey*. Translated by Robert Fitzgerald. New York: Farrar,
+- Homer. *The Odyssey*. Translated by Robert Fitzgerald. New York: Farrar,
 Straus and Giroux, 1998.
 
-Milton, John. *Paradise Lost*. Digireads,
+- Milton, John. *Paradise Lost*. Digireads,
 2016.
 
-Virgil. *The Aeneid*. New York, N.Y.: Vintage Books, 1990.
+- Virgil. *The Aeneid*. New York, N.Y.: Vintage Books, 1990.
 
 [^1]: Homer, *The Odyssey*, trans. Robert Fitzgerald (New York: Farrar,
     Straus and Giroux, 1998), 1.78-80.

@@ -15,12 +15,6 @@ body {
         "m m m m m m"
         "a a a a a a"
         "f f f f f f";
-    @media (min-width: $breakpoint) {
-        grid-template-areas: 
-            "h h h h h h"
-            "m m m m a a"
-            "f f f f f f";
-    }
 }
 .header {
     grid-area: h;
@@ -28,11 +22,9 @@ body {
 }
 .main {
     grid-area: m;
-    margin: $margin;
-    min-width: 65%;
-    @media (max-width: $breakpoint) {
-        width: 100%;
-    }
+    margin: 0 auto;
+    padding: $margin;
+    max-width: 50em;
 }
 .aside {
     grid-area: a;

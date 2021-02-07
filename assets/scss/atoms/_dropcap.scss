@@ -1,0 +1,9 @@
+@use "../global" as *;
+main h1 + p::first-letter, h2 + p::first-letter, .dropcap::first-letter {
+    float: left;
+    font-size: 9em;
+    padding: 0;
+    position: relative;
+    line-height: 1em;
+    font-family: "Euclid Initials";
+}
