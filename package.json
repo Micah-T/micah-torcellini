@@ -7,7 +7,7 @@
     "debug": "DEBUG=* npx eleventy",
     "build": "gulp build && npx eleventy",
     "sass": "sass --watch assets/scss/main.scss:_site/assets/css/main.css",
-    "dev": "gulp dev && npx eleventy --serve"
+    "dev": "gulp dev && sass assets/scss/main.scss:_site/assets/css/main.cs && npx eleventy --serve"
   },
   "repository": {
     "type": "git",
@@ -43,6 +43,7 @@
     "gulp-imagemin": "^7.1.0",
     "gulp-svgmin": "^2.2.0",
     "markdown-it-deflist": "^2.0.3",
+    "markdown-it-footnote": "^3.0.2",
     "markdown-it-image-lazy-loading": "^1.0.2",
     "rfs": "^9.0.3",
     "sass": "^1.26.10",

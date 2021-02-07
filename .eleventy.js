@@ -61,10 +61,12 @@ module.exports = function(eleventyConfig) {
   let markdownItResponsive = require("@gerhobbelt/markdown-it-responsive");
   let markdownItLazy = require("markdown-it-image-lazy-loading");
   let markdownItDeflist = require("markdown-it-deflist");
+  var markdownItFootnote = require('markdown-it-footnote');
   let mdOptions = {
     html: true,
-    breaks: true,
-    linkify: true
+    breaks: false,
+    linkify: true,
+    typographer: true
   };
   let anchorOptions = {
     permalink: false,
@@ -109,12 +111,34 @@ module.exports = function(eleventyConfig) {
     }
   };
 
-  eleventyConfig.setLibrary("md", markdownIt(mdOptions)
+  let md = markdownIt(mdOptions)
     .use(markdownItAnchor, anchorOptions)
     .use(markdownItResponsive, riOptions)
     .use(markdownItLazy)
     .use(markdownItDeflist)
-  );
+    .use(markdownItFootnote);
+
+  eleventyConfig.setLibrary("md", md);
+
+  md.renderer.rules.footnote_block_open = function () {
+      return '<h2>Footnotes</h2> \n <ol>';
+  };
+  md.renderer.rules.footnote_block_close = function () {
+    return '</ol>';
+  };
+  md.renderer.rules.footnote_anchor = function () {
+    return "";
+  };
+
+  md.renderer.rules.footnote_caption = function (tokens, idx) {
+    var n = Number(tokens[idx].meta.id + 1).toString();
+
+    if (tokens[idx].meta.subId > 0) {
+      n += ':' + tokens[idx].meta.subId;
+    }
+  
+    return  n;
+  };
 
   eleventyConfig.setBrowserSyncConfig({
     callbacks: {
@@ -154,5 +178,5 @@ module.exports = function(eleventyConfig) {
       data: "_data",
       output: "_site"
     }
-  };
+  }
 };
