@@ -61,7 +61,8 @@ module.exports = function(eleventyConfig) {
   let markdownItResponsive = require("@gerhobbelt/markdown-it-responsive");
   let markdownItLazy = require("markdown-it-image-lazy-loading");
   let markdownItDeflist = require("markdown-it-deflist");
-  var markdownItFootnote = require('markdown-it-footnote');
+  let markdownItFootnote = require('markdown-it-footnote');
+  let markdownItAttrs = require("markdown-it-attrs");
   let mdOptions = {
     html: true,
     breaks: false,
@@ -116,6 +117,7 @@ module.exports = function(eleventyConfig) {
     .use(markdownItResponsive, riOptions)
     .use(markdownItLazy)
     .use(markdownItDeflist)
+    .use(markdownItAttrs)
     .use(markdownItFootnote);
 
   eleventyConfig.setLibrary("md", md);

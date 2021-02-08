@@ -42,6 +42,7 @@
     "@webcomponents/webcomponentsjs": "^2.4.4",
     "gulp-imagemin": "^7.1.0",
     "gulp-svgmin": "^2.2.0",
+    "markdown-it-attrs": "^4.0.0",
     "markdown-it-deflist": "^2.0.3",
     "markdown-it-footnote": "^3.0.2",
     "markdown-it-image-lazy-loading": "^1.0.2",

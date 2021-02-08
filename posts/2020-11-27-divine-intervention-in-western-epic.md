@@ -19,9 +19,9 @@ roles of both the Greek intervener and the Roman Fate in a single Being.
 
 In the Greek *Odyssey¸* Homer's presentation of divine intervention
 centers around the concept of a patron god or goddess, who bestows
-particular favor on a person. Of course, a divinity may be hostile to a
-certain person. This frames the conflict which drives much of the entire
-plot of the story.
+particular favor on a person. Of course, a divinity may also be hostile to a
+certain person. Divine treatement of mortals frames the conflict which drives much of the entire
+plot of the story.{.dropcap}
 
 Athena is Odysseus' patron goddess. She often intervenes for him by
 interceding for him to the other gods. For example, the poem, beginning
@@ -43,15 +43,17 @@ physical world. This theme weaves throughout the book. For example, when
 Odysseus is going to the palace of Alkínoös, Athena hides him in fog[^3]
 and leads him there in disguise.[^4] She also uses her power to change
 people's emotions to be more open to him; for Odysseus to get help from
-Alkínoös, he needed to be able to speak with his daughter, who Athena
-"\[gave\] a bold heart"[^5] so that she would be able to talk with him.
+Alkínoös, he needs to be able to speak with his daughter, who Athena
+"\[gives\] a bold heart"[^5] so that she may be be able to talk with him.
 Additionally, Athena modifies Odysseus' appearance on many occasions.
 When he was going to meet Alkínoös, she made him "taller, and massive
 too, with crisping hair/in curls like petals of wild hyacinth,/but all
 red-golden...just so she lavished/beauty over Odysseus' head and
 shoulders."[^6] She also changes his appearance when he is returning
 home and stays at his swineherd Eumaios's hut, temporarily disguising
-him as a beggar.[^7] Athena's favor also extends to Odysseus's son
+him as a beggar.[^7]
+
+Athena's favor also extends to Odysseus's son
 Telémakhos. Athena, disguised as a friend in order to guide Telémakhos,
 tells him that "the gods were never indifferent to your life."[^8] This
 favor is important to Athena's status as Odysseus' patroness, because
@@ -63,7 +65,7 @@ patronee.
 Poseidon, on the other hand dislikes Odysseus. His dislike of Odysseus
 stems from Odysseus' blinding the cyclops Polyphêmos, Poseidon's
 son.[^10] He constantly tries to prevent Odysseus from being able to
-return home. The gods are in conflict: Zeus says that "Only.../Poseidon,
+return home. The gods are thus in conflict: Zeus says that "Only.../Poseidon,
 bears the fighter an old grudge/since he poked out the eye of
 Polyphêmos,"[^11] but, (presumably because of the other divinities'
 protection, "he does not kill the man;/he only buffets him away from
@@ -75,10 +77,10 @@ In Virgil's *Aeneid*, the gods squabble much in the same way as in the
 *Odyssey*. Like Odysseus, the main character Aeneas has a patron
 goddess, Venus. Venus intercedes for Odysseus, begging Vulcan to assist
 him in his fight to be able to settle in Italy.[^13] Just as in the
-*Odyssey*, a goddess opposes the hero; Juno opposes Aeneas, asking
+*Odyssey*, a goddess opposes this hero too; Juno opposes Aeneas, asking
 Aeolus to try to foil Aeneas voyage to Italy, saying that "the race I
 hate is crossing the Tuscan sea...Put new fury into your winds, and make
-the long ships flounder,"[^14] which he does.[^15]
+the long ships flounder,"[^14] which he does.[^15]{.dropcap}
 
 In addition to the gods, however, Fate itself intervenes as a force.
 Like Athena, it affects Aeneas' emotions; when Dido begged him to stay
@@ -108,7 +110,7 @@ pantheon, he decided instead to present God as filling all the
 responsibilities and powers of the ancient pantheons, thus emphasizing
 His omnipotence, which he further emphasizes opening by calling Him "the
 Almighty Power."[^19] Additionally, God fills the same place as Fate in
-the ancient epics, presenting a paradox between predestination and free
+the ancient epics, presenting a paradox between predestination and free will
 which Milton seeks to resolve throughout the epic, writing that he
 wishes to "justify the ways of God to men." [^20] Nevertheless, free
 will of other characters does play a part, as God the Father asserts
@@ -117,7 +119,7 @@ proof could they have given sincere/Of true allegiance, constant faith
 or love...What pleasure I from obedience paid,/When will and
 reason...Made passive both, had serv'd necessity...?"[^21] In other
 words, sovereign God created his creation with free will, because they
-would not be able to glorify him without it.
+would not be able to glorify him without it.{.dropcap}
 
 The conflict, unlike in the ancient epics where the heroes attempting
 some goal have gods both for and against them, the Hero is Himself the
@@ -144,7 +146,7 @@ his followers to "Hell...fraught with fire/Unquenchable, the house of
 woe and pain."[^26] Despite having created these beings with free will,
 God's sovereignty is still manifested in his judgement.
 
-Like in ancient myth, Milton's God fulfills the role an intercessor, the
+Like in ancient myth, Milton's God fulfills the role of an intercessor, the
 Son interceding to the Father for mankind. Of Adam and Eve's repentant
 prayers, Milton writes, "To Heaven their prayers/Flew up...then
 clad/With incense, where the golden altar fumed,/By their great
@@ -177,7 +179,7 @@ sacrifice and intercession. This ability to find comfort, rather than
 fear, in the existence of the gods may have had significant influence on
 the spread of Christianity. The Apostle Paul called this hope and
 comfort of redemption "that blessed hope,"[^29] emphasizing the eternal
-qualities of Christianity in a pagan world.
+qualities of Christianity in a pagan world.{.dropcap}
 
 ## Bibliography
 
@@ -233,7 +235,8 @@ Straus and Giroux, 1998.
 
 [^21]: Milton, 3.101-109.
 
-[^22]: While Milton does not explicitly make the unity clear, the
+[^22]: While Milton does not explicitly make the unity clear
+    (indeed, separating them may be somewhat necessary to make the Son clearly the epic hero), the
     genre of the epic somewhat forces the writer to respect the
     audience's viewpoint, as the genre assumes that the audience
     anticipates the story. For Milton, his audience would have been
