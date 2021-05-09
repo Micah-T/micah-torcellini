@@ -5,7 +5,7 @@ layout: base
       {% include "layouts/organisms/nav.njk" %}
     </header>
     <main class="main" id="content">
-        <h1>{{ title }}</h1>
+        {% if not notitleheader %}<h1>{{ title }}</h1>{% endif %}
         {{ content | safe }}
       </main>
     <footer id="footer" class="footer">
