@@ -10,7 +10,9 @@ notitleheader: true
 # I have opinions. They may change, but they remain correct.
 Do not challenge them. If I am open-minded, my brain will fall out.
 
-Good day! I am Micah Torcellini, a Swamp Yankee from the land of Swamp Yankees, namely, Northeastern Connecticut. Swamp yankies are responsible for the well-known New England cynicism created by the cold. We live in the past because the rent is cheaper.
+Good day! I am Micah Torcellini, a Swamp Yankee from the land of Swamp Yankees, namely, Northeastern Connecticut. Swamp Yankee are responsible for the well-known New England cynicism created by the cold. We live in the past because the rent is cheaper.
+
+What is a Swamp Yankee? Well, the adjective Swamp modifies the noun Yankee. Think of a Yankee. Then think of a Yankee with swamp-like character.
 
 You are a group of unlucky people who have landed on this website.
 
@@ -20,9 +22,9 @@ I also happen to be a:
 - [Web developer because the internet needs better websites: I intend to improve the ratio of good-per-bad websites.](/developing/).
 - Language nerd (Saepe Latine loqui conor&hellip;) because I need words to talk with.
 - Music nerd: Bach is better than it sounds.
-- Legal nerd (in the sense that I learned law because I was going to sue over defamation of character. Then I found I have no character.)
+- Legal nerd (in the sense that I learned law because I was going to sue over defamation of character. Then I found I have no character.
 - History nerd, that I may know when it repeats itself.
-- [I also write sometimes, often on the above topics.](/writing/)
+- [I also write sometimes, often on the above topics. Please report anything heretical.](/writing/)
 - I am also interested in politics. I am also interested in human depravity. I suppose this is repetition, however.
 
 Feast your eyes on this meme and you will know the truth.
