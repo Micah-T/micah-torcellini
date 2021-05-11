@@ -22,7 +22,7 @@ I also happen to be a:
 - [Web developer because the internet needs better websites: I intend to improve the ratio of good-per-bad websites.](/developing/).
 - Language nerd (Saepe Latine loqui conor&hellip;) because I need words to talk with.
 - Music nerd: Bach is better than it sounds.
-- Legal nerd (in the sense that I learned law because I was going to sue over defamation of character. Then I found I have no character.
+- Legal nerd (in the sense that I learned law because I was going to sue over defamation of character. Then I found I have no character).
 - History nerd, that I may know when it repeats itself.
 - [I also write sometimes, often on the above topics. Please report anything heretical.](/writing/)
 - I am also interested in politics. I am also interested in human depravity. I suppose this is repetition, however.
