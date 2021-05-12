@@ -64,7 +64,7 @@ people group wishes to prove their own cultural sophistication, the
 Italians desired to compete with their northern neighbors and eventually
 began to build instruments with a somewhat excess of special effects.
 The traditional style remained common and popular, however, for both
-builders and players.[^11]
+builders and players.[^11]{.dropcap}
 
 Italian organ music was also a unique style. Italy produced several
 genres of music for the organ, such as the toccata, ricercare, canzone,
@@ -126,7 +126,7 @@ organ had four manuals and a pedal, each contrasting with each other in
 accordance with *Werkprinzip*. The *Pedal* was the heaviest rank, while
 the heaviest manual was the *Hauptwerk* (Great Organ); the organ also
 included a *Brustwerk* (where swell stops were sometimes included), the
-*Oberwerk,* and the *Rückpositiv.*[^27]
+*Oberwerk,* and the *Rückpositiv.*[^27]{.dropcap}
 
 German organ music is quite diverse. Early manuscripts such as the
 tablature *Buxheimer Orgelbuch* show an emphasis on the pedal as more
@@ -148,7 +148,7 @@ their style is quite evident; the style and genres Froberger used, for
 example, parallel the style and forms of his teacher Frescobaldi.[^32]
 Additionally, the liturgy of the region affected the development of the
 region's music. *Cantus firmus*[^33] music as in Italy was dominant in
-composition rather than the *Choral* of Northern Germany.[^34]
+composition rather than the *Choral* of Northern Germany.[^34]{.dropcap}
 
 Similarly to in Italy, the southern German organ competed with solo
 instrumentalists and even the harpsichord, weakening its importance;
@@ -183,7 +183,7 @@ fantasia, and the chorale variation or fugue. The prelude relied on
 straightforward *cantus firmus* composition; the fantasia expounded
 extensively on each portion of the melody using many techniques; the
 chorale fugue used a fugal introduction to *cantus firmus* composition
-and was influenced by the Italian *stilo fantastico* toccatas.[^41]
+and was influenced by the Italian *stilo fantastico* toccatas.[^41]{.dropcap}
 
 Central German composers held somewhat of a middle ground between the
 south and the north. They had more diverse duties than the northern
@@ -208,7 +208,7 @@ fashion that he both sums up and completes the German Baroque organ
 composition tradition.[^46] Bach agreed with Werckmeister that music was
 the "reflection and foretaste of a heavenly harmony"[^47] and certainly
 seems to have achieved this in his compositions, especially his organ
-chorales.[^48]
+chorales.[^48]{.dropcap}
 
 The organ was affected by many cultural factors, political, religious,
 and geographic. These factors resulted in many regional and temporal
