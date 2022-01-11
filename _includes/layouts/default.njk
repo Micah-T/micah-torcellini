@@ -1,10 +1,7 @@
 ---
 layout: base
 ---
-    <header class="header print-hide">
-      {% include "layouts/organisms/nav.njk" %}
-    </header>
-    <main class="main" id="content">
+   <main class="main" id="content">
         {% if not notitleheader %}<h1>{{ title }}</h1>{% endif %}
         {{ content | safe }}
       </main>
