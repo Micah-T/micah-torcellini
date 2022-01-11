@@ -1,6 +1,6 @@
 ---
 title: Divine Intervention in Western Epic
-tags: [epic, myth, divinity]
+tags: [epic, myth, divinity, literature]
 date: 2020-11-27
 permalink: /divine-intervention-in-western-epic/
 ---
