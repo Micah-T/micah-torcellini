@@ -11,7 +11,7 @@ module.exports = function(eleventyConfig) {
 
   eleventyConfig.addLayoutAlias("base", "layouts/base.njk");
   eleventyConfig.addLayoutAlias("default", "layouts/default.njk");
-  eleventyConfig.addLayoutAlias("post", "layouts/post.liquid");
+  eleventyConfig.addLayoutAlias("post", "layouts/post.njk");
   eleventyConfig.addLayoutAlias("home", "layouts/landing.njk");
   eleventyConfig.addLayoutAlias("landing", "layouts/landing.njk");
 

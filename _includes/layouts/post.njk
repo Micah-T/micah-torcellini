@@ -1,0 +1,16 @@
+<!doctype html>
+<html lang="{{ lang or metadata.lang }}" prefix="og: http://ogp.me/ns#">
+  <head>
+    {% include "layouts/partials/headcontent.njk" %}
+  </head>
+  <body class="{{ bodyclass }}">
+   <main class="main" id="content">
+        {% if not notitleheader %}<h1>{{ title }}</h1>{% endif %}
+        <p class="no-dropcap" style="font-style: italic"><time class="postlist-date" datetime="{{ page.date | htmlDateString }}">{{ page.date |readableDate }}</time></p>
+        {{ content | safe }}
+      </main>
+    <footer id="footer" class="footer">
+      {% include "layouts/organisms/footer.njk" %}
+    </footer>
+  </body>
+</html>

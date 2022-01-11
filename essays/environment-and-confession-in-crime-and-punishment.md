@@ -1,10 +1,7 @@
 ---
 title: "Environment and the Importance of Confession in Crime and Punishment"
 date: 2021-03-22
-notitleheader: true
 ---
-# Environment and the Importance of Confession in *Crime and Punishment*
-
 All good writers anticipate their opponents' arguments. Dostoevsky wrote
 *Crime and Punishment* to defend Russian traditions from their critics.
 One of these traditions was Christianity and its morals. Christianity is
