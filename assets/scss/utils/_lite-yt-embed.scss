@@ -68,3 +68,9 @@ lite-youtube.lyt-activated > .lty-playbtn {
     opacity: 0;
     pointer-events: none;
 }
+
+
+/* Micah Torcellini adds a fallback */
+.customelements .lite-yt-fallback {
+    display: none;
+}
