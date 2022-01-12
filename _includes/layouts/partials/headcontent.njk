@@ -20,6 +20,7 @@
             }
         </style>
     </noscript>
+    <link rel="preload" href="/assets/fonts/EuclidInitialsnormal.woff2">
     <link rel="stylesheet" href="/assets/css/main.css">
 
 <meta name="msvalidate.01" content="{{ metadata.msvalidate01 }}" />
@@ -32,20 +33,15 @@
 <meta property="og:image" content="{{ metadata.url }}{{ card or image or metadata.image }}">
 <meta property="og:type" content="website" >
 <link rel="canonical" href="{{ metadata.url }}{{ permalink }}" >
-<meta name="keywords" content="{{ metadata.keywords }}">
-
-<script type="application/ld+json">[{"@context":"http:\/\/schema.org","@type":"EducationalOrganization","name":"Duck Day","url":"{{ metadata.url }}{{ permalink }}","image":"{{ metadata.url }}{{ metadata.card }}"},{"@context":"http:\/\/schema.org","@type":"Website","name":"{{ metadata.title }}","url":"{{ metadata.url }}{{ permalink}}","keywords":"{{ metadata.keywords }}"}]</script>
-
-
-
+<meta name="keywords" content="{{ tags }}">
 
 <link rel="apple-touch-icon" sizes="180x180" href="/assets/images/site/apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="32x32" href="/assets/images/site/favicon-32x32.png">
 <link rel="icon" type="image/png" sizes="16x16" href="/assets/images/site/favicon-16x16.png">
 <link rel="shortcut icon" href="/assets/images/site/favicon.ico">
-<meta name="msapplication-TileColor" content="#ff0000">
+<meta name="msapplication-TileColor" content="{{ metadata.color }}">
 <meta name="msapplication-config" content="/assets/images/site/browserconfig.xml">
-<meta name="theme-color" content="#000">
+<meta name="theme-color" content="{{ metadata.color }}">
 
 
 
