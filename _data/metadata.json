@@ -1,7 +1,7 @@
 {
   "title": "Micah Torcellini's Website",
   "short_title": "Micah Torcellini's Website",
-  "url": "undefined",
+  "url": "https://micah.torcellini.org",
   "description": "Micah Torcellini's personal Website",
   "keywords": "",
   "lang": "en-US",
@@ -13,7 +13,7 @@
     "subtitle": "The RSS Feed for Micah Torcellini's Website",
     "filename": "feed.xml",
     "path": "/feed.xml",
-    "url": "undefined/feed.xml",
+    "url": "https://micah.torcellini.org/feed.xml",
     "id": "undefined/"
   },
   "author": {
