@@ -12,7 +12,7 @@ emphasis on confession, only to demonstrate its practical, personal
 importance. Dostoevsky shows that whether Raskolnikov was driven to his
 crime by his environment has no significance in the moral necessity of
 confession and punishment, as just punishment is necessary in the
-redemptive process.{.no-dropcap}
+redemptive process.
 
 Christianity emphasizes personal responsibility for any sin, including
 for a legal crime. One demonstration of this concept of personal
