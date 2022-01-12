@@ -5,7 +5,7 @@
   "scripts": {
     "watch": "npx eleventy --watch",
     "debug": "DEBUG=* npx eleventy",
-    "build": "sass assets/scss/main.scss:_site/assets/css/main.css && npx eleventy",
+    "finish": "sass assets/scss/main.scss:_site/assets/css/main.css && npx eleventy",
     "sass": "sass --watch assets/scss/main.scss:_site/assets/css/main.css",
     "dev": "sass assets/scss/main.scss:_site/assets/css/main.css && npx eleventy --serve"
   },
