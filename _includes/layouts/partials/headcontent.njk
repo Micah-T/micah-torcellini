@@ -47,25 +47,6 @@
 
 <link rel="manifest" href="/site.webmanifest">
 
-<script src="/assets/js/modernizr.js"></script>
-<script id="loadDetailsPolyfill"></script>
-<script>
-    if (Modernizr.details == false) {
-        var loadDetailsPolyfill = document.getElementById("loadDetailsPolyfill");
-        loadDetailsPolyfill.setAttribute("src", "/assets/js/polyfills/details.js");
-    }
-</script>
-<script id="loadLiteYtEmbed" defer></script>
-<script>
-    function loadLiteYtEmbed() {
-        var loadLiteYtEmbed = document.getElementById("loadLiteYtEmbed");
-        loadLiteYtEmbed.setAttribute("src", "/assets/js/lite-yt-embed.js"); 
-    }
-    if (Modernizr.customelements == true) {
-        loadLiteYtEmbed();
-    }
-    else {
-        WebComponents.waitFor = loadLiteYtEmbed();
-    }
-</script>
+<script src="/assets/js/modernizr.js" async></script>
+<script id="loadLiteYtEmbed" src="/assets/js/lite-yt-embed.js" defer></script>
 <script src="/assets/js/instantpage-3.0.0.js" defer></script>
