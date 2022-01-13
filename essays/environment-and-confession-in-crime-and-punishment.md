@@ -1,6 +1,7 @@
 ---
 title: "Environment and the Importance of Confession in Crime and Punishment"
 date: 2021-03-22
+permalink: "/environment-and-confession-crime-and-punishment/"
 ---
 All good writers anticipate their opponents' arguments. Dostoevsky wrote
 *Crime and Punishment* to defend Russian traditions from their critics.
