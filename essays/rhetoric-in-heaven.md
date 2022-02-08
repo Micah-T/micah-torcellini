@@ -2,7 +2,7 @@
 title: Rhetoric in Heaven
 date: 2020-11-23
 permalink: /rhetoric-in-heaven/
-tags: [rhetoric, heaven]
+tags: [rhetoric, heaven, philosophy]
 ---
 In this present world, communication is often difficult. In Heaven,
 however, we know that God's light and truth will be fully revealed.
