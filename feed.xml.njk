@@ -21,7 +21,10 @@ ytEmbed: link
 		<link href="{{ absolutePostUrl }}"/>
 		<updated>{{ post.date | rssDate }}</updated>
 		<id>{{ absolutePostUrl }}</id>
-		<content type="html">{{ post.templateContent | htmlToAbsoluteUrls(absolutePostUrl) }}</content>
+		<content type="html">
+			{{ post.templateContent | htmlToAbsoluteUrls(absolutePostUrl) }}
+			<p><a href="{{ absolutePostUrl }}">This article originally appeared at micah.torcellini.org.</a></p>
+		</content>
 	</entry>
 	{%- endfor %}
 </feed>
