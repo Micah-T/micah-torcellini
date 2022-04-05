@@ -12,7 +12,7 @@ to indicate so here (who would attempt to dance an aria?[^1]).{.dropcap}
 Johann Mattheson described the key of E♭ major as "pathetic; concerned
 with serious and plaintive things; bitterly hostile to all
 lasciviousness."[^2] (For those of you who think in twenty-first century language,
-"pathetic" here means "emotionally expressive."[^3]) Indeed this 
+"pathetic" here means "emotionally expressive."[^3]) Indeed, this 
 seems to be the general ethos of this
 piece. While it expresses no volatile mirth, it is contemplative
 throughout. Even the joyous gigue (the most mirthful of the baroque
@@ -29,6 +29,6 @@ by which we can have simple joy.
 
 [^1]: Indeed, modern dancers will&hellip;alas!
 
-[^2]: Johann Mattheson, *Das neu-eröffnete Orchestre* (1713), quoted in Mary Cyr and Reinhard G. Pauly, *Performing Baroque Music* (Portland, Or.: Amadeus Press, 1992), 32, [www.worldcat.org/title/performing-baroque-music/oclc/47008922](https://www.worldcat.org/title/performing-baroque-music/oclc/47008922) and [archive.org/details/performingbaroqu0000cyrm/page/32/](https://archive.org/details/performingbaroqu0000cyrm/page/32/).
+[^2]: Johann Mattheson, *Das neu-eröffnete Orchestre* (1713), quoted in Mary Cyr and Reinhard G. Pauly, *Performing Baroque Music* (Portland, Or.: Amadeus Press, 1992), 32, [www.worldcat.org/title/performing-baroque-music/oclc/47008922](https://www.worldcat.org/title/performing-baroque-music/oclc/47008922) or [archive.org/details/performingbaroqu0000cyrm/page/32/](https://archive.org/details/performingbaroqu0000cyrm/page/32/).
 
 [^3]: To paraphrase from "Producing an effect upon the emotions; moving, stirring, affecting. *Obsolete.*" (Why this meaning is obsolete perplexes me--whither went the understanding of *pathos*?) Oxford English Dictionary Online (Oxford: Oxford University, March 2022), s.v. "pathetic, adj. and adv."  [www.oed.com/view/Entry/138777](https://www.oed.com/view/Entry/138777).
