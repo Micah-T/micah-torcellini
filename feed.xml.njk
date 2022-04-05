@@ -23,7 +23,7 @@ ytEmbed: link
 		<id>{{ absolutePostUrl }}</id>
 		<content type="html">
 			{{ post.templateContent | htmlToAbsoluteUrls(absolutePostUrl) }}
-			<p><a href="{{ absolutePostUrl }}">This article originally appeared at micah.torcellini.org.</a></p>
+			&lt;p&gt;&lt;a href="{{ absolutePostUrl }}"&gt;This article originally appeared at micah.torcellini.org.&lt;/a&gt;&lt;/p&gt;
 		</content>
 	</entry>
 	{%- endfor %}
