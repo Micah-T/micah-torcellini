@@ -1,5 +1,5 @@
 ---
-title: "Environment and the Importance of Confession in Crime and Punishment"
+title: "Environment and the Importance of Confession in <i>Crime and Punishment</i>"
 date: 2021-03-22
 permalink: "/environment-and-confession-crime-and-punishment/"
 ---
