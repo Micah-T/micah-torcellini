@@ -1,7 +1,7 @@
     <meta charset="utf-8">
     <title>
         {%- if renderData.title or title -%}
-            {{  renderData.title or title }}
+            {{  renderData.title or title | striptags }}
         {%- endif %}
         {%- if layout != "landing" %} | {{ metadata.title }}{%- endif -%}
     </title>

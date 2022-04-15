@@ -3,6 +3,7 @@ const fs = require("fs");
 const pluginRss = require("@11ty/eleventy-plugin-rss");
 const pluginSyntaxHighlight = require("@11ty/eleventy-plugin-syntaxhighlight");
 const slugify = require("slugify");
+const striptags = require("striptags");
 
 module.exports = function(eleventyConfig) {
   eleventyConfig.addPlugin(pluginRss);
@@ -25,6 +26,10 @@ module.exports = function(eleventyConfig) {
       lower: true          // result in lower case
     })
     return product;
+  });
+  eleventyConfig.addFilter("striptags", function(value) {
+      let product = striptags(value);
+      return product;
   });
 
   // shortcodes 

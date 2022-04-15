@@ -41,6 +41,7 @@
     "markdown-it-image-lazy-loading": "^1.2.0",
     "rfs": "^9.0.6",
     "sass": "^1.47.0",
-    "slugify": "^1.6.5"
+    "slugify": "^1.6.5",
+    "striptags": "^3.2.0"
   }
 }
