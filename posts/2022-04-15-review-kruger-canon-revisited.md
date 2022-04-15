@@ -1,0 +1,12 @@
+---
+title: Review of Michael Kruger's <i>Canon Revisited</i>
+tags: [theology, christianity, review]
+---
+Michael Kruger tackles the complex issue of the canonicity of the New Testament. The primary point of this volume is to demonstrate that Christians do indeed have good, intellectually sound reasons to hold to the canon. Dr. Kruger develops a model of the canon as "self-authenticating," where the books themselves demonstrate their divinity, or, as Christ said, "My sheep hear my voice."[^1] Thus, Dr. Kruger's definition is "the collection of apostolic writings that is regarded as Scripture by the corporate church."[^2] This definition is quite precise: the Church does not _decide_ what is Scripture, but _recognizes_ scripture; this recognition results in a list called the "canon," but this list is not divinely inspired itself--it recognizes inspiration and authority. 
+
+After discussing various canonical models and introducing his own in part 1, Dr. Kruger discusses the nature of the canon: its divine qualities (a rather impressive chapter and work of literary analysis), the apostolic origins of the canon (and thus how Scripture gains its authority from Christ himself), and a few chapters on how the Church interacted with the canon and accepted it. While it would be impossible to write a book anticipating whatever sort of novel objections that the human mind may ever promulgate, Dr. Kruger discusses the most important objections and the most annoying apocryphal books. His main goal, however, is not to refute these skeptics (that can be done in academic journals), but rather to demonstrate that Christian do indeed have grounds for their beliefs. 
+
+Despite a relatively conversational style (for a theology book), _Canon Revisited_ is quite concise, while covering the issue with great nuance and care. This is a difficult subject to understand, but _Canon Revisited_ makes it as nearly as easy as possible. The chapters of the book are nicely divided up, which makes following Dr. Kruger's argument easier: this is a book that can be read in segments without loosing the overall picture. _Canon Revisited_ provides an accessible answer to a complex question. 
+
+[^1]: John 10:27, as quoted in Michael J. Kruger, _Canon Revisited: Establishing the Origins and Authority of the New Testament Books_ (Wheaton, Ill: Crossway, 2012), 295.
+[^2]: Kruger, 120. 
