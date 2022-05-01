@@ -65,3 +65,18 @@ blockquote {
   blockquote p {
     display: inline;
   }
+
+  // font feature settings
+  // https://raw.githubusercontent.com/georgd/EB-Garamond/master/specimen/Specimen.pdf
+body {
+    font-feature-settings: "liga", "hlig", "clig", "dlig", "calt"
+}
+h1, h2, h3 {
+    font-feature-settings: "swsh";
+}
+sub {
+    font-feature-settings: "subs";
+}
+sup {
+    font-feature-settings: "sups";
+}
