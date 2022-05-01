@@ -2,7 +2,7 @@
 @use "euclid-uri" as *; 
 
 @font-face { 
-  font-family: "Euclid Initials";
+  font-family: "Euclid Initials embedded";
   src: $euclid-uri format ('woff2');
   unicode-range: U+004D,U+0041-0042,U+0047-0049,U+0053-0054;
 }
