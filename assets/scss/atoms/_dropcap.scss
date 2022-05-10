@@ -5,5 +5,5 @@ main h1 + p:not(.no-dropcap)::first-letter, main h2 + p:not(.no-dropcap)::first-
     padding: 0;
     position: relative;
     line-height: 0.5em;
-    font-family: "Euclid Initials";
+    font-family: "Euclid Initials" !important;
 }
