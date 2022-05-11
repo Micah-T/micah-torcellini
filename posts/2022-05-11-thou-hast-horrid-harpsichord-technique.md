@@ -1,5 +1,5 @@
 ---
-title: "Thou Hast Horrid Harpsichord Technique (Shakespeare Sonnet 128)"
+title: "Thou Hast Horrid Harpsichord Technique (Shakespeare Sonnet 128)"
 tags: ["music", "literature"]
 ---
 [Shakespeare Sonnet 128](http://www.shakespeare-online.com/sonnets/128.html):{.no-dropcap}
