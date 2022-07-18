@@ -4,7 +4,7 @@ tags: [music, history]
 ---
 (I admit that I am using [John Ahern's](https://adfontesjournal.com/john-ahern/) idea for this post format).{.no-dropcap}
 
-While I was researching at Old Sturbridge Village for its internship program, I came across Andrew Law's *The Art of Singing*, 4th ed. (Cambridge: W. Hillard, 1803). Law developed a system of shape notes without staff-lines, figuring that the lines were superfluous once the shapes were in place (Personally, I think it might have just been cheaper to print--in letterpress music printing, each little bit of line between the notes is a separate piece of type!). In this book, Law sought to improve upon the rather dreadful state of church music in this country. His dedication follows, which is worth a close reading (strange spellings his, though I have substituted *s* for *ſ*; emphasis is mine):{.dropcap}
+While I was researching at Old Sturbridge Village for its internship program, I came across Andrew Law's *The Art of Singing*, 4th ed. (Cambridge: W. Hillard, 1803). Law developed a system of shape notes without staff-lines, figuring that the lines were superfluous when shape-notes were used (Personally, I think it might have just been cheaper to print--in letterpress music printing, each little bit of line between the notes is a separate piece of type!). In this book, Law sought to improve upon the rather dreadful state of church music in this country. His dedication follows, which is worth a close reading (strange spellings his, though I have substituted *s* for *ſ*; emphasis is mine):{.dropcap}
 
 > To the Ministers of the Gospel, and the Singing Masters, Clerks and Choristers throughout the United States
 >
