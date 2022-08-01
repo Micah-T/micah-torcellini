@@ -16,11 +16,12 @@
 <meta property="og:image:height" content="524">
 <meta property="og:title" content="{{ title }}">
 <meta property="og:description" content="{{ renderData.description or description or metadata.description }}">
-<meta property="og:url" content="{{ metadata.url }}{{ permalink }}">
+<meta property="og:url" content="{{ page.url | url | absoluteUrl(metadata.url) }}">
 <meta property="og:image" content="{{ metadata.url }}{{ card or image or metadata.image }}">
 <meta property="og:type" content="website" >
-<link rel="canonical" href="{{ metadata.url }}{{ permalink }}" >
+<link rel="canonical" href="{{ page.url | url | absoluteUrl(metadata.url) }}" >
 <meta name="keywords" content="{{ tags }}">
+<meta name="author" content="{{ metadata.author.name }}">
 
 <link rel="apple-touch-icon" sizes="180x180" href="/assets/images/site/apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="32x32" href="/assets/images/site/favicon-32x32.png">
