@@ -1,5 +1,5 @@
 (Eleventy-base-blog readme below)
-# scrambletheduck.org modification
+# Micah Torcellini's modification
 ## YouTube shortcode
 Embeds a responsive, [lazyloading](https://github.com/paulirish/lite-youtube-embed) YouTube video. The width and height should be reduced fractions (i.e. aspect ratio). Currently any combination of aspect ratio values will still create a 16x9 video; if needed, this can be updated in the future.
 ```
