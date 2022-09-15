@@ -15,7 +15,7 @@ Embeds a responsive, [lazyloading](https://github.com/paulirish/lite-youtube-emb
 - To run a development server: `npm run dev`
 - To compile SASS: `npm run sass`
 - To build: `npm run build`
-- To deploy: after building, run `cd _site` to move into the correct directory; run `git status` and check that there are no unexpected changes. Then, run `git add --a` and `git commit -m "[insert commit message"]`, replacing [insert commit message] with "website update YYY-MM-DD"; to deploy, run `git push origin`.
+- this site is deployed to Netlify
 ## CSS
 This project uses BEM syntax, modified by [ABEM](https://css-tricks.com/abem-useful-adaptation-bem/).
 
