@@ -1,0 +1,3 @@
+pyftsubset EBGaramond-Italic-VariableFont_wght.ttf --unicodes="U+0020-007F" --flavor="woff2" --output-file="ebgaramond-italic.woff2";  pyftsubset EBGaramond-VariableFont_wght.ttf --unicodes="U+0020-007F" --flavor="woff2" --output-file="ebgaramond-normal.woff2"
+
+pyftsubset EBGaramond-VariableFont_wght.ttf --unicodes="U+2116,U+17F" --flavor="woff2" --output-file="ebgaramond-normal-special-characters.woff2";pyftsubset EBGaramond-Italic-VariableFont_wght.ttf --unicodes="U+2116,U+17F" --flavor="woff2" --output-file="ebgaramond-italic-special-characters.woff2"
