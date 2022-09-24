@@ -1,34 +1,21 @@
 (Eleventy-base-blog readme below)
-# scrambletheduck.org modification
+# Micah Torcellini's modification
 ## YouTube shortcode
 Embeds a responsive, [lazyloading](https://github.com/paulirish/lite-youtube-embed) YouTube video. The width and height should be reduced fractions (i.e. aspect ratio). Currently any combination of aspect ratio values will still create a 16x9 video; if needed, this can be updated in the future.
 ```
 {% ytEmbed 'id', width, height, 'title', 'optional css classes'}
 {% ytEmbed 'ZHKVYSwl67M', 16, 9, 'About Scramble the Duck', 'card' %}
 ```
-## Images
-Can be embedded by the normal markdown method
-```
-![Scramble's diploma from Stormy Heights Academy](/assets/images/diploma.jpeg)
-```
-.jpg files will be renamed to .jpeg in the build process. To avoid confusion, it is best to rename files in source to .jpeg.
 
-Card images (1000w) have the suffix `-card` appended.
-
-Only JPEG files (not PNG) are resized.
-
-SVGs are optimized by SVGO.
 ## Data
-- `_data/navigation.json` controls navigation.
-- `_data/videos.json` generates the video gallery.
 - `_data/metadata.json` is used throughout the site.
-- `_data/livestream.json` controls livestream notifications and page. `"alert"` determines whether or not the notification boxes have the CSS modifier class `"-alert"` added. Currently, it makes the box red. `"id"` is the YouTube video ID, and `"title"` is the appropriate title. `"time"` should be written in a human-readable format. To not have any notifications show, leave `"id"` blank.
+
 ## How-Tos
 ### Commands
 - To run a development server: `npm run dev`
 - To compile SASS: `npm run sass`
 - To build: `npm run build`
-- To deploy: after building, run `cd _site` to move into the correct directory; run `git status` and check that there are no unexpected changes. Then, run `git add --a` and `git commit -m "[insert commit message"]`, replacing [insert commit message] with "website update YYY-MM-DD"; to deploy, run `git push origin`.
+- this site is deployed to Netlify
 ## CSS
 This project uses BEM syntax, modified by [ABEM](https://css-tricks.com/abem-useful-adaptation-bem/).
 
