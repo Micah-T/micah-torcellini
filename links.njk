@@ -1,0 +1,17 @@
+---
+pagination:
+  data: links
+  size: 1
+  alias: link
+permalink: "{{ link }}/"
+---
+{# https://github.com/jstayton/suri/blob/master/src/links.njk #}
+<!DOCTYPE html>
+<html>
+<head>
+<title>Redirecting...</title>
+<meta http-equiv=refresh content="0; url={{ links[link] }}">
+</head>
+<body>
+<a href="{{ links[link] }}">{{ links[link] }}</a>
+</html>
