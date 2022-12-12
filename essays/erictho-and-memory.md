@@ -3,6 +3,7 @@ title: Erictho and the Manipulation of Memory in <i>Bellum Civile</i>
 words: 3006
 date: 2022-12-12
 permalink: "/erictho-and-memory/"
+tags: [epic, myth, literature, latin, lucan, westmarch]
 ---
 This paper was originally published in *Westmarch*, the Patrick Henry College literary journal, vol. 3, no. 2 (fall 2022). I have published it here with the quotes translated into English.{.no-dropcap}
 
