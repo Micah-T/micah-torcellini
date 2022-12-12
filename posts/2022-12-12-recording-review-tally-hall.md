@@ -6,5 +6,5 @@ On occasion, I am asked to understand something which I cannot easily understand
 
 My opinion on this music is that I thoroughly do not know what to think. 
 
-- Tally Hall. Ruler of Everything. Marvin’s Marvelous Mechanical Museum. Accessed October 21, 2022. [https://youtu.be/I8sUC-dsW8A](https://youtu.be/I8sUC-dsW8A).
-- Tally Hall. Spring and a Storm. Marvin’s Marvelous Mechanical Museum. Accessed October 21, 2022, [https://youtu.be/DehRu-4kgHY](https://youtu.be/DehRu-4kgHY).
+- Tally Hall. *Ruler of Everything*. Marvin’s Marvelous Mechanical Museum. Accessed October 21, 2022. [https://youtu.be/I8sUC-dsW8A](https://youtu.be/I8sUC-dsW8A).
+- Tally Hall. *Spring and a Storm*. Marvin’s Marvelous Mechanical Museum. Accessed October 21, 2022, [https://youtu.be/DehRu-4kgHY](https://youtu.be/DehRu-4kgHY).
