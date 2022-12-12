@@ -24,10 +24,7 @@ body {
 	@extend %selection;
 }
 %a {
-	border-bottom-width: .15em;
-	border-bottom-style: solid;
-	border-bottom-color: $primary-text-color;
-	text-decoration: none;
+	text-decoration: underline;
 }
 %a-hover {
 	border-color: transparent;;
