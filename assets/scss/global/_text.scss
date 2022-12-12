@@ -47,25 +47,10 @@ a {
 }
 
 
-//https://css-tricks.com/snippets/css/simple-and-nice-blockquote-styling/
 blockquote {
-    background: $primary-background-color;
-    border-left: 10px solid $primary-text-color;
-    margin: 1.5em 10px;
-    padding: 0.5em 10px;
+    margin: 0 5rem;
     quotes: "\201C""\201D""\2018""\2019";
   }
-//  blockquote:before {
-//    color: $primary-text-color;
-//    content: open-quote;
-//    font-size: 4em;
-//    line-height: 0.1em;
-//    vertical-align: -0.4em;
-//  }
-  // I'm not sure why this is here
-//  blockquote p {
-//    display: inline;
- // }
 
   // font feature settings
   // https://raw.githubusercontent.com/georgd/EB-Garamond/master/specimen/Specimen.pdf
