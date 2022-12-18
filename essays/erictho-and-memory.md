@@ -4,6 +4,16 @@ words: 3006
 date: 2022-12-12
 permalink: "/erictho-and-memory/"
 tags: [epic, myth, literature, latin, lucan, westmarch]
+abstract: "Lucan's <i>Bellum Civile</i> serves as a eulogy for the Republic, in which he
+expresses his agony about its death. For the Romans, remembering was an
+important part of proper piety, and proper remembering required proper
+rites of remembrance. <i>Bellum Civile</i> serves as this sort of rite. To
+construct such a monument to the Republic, however, Lucan must
+demonstrate that he has the power to do this, which he does in the
+Erictho episode. The Erictho episode also serves as a discussion of the
+importance of memory. Thus, in mourning the Republic, Lucan both makes a
+memory of it and destroys and manipulates that very memory; the Erictho
+episode serves as a cornerstone of Lucan's mastery over memory."
 ---
 This paper was originally published in *Westmarch*, the Patrick Henry College literary journal, vol. 3, no. 2 (fall 2022). I have published it here with the quotes translated into English.{.no-dropcap}
 

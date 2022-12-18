@@ -49,6 +49,12 @@ module.exports = function(eleventyConfig) {
     return array.slice(0, n);
   });
 
+  eleventyConfig.setFrontMatterParsingOptions({
+    excerpt: true,
+    // Optional, default is "---"
+    excerpt_separator: "<!-- excerpt -->"
+  });
+
   eleventyConfig.addCollection("tagList", require("./_11ty/getTagList"));
 // passthrough
   eleventyConfig.addPassthroughCopy("assets/js");

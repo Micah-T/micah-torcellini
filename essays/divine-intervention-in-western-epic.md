@@ -18,6 +18,8 @@ the *Aeneid* shows a similar view but with Fate as an additional force,
 and *Paradise Lost* shows a single, omnipotent God who fulfills the
 roles of both the Greek intervener and the Roman Fate in a single Being.
 
+<!-- excerpt -->
+
 In the Greek *Odyssey¸* Homer's presentation of divine intervention
 centers around the concept of a patron god or goddess, who bestows
 particular favor on a person. Of course, a divinity may also be hostile to a

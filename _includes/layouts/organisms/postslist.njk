@@ -12,6 +12,7 @@
       {%- endif -%}
       {% endfor %}
     </p>
+    <p>{{ post.data.abstract | safe or post.excerpt | safe }}</p>
   </li>
 {% endfor %}
 </ul>
