@@ -9,7 +9,7 @@ permalink: "/{{ page.date | date: '%Y/%m/%d' }}/{{ page.fileSlug }}/"
   <body class="{{ bodyclass }}">
    <main class="main" id="content">
         {% if not notitleheader %}<h1>{{ title | safe}}</h1>{% endif %}
-        <p class="no-dropcap"><time class="postlist-date" datetime="{{ page.date | htmlDateString }}">{{ page.date |readableDate }}</time></p>
+        <p class="no-dropcap"><time class="postlist-date" datetime="{{ page.date | htmlDateString }}">{{ page.date |readableDate }}</time>&nbsp;|&nbsp;{{ words or content | wordcount }} words</p>
         {{ content | safe }}
       </main>
     <footer id="footer" class="footer">

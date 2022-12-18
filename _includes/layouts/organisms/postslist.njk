@@ -2,8 +2,9 @@
 {% for post in postslist | reverse %}
   <li class="postlist__item">
     <h2><a href="{{ post.url | url }}" class="postlist__item__link">{% if post.data.title %}{{ post.data.title | safe }}{% else %}<code>{{ post.url }}</code>{% endif %}</a></h2>
-    <p class="no-dropcap"><time class="postlist__item__date" datetime="{{ post.date | htmlDateString }}">{{ post.date | readableDate }}</time></p>
-    <p class="no-dropcap">    
+    <p class="no-dropcap"><time class="postlist__item__date" datetime="{{ post.date | htmlDateString }}">{{ post.date | readableDate }}</time>&nbsp;|&nbsp;{{ post.data.words or post.templateContent | wordcount }} words</p>
+    <p class="no-dropcap"> 
+      {{ post.content }}   
       {% for tag in post.data.tags %}
       {%- if tag != "posts" -%}
       {% set tagUrl %}/{{ tag }}/{% endset %}
