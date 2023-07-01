@@ -1,6 +1,6 @@
 ---
 title: On Bach's Concerto for Two Harpsichords in C Major
-tags: [music, Bach]
+tags: [music, harpsichord, Bach, "BWV 1061"]
 ---
 
 *This post is program notes for a performance. [We recorded the performance and posted it on YouTube.](https://youtu.be/ayiyebR75xg)* {.no-dropcap}

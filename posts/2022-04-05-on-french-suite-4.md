@@ -1,6 +1,6 @@
 ---
 title: On French Suite №4, in E♭ Major
-tags: [music, Bach]
+tags: [music, Bach, harpsichord]
 ---
 *I gave this introduction before a performance of this suite at a recital.* {.no-dropcap}
 
