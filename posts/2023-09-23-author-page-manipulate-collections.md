@@ -121,7 +121,7 @@ Once we have this filter in place, the rest of the page is quite simple:
 
 ## Listing All Authors
 
-The next task is to make a page that lists all the authors. This is fairly simple. We just the `author` collection, which we can do because we tagged the individual author pages with `author`. By default, Eleventy only adds the first page made with a pagination template to collections, though, so we set [`addAllPagesToCollections: true`](https://www.11ty.dev/docs/pagination/#add-all-pagination-pages-to-collections) in the individual author page template above. It is also handy to have a filter to sort the authors by the number of their posts. The `articlenumber` variable was a string above because of how Nunjucks works for calculating front matter, so the `sortAuthorsByArticleNumber` function will make it into a string while sorting the author pages. 
+The next task is to make a page that lists all the authors. This is fairly simple. We use the `author` collection, which we can do because we tagged the individual author pages with `author`. By default, Eleventy only adds the first page made with a pagination template to collections, though, so we set [`addAllPagesToCollections: true`](https://www.11ty.dev/docs/pagination/#add-all-pagination-pages-to-collections) in the individual author page template above. It is also handy to have a filter to sort the authors by the number of their posts. The `articlenumber` variable was a string above because of how Nunjucks works for calculating front matter, so the `sortAuthorsByArticleNumber` function will make it into a string while sorting the author pages. 
 
 ```js
 module.exports = function(eleventyConfig) {
