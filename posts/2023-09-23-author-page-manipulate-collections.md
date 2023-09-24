@@ -1,6 +1,6 @@
 ---
 title: Making Author Pages for an Academic Journal in Eleventy, or, How to Manipulate Collection Data in Eleventy
-tags: ["academic journal", Westmarch, "web development", Eleventy]
+tags: ["academic journal", westmarch, "web development", eleventy]
 ---
 I was asked to make pages for the authors in the [*Westmarch* Literary Journal](https://westmarchjournal.org)'s website, which I've built using Eleventy. Many CMSs provide support for multiple authors and will generate pages for each author; this is something that is quite useful, so I wished to add it to this site. First, this project required a page for each author. Second, this project required a [page that lists all the authors](https://westmarchjournal.org/authors/). 
 

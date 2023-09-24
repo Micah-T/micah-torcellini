@@ -7,7 +7,7 @@
       {{ post.content }}   
       {% for tag in post.data.tags %}
       {%- if tag != "posts" -%}
-      {% set tagUrl %}/{{ tag }}/{% endset %}
+      {% set tagUrl %}/{{ tag | slugify }}/{% endset %}
       <a href="{{ tagUrl | url }}" class="tag">{{ tag }}</a>
       {%- endif -%}
       {% endfor %}
