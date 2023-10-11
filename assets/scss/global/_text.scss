@@ -49,6 +49,10 @@ blockquote {
     quotes: "\201C""\201D""\2018""\2019";
   }
 
+pre {
+    overflow-x: auto;
+}
+
   // font feature settings
   // https://raw.githubusercontent.com/georgd/EB-Garamond/master/specimen/Specimen.pdf
 body {
