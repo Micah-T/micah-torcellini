@@ -2,9 +2,8 @@
 main h1 + p:not(.no-dropcap)::first-letter, main h2 + p:not(.no-dropcap)::first-letter, .dropcap::first-letter, main h1 + .no-dropcap + p:not(.no-dropcap)::first-letter, main h2 + .no-dropcap + p:not(.no-dropcap)::first-letter {
     float: left;
     float: inline-start;
-    font-size: 4rem;
-    padding: 0;
-    position: relative;
-    line-height: 0.93;
+    font-size: 5rem;
+    padding: 0.25rem 0.25rem 0 0;
+    line-height: 4.75rem;
     font-family: "Euclid Initials", $font-family !important;
 }
