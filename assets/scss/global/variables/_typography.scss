@@ -1,6 +1,8 @@
 // The font loading used to be here; see https://www.filamentgroup.com/lab/load-css-simpler/
 @use "euclid-uri" as *; 
 
+$eb-garamond-size-adjust: 115%;
+
 @font-face {
   font-family: 'Euclid Initials';
   src: url('/assets/fonts/euclidinitialsnormal.woff2') format('woff2'),
@@ -24,6 +26,7 @@
   font-weight: normal;
   font-style: normal;
   font-display: swap;
+  size-adjust: $eb-garamond-size-adjust;
   unicode-range: U+0020-007F;
 }
 
@@ -33,6 +36,7 @@
   font-weight: normal;
   font-style: normal;
   font-display: swap;
+  size-adjust: $eb-garamond-size-adjust;
   unicode-range: U+2116,U+17F;
 }
 
@@ -42,6 +46,7 @@
   font-weight: normal;
   font-style: italic;
   font-display: swap;
+  size-adjust: $eb-garamond-size-adjust;
   unicode-range: U+0020-007F;
 }
 
@@ -51,6 +56,7 @@
   font-weight: normal;
   font-style: italic;
   font-display: swap;
+  size-adjust: $eb-garamond-size-adjust;
   unicode-range: U+2116,U+17F;
 }
 
