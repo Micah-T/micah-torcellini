@@ -1,11 +1,21 @@
 @use "../global" as *;
+// why won't this work
+// The size-adjust makes 9rem look too big, but 5rem is too small without size-adjust. 
+@supports not (size-adjust: auto) {
+    p {
+        --dropcap-size: 5rem;
+    }
+};
+@supports (size-adjust: 225%) {
+    p {
+        --dropcap-size: 5rem;
+    }
+};
 main h1 + p:not(.no-dropcap)::first-letter, main h2 + p:not(.no-dropcap)::first-letter, .dropcap::first-letter, main h1 + .no-dropcap + p:not(.no-dropcap)::first-letter, main h2 + .no-dropcap + p:not(.no-dropcap)::first-letter {
     float: left;
     float: inline-start;
     font-size: 9em;
-    @supports (size-adjust: 225%) {
-        font-size: 5rem;
-    }
+    font-size: var(--dropcap-size);
     padding: 0.25rem 0.25rem 0 0;
     line-height: 4.75rem;
     font-family: "Euclid Initials", $font-family !important;
