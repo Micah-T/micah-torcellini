@@ -6,7 +6,7 @@ layout: default
 <h2>Site Pages</h2>
 <ul id="pages" style="list-style-type: none;">
     {% for post in collections.pages %}{% if post.url != page.url %}
-          <li><a href="{{ post.url}}">{{ post.data.title }}</a></li>
+          <li><a href="{{ post.url}}">{{ post.data.title | safe }}</a></li>
     {% endif %}{% endfor %}
 </ul>
 <h2>Site Posts</h2>
