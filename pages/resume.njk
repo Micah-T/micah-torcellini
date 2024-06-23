@@ -1,0 +1,38 @@
+---
+title: Résumé
+permalink: /resume/
+tags:
+  - nav
+navtitle: Résumé
+layout: default
+---
+<section class="resume__section">
+    <h2>Experience</h2>
+    <ul class="resume__list">
+    {% set experiences = resume.experiences %}
+    {{ resume | log }}
+    {% for experience in experiences %}
+            <li class="resume__item">
+                <div class="resume-header">
+                    <h3 class="resume__title">{{ experience.title }}</h3>
+                    <p class="resume__org">{{ experience.org.name }}, {{ experience.org.location }}</p>
+                    <p class="resume__dates">
+                        {{ experience.begin }}
+                        {% if experience.end %}&mdash;{{ experience.end }}{% endif %}
+                    </p>
+                    <ul class="resume__responsibilities">
+                        {% for responsibility in experience.responsibilities %}
+                            <li>{{ responsibility | safe }}</li>
+                        {% endfor %}
+                    </ul>
+                </div>
+    {% endfor %}
+    </ul>
+</section>
+<section>
+    <h2>Publications</h2>
+</section>
+
+<section>
+    <h2>Education</h2>
+</section>
