@@ -2,7 +2,7 @@
 <ul class="postlist">
 {% for post in postslist | reverse %}{% if loop.index <= limit or limit == undefined %}
   <li class="postlist__item">
-    <a href="{{ post.url }}" class="postlist__item__link">{{ post.data.title }}&mdash;<time class="postlist__item__date" datetime="{{ post.date | htmlDateString }}">{{ post.date | readableDate }}</time></a>
+    <a href="{{ post.url }}" class="postlist__item__link">{{ post.data.title | safe }}&mdash;<time class="postlist__item__date" datetime="{{ post.date | htmlDateString }}">{{ post.date | readableDate }}</time></a>
   </li>
 {% endif %}{% endfor %}
 </ul>
