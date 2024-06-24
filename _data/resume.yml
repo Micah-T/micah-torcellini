@@ -18,7 +18,7 @@ experiences:
       url: "https://foleybaker.com/"
     begin: 2023
     end: 2023
-    responsibilites: 
+    responsibilities: 
       - Built pipe organs.
       - Performed repetitive tasks with close attention to detail. 
       - Handled valuable and delicate materials. 
@@ -57,7 +57,7 @@ experiences:
       url: "https://scrambletheduck.org"
     begin: 2017
     end: present
-    responsibilites: 
+    responsibilities: 
       -	Communicate with press and public.
       -	Code and manage scrambletheduck.org.
       -	Assist with supervision and coordination of audio-visual equipment.
@@ -98,3 +98,28 @@ experiences:
     responsibilities:
       -	Manage cash register.
       -	Prepare and serve food while maintaining sanitary and safety standards.
+publications:
+  - 
+    author: Micah Torcellini
+    title: Erictho and the Manipulation of Memory in Bellum Civile
+    journal: Westmarch
+    date: 2022
+    url: "/erictho-and-memory/"
+    summary: "Lucan’s Bellum Civile serves as a eulogy for the Republic, in which he expresses his agony about its death. For the Romans, remembering was an important part of proper piety, and proper remembering required proper rites of remembrance. Bellum Civile serves as this sort of rite. To construct such a monument to the Republic, however, Lucan must demonstrate that he has the power to do this, which he does in the Erictho episode. The Erictho episode also serves as a discussion of the importance of memory. Thus, in mourning the Republic, Lucan both makes a memory of it and destroys and manipulates that very memory; the Erictho episode serves as a cornerstone of Lucan’s mastery over memory."
+    vol: 3
+    no: 1
+  -
+    author: Micah Torcellini
+    title: The Identity of Godot
+    journal: Westmarch
+    date: 2021
+    vol: 2
+    no: 1
+    summary: "This paper discusses a potential answer for the identity of Samuel Beckett's mysterious character \"Godot.\""
+  - 
+    author: Micah Torcellini
+    title: Music Education in the 1830s
+    type: Interactive Lecture
+    venue: Old Sturbridge Village
+    location: Sturbridge, MA
+    date: 2022

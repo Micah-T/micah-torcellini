@@ -1,38 +1,55 @@
 ---
-title: Résumé
+title: Resume
 permalink: /resume/
 tags:
   - nav
-navtitle: Résumé
+navtitle: Resume
 layout: default
 ---
-<section class="resume__section">
+<p class="no-dropcap">Skip to <a href="#experience">experience</a>, <a href="#publications">publications</a>, or <a href="#education">education</a>.
+<section class="resume__section" id="experience">
     <h2>Experience</h2>
     <ul class="resume__list">
     {% set experiences = resume.experiences %}
     {{ resume | log }}
     {% for experience in experiences %}
             <li class="resume__item">
-                <div class="resume-header">
+                <hgroup class="resume__header">
                     <h3 class="resume__title">{{ experience.title }}</h3>
-                    <p class="resume__org">{{ experience.org.name }}, {{ experience.org.location }}</p>
+                    <p class="resume__org"><a href="{{ experience.org.url }}">{{ experience.org.name }}</a>, {{ experience.org.location }}</p>
                     <p class="resume__dates">
                         {{ experience.begin }}
                         {% if experience.end %}&mdash;{{ experience.end }}{% endif %}
                     </p>
-                    <ul class="resume__responsibilities">
-                        {% for responsibility in experience.responsibilities %}
-                            <li>{{ responsibility | safe }}</li>
-                        {% endfor %}
-                    </ul>
-                </div>
+                </hgroup>
+                <ul class="resume__responsibilities">
+                    {% for responsibility in experience.responsibilities %}
+                        <li>{{ responsibility | safe }}</li>
+                    {% endfor %}
+                </ul>
     {% endfor %}
     </ul>
 </section>
-<section>
+<section id="publications">
     <h2>Publications</h2>
+    <ul class="resume__list">
+    {% set publications = resume.publications %}
+    {% for publication in publications %}
+        <li class="resume__item">
+            <hgroup class="resume__header">
+                <h3 class="resume__title">
+                    {% if publication.url %}<a href="{{ publication.url }}">{% endif %}
+                    {{ publication.title | safe }}
+                    {% if publication.url %}</a>{% endif %}
+                </h3>
+                <p><i>{{ publication.journal or publication.venue }}</i> {{ publication.vol }}{% if publication.no %}, no. {% endif %}{{ publication.no }} ({{ publication.date }})</p>
+            </hgroup>
+                <p>{{ publication.summary }}</p>
+        </li>
+    {% endfor %}
+    </ul>
 </section>
 
-<section>
+<section id="education">
     <h2>Education</h2>
 </section>
