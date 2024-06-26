@@ -6,6 +6,10 @@ tags:
 navtitle: Resume
 layout: default
 ---
+<p>{{ resume.summary | safe }}</p>
+
+<p>Find Micah on <a href="{{ metadata.author.linkedin }}">LinkedIn</a>, <a href="{{ metadata.author.github }}">GitHub</a>, or contact him by email at <a href="mailto:{{ metadata.author.email }}">{{ metadata.author.email }}</a>.</p>
+
 <p class="no-dropcap">Skip to <a href="#experience">experience</a>, <a href="#publications">publications</a>, or <a href="#education">education</a>.
 <section class="resume__section" id="experience">
     <h2>Experience</h2>
@@ -52,4 +56,5 @@ layout: default
 
 <section id="education">
     <h2>Education</h2>
+    {{ resume.education }}
 </section>

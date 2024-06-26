@@ -1,54 +1,5 @@
+summary: Micah Torcellini enjoys learning and teaching about everything in both practical and academic contexts. His interests and skills especially include music, history, philosophy, and agriculture. He has experience in web development, museum interpretation, classroom teaching, and academic research. 
 experiences: 
-  - 
-    title: Intern in Latin
-    org:
-      name: Providence Preparatory Academy
-      location: Round Hill, VA
-      url: "https://www.providenceprep.net/"
-    begin: 2023
-    end: 2024
-    responsibilities: 
-      - Prepared lessons and materials.
-      - Instructed highschool Latin III.
-  - 
-    title: Summer Staff
-    org:
-      name: Foley-Baker, Inc.
-      location: Tolland, CT
-      url: "https://foleybaker.com/"
-    begin: 2023
-    end: 2023
-    responsibilities: 
-      - Built pipe organs.
-      - Performed repetitive tasks with close attention to detail. 
-      - Handled valuable and delicate materials. 
-      - Worked in tight, inaccessible, and unconditioned spaces. 
-  - 
-    title: Web Editor
-    org:
-      name: Westmarch Literary Journal
-      location: Purcellville, VA
-      url: "https://westmarchjournal.org"
-    begin: 2023
-    end: 2024
-    responsibilities: 
-      - Code and maintain <a href="https://westmarchjournal.org">westmarchjournal.org</a>
-      - Prepare and publish academic journal content. 
-      - Coordinate with editorial team and print publishing. 
-  - 
-    title: College Intern in Historical Interpretation and Music
-    org: 
-      name: Old Sturbridge Village
-      location: Sturbridge, MA
-      url: "https://www.osv.org/"
-    begin: 2022
-    responsibilities:
-      - "Interpreted history for the public in costume."
-      - "Researched to improve the museum’s ability to answer questions. "
-      - "Wrote interactive lecture materials. "
-      - "Performed instrumental music."
-      - "Demonstrated agriculture. "
-      - "Customer service in a high-pressure and complex environment. "
   -
     title: Co-President and Founder
     org: 
@@ -59,7 +10,7 @@ experiences:
     end: present
     responsibilities: 
       -	Communicate with press and public.
-      -	Code and manage scrambletheduck.org.
+      -	Code and manage <a href="https://scrambletheduck.org">scrambletheduck.org</a>.
       -	Assist with supervision and coordination of audio-visual equipment.
       -	Received recognition from the Connecticut General Assembly.
   - 
@@ -76,6 +27,69 @@ experiences:
       - Manage animals. 
       - Maintain garden.
       - Drive tractor. 
+  - 
+    title: Intern in Latin
+    org:
+      name: Providence Preparatory Academy
+      location: Round Hill, VA
+      url: "https://www.providenceprep.net/"
+    begin: 2023
+    end: 2024
+    responsibilities: 
+      - Prepared lessons and materials.
+      - Instructed highschool Latin III.
+  - 
+    title: Web Editor
+    org:
+      name: Westmarch Literary Journal
+      location: Purcellville, VA
+      url: "https://westmarchjournal.org"
+    begin: 2023
+    end: 2024
+    responsibilities: 
+      - Coded and maintained <a href="https://westmarchjournal.org">westmarchjournal.org</a>
+      - Prepared and published academic journal content. 
+      - Coordinated with editorial team and print publishing. 
+  - 
+    title: Summer Staff
+    org:
+      name: Foley-Baker, Inc.
+      location: Tolland, CT
+      url: "https://foleybaker.com/"
+    begin: 2023
+    end: 2023
+    responsibilities: 
+      - Built pipe organs.
+      - Performed repetitive tasks with close attention to detail. 
+      - Handled valuable and delicate materials. 
+      - Worked in tight, inaccessible, and unconditioned spaces. 
+  - 
+    title: College Intern in Historical Interpretation and Music
+    org: 
+      name: Old Sturbridge Village
+      location: Sturbridge, MA
+      url: "https://www.osv.org/"
+    begin: 2022
+    responsibilities:
+      - "Interpreted history for the public in costume."
+      - "Researched to improve the museum’s ability to answer questions. "
+      - "Wrote interactive lecture materials. "
+      - "Performed instrumental music."
+      - "Demonstrated agriculture. "
+      - "Customer service in a high-pressure and complex environment. "
+  -
+    title: Harpsichordist
+    org:
+      name: Patrick Henry College Orchestra
+      location: Purcellville, VA
+      url: "https://www.phc.edu/phc-chamber-orchestra"
+    begin: 2021
+    end: 2024
+    responsibilities:
+      - Rebuilt two harpsichord actions and restrung one harpsichords. 
+      - Harpsichord maintenance, voicing, and tuning. 
+      - Continuo accompaniment from figured bass. 
+      - Solo repertoire. 
   -
     title: Student Senator
     org:
@@ -85,8 +99,8 @@ experiences:
     begin: 2021
     end: 2023
     responsibilities: 
-      -	Collaborate with other Senators to responsibly spend money.
-      -	Communicate with administration and students.
+      -	Collaborated with other Senators to responsibly spend money.
+      -	Communicated with administration and students.
   -
     title: Cafeteria Assistant
     org: 
@@ -96,8 +110,8 @@ experiences:
     begin: 2020
     end: 2024
     responsibilities:
-      -	Manage cash register.
-      -	Prepare and serve food while maintaining sanitary and safety standards.
+      -	Managed cash register.
+      -	Prepared and serve food while maintaining sanitary and safety standards.
 publications:
   - 
     author: Micah Torcellini
@@ -124,3 +138,4 @@ publications:
     location: Sturbridge, MA
     date: 2022
     summary: "An interactive lecture discussing music education in the 1830s and its cultural background, using artifacts and reproductions."
+education: B.A. in Classical Liberal Arts, Patrick Henry College (2024)
