@@ -1,0 +1,18 @@
+@use "../global" as *;
+
+.resume {
+    &__list {
+        list-style-type: none;
+        padding: 0;
+    }
+    &__header {
+        margin: $margin 0;
+        * {
+            margin: 0;
+        }
+        >*:not(.resume__title) {
+            padding-left: $margin;
+            font-style: italic;
+        }
+    }
+}

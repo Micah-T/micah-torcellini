@@ -1,0 +1,141 @@
+summary: Micah Torcellini enjoys learning and teaching about everything in both practical and academic contexts. His interests and skills especially include music, history, philosophy, and agriculture. He has experience in web development, musical instrument maintenance, museum interpretation, classroom teaching, and academic research. 
+experiences: 
+  -
+    title: Co-President and Founder
+    org: 
+      name: Duck Day
+      location: Eastford, CT
+      url: "https://scrambletheduck.org"
+    begin: 2017
+    end: present
+    responsibilities: 
+      -	Communicate with press and public.
+      -	Code and manage <a href="https://scrambletheduck.org">scrambletheduck.org</a>.
+      -	Assist with supervision and coordination of audio-visual equipment.
+      -	Received recognition from the Connecticut General Assembly.
+  - 
+    title: Farm Hand
+    org:
+      name: Eastford Farm
+      location: Eastford, CT
+      url: "https://www.eastfordfarm.com/"
+    begin: 2010
+    end: present
+    responsibilities: 
+      - Clear fields.
+      - Build fencing.
+      - Manage animals. 
+      - Maintain garden.
+      - Drive tractor. 
+  - 
+    title: Intern in Latin
+    org:
+      name: Providence Preparatory Academy
+      location: Round Hill, VA
+      url: "https://www.providenceprep.net/"
+    begin: 2023
+    end: 2024
+    responsibilities: 
+      - Prepared lessons and materials.
+      - Instructed highschool Latin III.
+  - 
+    title: Web Editor
+    org:
+      name: Westmarch Literary Journal
+      location: Purcellville, VA
+      url: "https://westmarchjournal.org"
+    begin: 2023
+    end: 2024
+    responsibilities: 
+      - Coded and maintained <a href="https://westmarchjournal.org">westmarchjournal.org</a>
+      - Prepared and published academic journal content. 
+      - Coordinated with editorial team and print publishing. 
+  - 
+    title: Summer Staff
+    org:
+      name: Foley-Baker, Inc.
+      location: Tolland, CT
+      url: "https://foleybaker.com/"
+    begin: 2023
+    end: 2023
+    responsibilities: 
+      - Built pipe organs.
+      - Performed repetitive tasks with close attention to detail. 
+      - Handled valuable and delicate materials. 
+      - Worked in tight, inaccessible, and unconditioned spaces. 
+  - 
+    title: College Intern in Historical Interpretation and Music
+    org: 
+      name: Old Sturbridge Village
+      location: Sturbridge, MA
+      url: "https://www.osv.org/"
+    begin: 2022
+    responsibilities:
+      - "Interpreted history for the public in costume."
+      - "Researched to improve the museum’s ability to answer questions. "
+      - "Wrote interactive lecture materials. "
+      - "Performed instrumental music."
+      - "Demonstrated agriculture. "
+      - "Customer service in a high-pressure and complex environment. "
+  -
+    title: Harpsichordist
+    org:
+      name: Patrick Henry College Orchestra
+      location: Purcellville, VA
+      url: "https://www.phc.edu/phc-chamber-orchestra"
+    begin: 2021
+    end: 2024
+    responsibilities:
+      - Rebuilt two harpsichord actions and restrung one harpsichords. 
+      - Harpsichord maintenance, voicing, and tuning. 
+      - Continuo accompaniment from figured bass. 
+      - Solo repertoire. 
+  -
+    title: Student Senator
+    org:
+      name: Patrick Henry College Student Government
+      location: Purcellville, VA
+      url: "https://www.phc.edu/student-government"
+    begin: 2021
+    end: 2023
+    responsibilities: 
+      -	Collaborated with other Senators to responsibly spend money.
+      -	Communicated with administration and students.
+  -
+    title: Cafeteria Assistant
+    org: 
+      name: Patrick Henry College Food Service
+      location: Purcellville, VA
+      url: "https://www.phc.edu/food-services"
+    begin: 2020
+    end: 2024
+    responsibilities:
+      -	Managed cash register.
+      -	Prepared and serve food while maintaining sanitary and safety standards.
+publications:
+  - 
+    author: Micah Torcellini
+    title: Erictho and the Manipulation of Memory in Bellum Civile
+    journal: Westmarch
+    date: 2022
+    url: "/erictho-and-memory/"
+    summary: "Lucan’s Bellum Civile serves as a eulogy for the Republic, in which he expresses his agony about its death. For the Romans, remembering was an important part of proper piety, and proper remembering required proper rites of remembrance. Bellum Civile serves as this sort of rite. To construct such a monument to the Republic, however, Lucan must demonstrate that he has the power to do this, which he does in the Erictho episode. The Erictho episode also serves as a discussion of the importance of memory. Thus, in mourning the Republic, Lucan both makes a memory of it and destroys and manipulates that very memory; the Erictho episode serves as a cornerstone of Lucan’s mastery over memory."
+    vol: 3
+    no: 1
+  -
+    author: Micah Torcellini
+    title: The Identity of Godot
+    journal: Westmarch
+    date: 2021
+    vol: 2
+    no: 1
+    summary: "This paper discusses a potential answer for the identity of Samuel Beckett's mysterious character \"Godot.\""
+  - 
+    author: Micah Torcellini
+    title: Music Education in the 1830s
+    type: Interactive Lecture
+    venue: Old Sturbridge Village
+    location: Sturbridge, MA
+    date: 2022
+    summary: "An interactive lecture discussing music education in the 1830s and its cultural background, using artifacts and reproductions."
+education: B.A. in Classical Liberal Arts, Patrick Henry College (2024)
