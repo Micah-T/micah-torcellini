@@ -1,7 +1,11 @@
 [
     {
         "title": "Scramble the Duck's Official Website",
-        "url": "//scrambletheduck.org"
+        "url": "https://scrambletheduck.org"
+    },
+    { 
+        "title": "Westmarch Literary Journal", 
+        "url": "https://westmarchjournal.org"
     },
     {
         "title": "This website!",
