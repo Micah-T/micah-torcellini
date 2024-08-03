@@ -2,12 +2,12 @@
 // why won't this work
 // The size-adjust makes 9rem look too big, but 5rem is too small without size-adjust. 
 p {
-    --dropcap-size: 4lh;
+    --dropcap-size: 4.8lh;
 }
 
 @supports (size-adjust: 225%) {
     p {
-        --dropcap-size: 4lh;
+        --dropcap-size: 4.8lh;
     }
 }
 main h1 + p:not(.no-dropcap)::first-letter, main h2 + p:not(.no-dropcap)::first-letter, .dropcap::first-letter, main h1 + .no-dropcap + p:not(.no-dropcap)::first-letter, main h2 + .no-dropcap + p:not(.no-dropcap)::first-letter {
@@ -16,6 +16,6 @@ main h1 + p:not(.no-dropcap)::first-letter, main h2 + p:not(.no-dropcap)::first-
     font-size: 9em;
     font-size: var(--dropcap-size);
     padding: 0.25rem 0.25rem 0 0;
-    line-height: calc(var(--dropcap-size) - 1px);
+    line-height: var(--dropcap-size);
     font-family: "Euclid Initials", $font-family !important;
 }
