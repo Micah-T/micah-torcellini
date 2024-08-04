@@ -16,6 +16,7 @@
 h1, h2, h3 {
     font-weight: $font-weight-headings;
     font-family: $font-family-headings;
+    line-height: $line-height-headings;
     text-align: left;
     a {
         @extend %a-hover;
