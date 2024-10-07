@@ -56,5 +56,10 @@ layout: default
 
 <section id="education">
     <h2>Education</h2>
-    {{ resume.education }}
+    {% set education = resume.education %}
+    <ul>
+        {% for e in education %}
+            <li>{{ e }}</li>
+        {% endfor %}
+    </ul>
 </section>

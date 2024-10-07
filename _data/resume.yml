@@ -1,5 +1,27 @@
-summary: Micah Torcellini enjoys learning and teaching about everything in both practical and academic contexts. His interests and skills especially include music, history, philosophy, and agriculture. He has experience in web development, musical instrument maintenance, museum interpretation, classroom teaching, and academic research. 
+summary: Micah Torcellini enjoys learning and teaching about everything in both practical and academic contexts. His interests and skills especially include music, history, philosophy, and agriculture. He has experience in web development, musical instrument maintenance, museum interpretation, classroom teaching, and academic research. He is currently a MA student in Musicology at the Indiana University Jacobs School of Music.
 experiences: 
+  -
+    title: Assistant Harpsichord Technician
+    org: 
+      name: Indiana University Jacobs School of Music Historical Performance Institute
+      location: Bloomington, IN
+      url: "https://music.indiana.edu/degrees-programs/areas-of-study/historical-performance.html"
+    begin: 2024
+    end: present
+    responsibilities: 
+      - Maintain harpsichords to support the historical performance program.
+      - Moving harpsichords.
+      - Voicing and tuning harpsichords.
+  -
+    title: Grader for Music in General Studies
+    org: 
+      name: Indiana University Jacobs School of Music Music in General Studies
+      location: Bloomington, IN
+      url: "https://blogs.iu.edu/jsommgs/"
+    begin: 2024
+    end: present
+    responsibilities: 
+      - Assist with grading for Music of the Silk Road in Music and General Studies.
   -
     title: Co-President and Founder
     org: 
@@ -138,4 +160,6 @@ publications:
     location: Sturbridge, MA
     date: 2022
     summary: "An interactive lecture discussing music education in the 1830s and its cultural background, using artifacts and reproductions."
-education: B.A. in Classical Liberal Arts, Patrick Henry College (2024)
+education: 
+  - B.A. in Classical Liberal Arts, Patrick Henry College (2024)
+  - M.A. in Musicology, Indiana University Jacobs School of Music (expected graduation 2026)
