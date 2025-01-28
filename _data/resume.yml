@@ -1,6 +1,19 @@
 summary: Micah Torcellini enjoys learning and teaching about everything in both practical and academic contexts. His interests and skills especially include music, history, philosophy, and agriculture. He has experience in web development, musical instrument maintenance, museum interpretation, classroom teaching, and academic research. He is currently a MA student in Musicology at the Indiana University Jacobs School of Music.
 experiences: 
   -
+    title: Graduate Assistant
+    org: 
+      name: Indiana University Jacobs School of Music Musicology Department
+      location: Bloomington, IN
+      url: "https://blogs.iu.edu/jsommusicology/"
+    begin: 2025
+    end: present
+    responsibilities: 
+      - Assisting professors.
+      - Course development, including posting materials on Canvas.
+      - Administrative assistance.
+      - Research assistance. 
+  -
     title: Assistant Harpsichord Technician
     org: 
       name: Indiana University Jacobs School of Music Historical Performance Institute
@@ -19,9 +32,21 @@ experiences:
       location: Bloomington, IN
       url: "https://blogs.iu.edu/jsommgs/"
     begin: 2024
-    end: present
+    end: 2024
     responsibilities: 
       - Assist with grading for Music of the Silk Road in Music and General Studies.
+  - 
+    title: Webmaster
+    org: 
+      name: Eastford Communicator
+      location: Eastford, CT
+      url: "https://eastford.news"
+    begin: 2024
+    end: present
+    responsibilities: 
+      - Manage content on <a href="https://eastford.news">eastford.news</a>.
+      - Build and maintain a performant front-end design. 
+      - Manage hosting built on various Cloudflare products. 
   -
     title: Co-President and Founder
     org: 
