@@ -10,7 +10,7 @@ layout: default
 
 <p>Find Micah on <a href="{{ metadata.author.linkedin }}">LinkedIn</a>, <a href="{{ metadata.author.github }}">GitHub</a>, or contact him by email at <a href="mailto:{{ metadata.author.email }}">{{ metadata.author.email }}</a>.</p>
 
-<p class="no-dropcap">Skip to <a href="#experience">experience</a>, <a href="#publications">publications</a>, or <a href="#education">education</a>.
+<p class="no-dropcap">Skip to <a href="#experience">experience</a>, <a href="#publications">publications and presentations</a>, <a href="#education">education</a>, <a href="#scholarships">awards and scholarships</a>, or <a href="#languages">foreign languages</a>.
 <section class="resume__section" id="experience">
     <h2>Experience</h2>
     <ul class="resume__list">
@@ -35,7 +35,7 @@ layout: default
     </ul>
 </section>
 <section id="publications">
-    <h2>Publications</h2>
+    <h2>Publications and Presentations</h2>
     <ul class="resume__list">
     {% set publications = resume.publications %}
     {% for publication in publications %}
@@ -63,3 +63,24 @@ layout: default
         {% endfor %}
     </ul>
 </section>
+
+<section id="scholarships">
+    <h2>Awards and Scholarships</h2>
+    {% set scholarships = resume.scholarships %}
+    <ul>
+        {% for e in scholarships %}
+            <li>{{ e.name }}</li>
+        {% endfor %}
+    </ul>
+</section>
+
+<section id="languages">
+    <h2>Foreign Languages</h2>
+    {% set languages = resume.languages %}
+    <ul>
+        {% for l in languages %}
+            <li>{{ l }}</li>
+        {% endfor %}
+    </ul>
+</section>
+
