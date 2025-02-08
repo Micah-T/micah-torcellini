@@ -5,8 +5,15 @@ const pluginSyntaxHighlight = require("@11ty/eleventy-plugin-syntaxhighlight");
 const slugify = require("slugify");
 const striptags = require("striptags");
 const yaml = require("js-yaml");
+const excerpt = require("./_11ty/excerpt.js");
 
 module.exports = function(eleventyConfig) {
+  eleventyConfig.addPreprocessor("hide", "*", (data, content) => {
+  	if(data.hide) {
+  		return false;
+  	}
+  });
+
   eleventyConfig.addPlugin(pluginRss);
   eleventyConfig.addPlugin(pluginSyntaxHighlight);
   eleventyConfig.setDataDeepMerge(true);
@@ -17,6 +24,9 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.addLayoutAlias("home", "layouts/landing.njk");
   eleventyConfig.addLayoutAlias("landing", "layouts/landing.njk");
 
+  eleventyConfig.addFilter("excerpt", (content) => {
+    return excerpt(content);
+  });
   eleventyConfig.addFilter("readableDate", dateObj => {
     return DateTime.fromJSDate(dateObj, {zone: 'utc'}).toFormat("LLLL dd, yyyy");
   });
