@@ -70,18 +70,101 @@ $letters: "A","B","C","D", "E","F","G","H","I","J","K","L","M","N","O","P","Q","
 
 @font-face {
   font-family: 'Cormorant Garamond';
-  src: url('/assets/fonts/cormorantgaramond.woff2') format('woff2');
+  src: url('/assets/fonts/cormorantgaramond-regular-en.woff2') format('woff2');
   font-weight: normal;
   font-style: normal;
   font-display: fallback;
+  unicode-range: U+20-7E, U+91-94, U+96-97, U+2010-201F, U+20266;
   size-adjust: $cormorant-garamond-size-adjust;
 }
 
 @font-face {
   font-family: 'Cormorant Garamond';
-  src: url('/assets/fonts/cormorantgaramond-italic.woff2') format('woff2');
+  src: url('/assets/fonts/cormorantgaramond-italic-en.woff2') format('woff2');
   font-weight: normal;
   font-style: italic;
   font-display: fallback;
+  unicode-range: U+20-7E, U+91-94, U+96-97, U+2010-201F, U+20266;
+  size-adjust: $cormorant-garamond-size-adjust;
+}
+
+@font-face {
+  font-family: 'Cormorant Garamond';
+  src: url('/assets/fonts/cormorantgaramond-regular-latin-1.woff') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+  font-display: fallback;
+  unicode-range: U+80-90, U+95, U+98-FF;
+  size-adjust: $cormorant-garamond-size-adjust;
+}
+
+@font-face {
+  font-family: 'Cormorant Garamond';
+  src: url('/assets/fonts/cormorantgaramond-italic-latin-1.woff') format('woff2');
+  font-weight: normal;
+  font-style: italic;
+  font-display: fallback;
+  unicode-range: U+80-90, U+95, U+98-FF;
+  size-adjust: $cormorant-garamond-size-adjust;
+}
+
+@font-face {
+  font-family: 'Cormorant Garamond';
+  src: url('/assets/fonts/cormorantgaramond-regular-extended-a.woff') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+  font-display: fallback;
+  unicode-range: U+100-17F;
+  size-adjust: $cormorant-garamond-size-adjust;
+}
+
+@font-face {
+  font-family: 'Cormorant Garamond';
+  src: url('/assets/fonts/cormorantgaramond-italic-extended-a.woff') format('woff2');
+  font-weight: normal;
+  font-style: italic;
+  font-display: fallback;
+  unicode-range: U+100-17F;
+  size-adjust: $cormorant-garamond-size-adjust;
+}
+
+@font-face {
+  font-family: 'Cormorant Garamond';
+  src: url('/assets/fonts/cormorantgaramond-regular-extended-b.woff') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+  font-display: fallback;
+  unicode-range: U+180-4F;
+  size-adjust: $cormorant-garamond-size-adjust;
+}
+
+@font-face {
+  font-family: 'Cormorant Garamond';
+  src: url('/assets/fonts/cormorantgaramond-italic-extended-b.woff') format('woff2');
+  font-weight: normal;
+  font-style: italic;
+  font-display: fallback;
+  unicode-range: U+180-4F;
+  size-adjust: $cormorant-garamond-size-adjust;
+}
+
+
+@font-face {
+  font-family: 'Cormorant Garamond';
+  src: url('/assets/fonts/cormorantgaramond-regular-punctuation.woff') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+  font-display: fallback;
+  unicode-range: U+2016, U+2017, U+2020-2025, U+2027-206F, U+2070-209C;
+  size-adjust: $cormorant-garamond-size-adjust;
+}
+
+@font-face {
+  font-family: 'Cormorant Garamond';
+  src: url('/assets/fonts/cormorantgaramond-italic-punctuation.woff') format('woff2');
+  font-weight: normal;
+  font-style: italic;
+  font-display: fallback;
+  unicode-range: U+2016, U+2017, U+2020-2025, U+2027-206F, U+2070-209C;
   size-adjust: $cormorant-garamond-size-adjust;
 }
