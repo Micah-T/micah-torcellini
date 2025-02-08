@@ -1,5 +1,5 @@
 ---
-title: Review of Michael Kruger's <i>Canon Revisited</i>
+title: Review of Michael Kruger’s <i>Canon Revisited</i>
 tags: [theology, christianity, review]
 ---
 Michael Kruger tackles the complex issue of the canonicity of the New Testament. The primary point of this volume is to demonstrate that Christians do indeed have good, intellectually sound reasons to hold to the canon. Dr. Kruger develops a model of the canon as "self-authenticating," where the books themselves demonstrate their divinity, or, as Christ said, "My sheep hear my voice."[^1] Thus, Dr. Kruger's definition is "the collection of apostolic writings that is regarded as Scripture by the corporate church."[^2] This definition is quite precise: the Church does not _decide_ what is Scripture, but _recognizes_ scripture; this recognition results in a list called the "canon," but this list is not divinely inspired itself--it recognizes inspiration and authority. 
