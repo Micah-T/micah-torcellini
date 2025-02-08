@@ -3,6 +3,7 @@ title: Divine Intervention in Western Epic
 tags: [epic, myth, divinity, literature, latin]
 date: 2020-11-27
 permalink: /divine-intervention-in-western-epic/
+hide: true
 ---
 Throughout the history of western literature, divine intervention has
 been a common theme. This is particularly apparent in the genre of epic

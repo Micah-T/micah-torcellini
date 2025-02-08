@@ -1,6 +1,7 @@
 ---
 title: Bukofzer on Bach and Handel
 tags: [music, quote]
+hide: true
 ---
 From *Music in the Baroque Era* by Manfred Bukofzer, concluding the comparison between Bach and Handel as the two pinnacles of the baroque:
 

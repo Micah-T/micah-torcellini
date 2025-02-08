@@ -3,6 +3,7 @@ title: "The Baroque Church Organ in Italy and Germany: The Instrument and its Mu
 date: 2021-05-08
 permalink: /the-baroque-organ-in-italy-and-germany/
 tags: [organ, music, baroque]
+hide: true
 ---
 
 No other instrument emanates the same aura of majesty as the Church
