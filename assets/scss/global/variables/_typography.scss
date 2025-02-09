@@ -20,7 +20,7 @@ $font-family-default:
 $font-family: "EB Garamond", Garamond, Georgia, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", serif;
 
 //font family for headings
-$font-family-headings: "Cormorant Garamond", $font-family;
+$font-family-headings: $font-family;
 $line-height-headings: 1.2;
 
 $line-height: 1.5;
