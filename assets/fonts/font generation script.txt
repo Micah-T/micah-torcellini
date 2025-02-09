@@ -6,12 +6,12 @@ pyftsubset EBGaramond-VariableFont_wght.ttf --unicodes="U+2116,U+17F" --flavor="
 pyftsubset CormorantGaramond-Regular.ttf --unicodes="00U+20-007E, U+0091-0094, U+0096-0097, U+2010-201F, U+2026" --flavor="woff2" --output-file="cormorantgaramond-regular-en.woff2";
 pyftsubset CormorantGaramond-Regular.ttf --unicodes="U+80-90, U+95, U+98-FF" --flavor="woff2" --output-file="cormorantgaramond-regular-latin-1.woff";
 pyftsubset CormorantGaramond-Regular.ttf --unicodes="U+100-17F" --flavor="woff2" --output-file="cormorantgaramond-regular-extended-a.woff";
-pyftsubset CormorantGaramond-Regular.ttf --unicodes="U+180-4F" --flavor="woff2" --output-file="cormorantgaramond-regular-extended-b.woff";
+pyftsubset CormorantGaramond-Regular.ttf --unicodes="U+180-24F" --flavor="woff2" --output-file="cormorantgaramond-regular-extended-b.woff";
 pyftsubset CormorantGaramond-Regular.ttf --unicodes="U+2000-200F, U+2016, U+2017, U+2020-2025, U+2027-206F, U+2070-209C" --flavor="woff2" --output-file="cormorantgaramond-regular-punctuation.woff";
 pyftsubset CormorantGaramond-Italic.ttf --unicodes="00U+20-007E, U+0091-0094, U+0096-0097, U+2010-201F, U+2026" --flavor="woff2" --output-file="cormorantgaramond-italic-en.woff2";
 pyftsubset CormorantGaramond-Italic.ttf --unicodes="U+80-90, U+95, U+98-FF" --flavor="woff2" --output-file="cormorantgaramond-italic-latin-1.woff";
 pyftsubset CormorantGaramond-Italic.ttf --unicodes="U+100-17F" --flavor="woff2" --output-file="cormorantgaramond-italic-extended-a.woff";
-pyftsubset CormorantGaramond-Italic.ttf --unicodes="U+180-4F" --flavor="woff2" --output-file="cormorantgaramond-italic-extended-b.woff";
+pyftsubset CormorantGaramond-Italic.ttf --unicodes="U+180-24F" --flavor="woff2" --output-file="cormorantgaramond-italic-extended-b.woff";
 pyftsubset CormorantGaramond-Italic.ttf --unicodes="U+2000-200F, U+2016, U+2017, U+2020-2025, U+2027-206F, U+2070-209C" --flavor="woff2" --output-file="cormorantgaramond-italic-punctuation.woff";
 
 
