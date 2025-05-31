@@ -25,7 +25,6 @@ content:
       - name: body
         label: Body
         type: rich-text
-  - name: pages
   - name: essays
     label: Essays
     path: essays
@@ -40,7 +39,6 @@ content:
       - name: body
         label: Body
         type: rich-text
-  - name: pages
 media:
   input: assets/images
   output: assets/images
