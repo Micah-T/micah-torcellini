@@ -10,17 +10,23 @@ content:
         type: string
   - name: pages
     label: Pages
-    path: Pages
+    path: pages
     type: collection
     fields: 
       - name: title
         label: Title
         type: string
-  - name: articles
-    label: Articles
-    path: articles
+      - name: permalink
+        label: permalink
+        type: string
+  - name: essays
+    label: Essays
+    path: essays
     type: collection
     fields: 
       - name: title
         label: Title
+        type: string
+      - name: permalink
+        label: permalink
         type: string
