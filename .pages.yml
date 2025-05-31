@@ -3,18 +3,24 @@ content:
     label: Posts
     path: posts
     type: collection
+    filename: '{year}-{month}-{day}-{fields.title}.md'
     fields: 
-      - title
-      - tags[0]
+      - name: title
+        label: Title
+        type: string
   - name: pages
     label: Pages
     path: Pages
     type: collection
     fields: 
-    - title
+      - name: title
+        label: Title
+        type: string
   - name: articles
-    lable: Articles
+    label: Articles
     path: articles
     type: collection
     fields: 
-    - title
+      - name: title
+        label: Title
+        type: string
