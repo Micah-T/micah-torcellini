@@ -11,6 +11,9 @@ content:
       - name: body
         label: Body
         type: rich-text
+      - name: hide
+        label: hide
+        type: boolean
   - name: pages
     label: Pages
     path: pages
@@ -25,6 +28,9 @@ content:
       - name: body
         label: Body
         type: rich-text
+      - name: hide
+        label: hide
+        type: boolean
   - name: essays
     label: Essays
     path: essays
@@ -39,6 +45,9 @@ content:
       - name: body
         label: Body
         type: rich-text
+      - name: hide
+        label: hide
+        type: boolean
 media:
   input: assets/images
   output: assets/images
