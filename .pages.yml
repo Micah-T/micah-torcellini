@@ -3,14 +3,18 @@ content:
     label: Posts
     path: posts
     type: collection
-    fields: [ title, "tags[0]"]
+    fields: 
+      - title
+      - tags[0]
   - name: pages
     label: Pages
     path: Pages
     type: collection
-    fields: [ title ]
+    fields: 
+    - title
   - name: articles
     lable: Articles
     path: articles
     type: collection
-    fields: [ title ]
+    fields: 
+    - title
