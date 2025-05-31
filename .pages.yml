@@ -8,12 +8,12 @@ content:
       - name: title
         label: Title
         type: string
-      - name: body
-        label: Body
-        type: rich-text
       - name: hide
         label: hide
         type: boolean
+      - name: body
+        label: Body
+        type: rich-text
   - name: pages
     label: Pages
     path: pages
@@ -25,12 +25,12 @@ content:
       - name: permalink
         label: permalink
         type: string
-      - name: body
-        label: Body
-        type: rich-text
       - name: hide
         label: hide
         type: boolean
+      - name: body
+        label: Body
+        type: rich-text
   - name: essays
     label: Essays
     path: essays
@@ -42,12 +42,12 @@ content:
       - name: permalink
         label: permalink
         type: string
-      - name: body
-        label: Body
-        type: rich-text
       - name: hide
         label: hide
         type: boolean
+      - name: body
+        label: Body
+        type: rich-text
 media:
   input: assets/images
   output: assets/images
