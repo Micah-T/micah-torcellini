@@ -1,6 +1,7 @@
 ---
 title: Making Author Pages for an Academic Journal in Eleventy, or, How to Manipulate Collection Data in Eleventy
 tags: ["academic journal", westmarch, "web development", eleventy]
+updated: 2025-06-14
 ---
 I was asked to make pages for the authors in the [*Westmarch* Literary Journal](https://westmarchjournal.org)'s website, which I've built using Eleventy. Many CMSs provide support for multiple authors and will generate pages for each author; this is something that is quite useful, so I wished to add it to this site. First, this project required a page for each author. Second, this project required a [page that lists all the authors](https://westmarchjournal.org/authors/). 
 
@@ -15,10 +16,15 @@ The first task, then, is to merge the two sources of data for the pagination to 
 
 This is an exciting problem. I could not solve it. Thus, I asked my colleague [Elijah Mendoza](https://blog.elijahmendoza.nom.za/) who knows most programming things much better than I do. After working back and forth on solutions and reading documentation for a few days, he and I sat down on the hallway floor in our dorm and figured it out. Actually, he figured the tricky stuff out. The trick is to use [JavaScript object front matter](https://www.11ty.dev/docs/data-frontmatter/#javascript-object-front-matter) because it allows functions and also can access the collections data. It is not without its challenges, though. The exciting part is the `pagination` variable. The real trick is that, in order to use it to manipulate the pagination data, we need to use the [`before` callback](https://www.11ty.dev/docs/pagination/#the-before-callback). Let's walk through the code:
 
+*Edit May 14, 2025: The *[Communicator](https://eastford.news)* website has enough content to make the build slow enough that this template was rendering first while the `fullData.collections.article` was still empty. To avoid that, it is necessary to use the [`eleventyImport` object](https://www.11ty.dev/docs/collections/#declare-your-collections-for-incremental-builds) in the front matter to tell Eleventy that the collection must be completed before rendering this template.*
+
 ``` {% raw %}
 ---js 
 {
     layout: "base",
+    eleventyImport: {
+      collections: ["article"],
+    },
     pagination: {
 
         // Initially, use the `_data/authors.json`.
