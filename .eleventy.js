@@ -45,6 +45,7 @@ module.exports = function(eleventyConfig) {
 
   // shortcodes 
   eleventyConfig.addShortcode("ytEmbed", require("./_11ty/ytEmbed.js"));
+  eleventyConfig.addShortcode("timeline", require("./_11ty/timeline.js"));
 
   // https://html.spec.whatwg.org/multipage/common-microsyntaxes.html#valid-date-string
   eleventyConfig.addFilter('htmlDateString', (dateObj) => {
@@ -70,6 +71,7 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.addPassthroughCopy("robots.txt");
   eleventyConfig.addPassthroughCopy("CNAME");
   eleventyConfig.addPassthroughCopy("favicon.ico");
+  eleventyConfig.addPassthroughCopy("node_modules/vis-timeline");
 
   /* Markdown Plugins */
   let markdownIt = require("markdown-it");
