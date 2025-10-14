@@ -7,10 +7,10 @@ module.exports = function(containerElement, markdown) {
     const html = `
         <script
         type="text/javascript"
-        src="/node_modules/vis-timeline/standalone/umd/vis-timeline-graph2d.min.js"
+        src="/assets/js/vis-timeline-graph2d.min.js"
         ></script>
         <link
-        href="/node_modules/vis-timeline/styles/vis-timeline-graph2d.min.css"
+        href="/assets/css/vis-timeline-graph2d.min.css"
         rel="stylesheet"
         type="text/css"
         >
