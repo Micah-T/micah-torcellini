@@ -42,5 +42,5 @@ permalink: /philip-timeline/
 @ [1260~1277] {Aristotle} Heterodox Aristotelianism
 - [1228] {Aristotle} Gregory IX writes against Aristotelianism
 {% endcapture %}
-
-<div>{% timeline "philip-timeline-container", philipTimeline %}</div>
+<div>
+<div style="min-width: calc(100vw - 4rem); position:relative; right: calc(50vw - 26rem);">{% timeline "philip-timeline-container", philipTimeline, "{clickToUse: true, start: '1200-01-01', end: '1265-01-01'}" %}</div></div>

@@ -1,6 +1,6 @@
 const chronos = require("chronos-timeline-md")
 
-module.exports = function(containerElement, markdown) {
+module.exports = function(containerElement, markdown, options) {
     const data = chronos.parseChronos(markdown);
     let dataList = JSON.stringify(data.items);
     let groupsList = JSON.stringify(data.groups);
@@ -25,7 +25,7 @@ module.exports = function(containerElement, markdown) {
             var groups = new vis.DataSet(
                 ${groupsList}
             );
-            var options = {};
+            var options = ${options};
             var timeline = new vis.Timeline(container, items, groups, options);
         </script>
         `;
