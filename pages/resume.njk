@@ -47,7 +47,7 @@ layout: default
                 </h3>
                 <p><i>{{ publication.journal or publication.venue }}</i> {{ publication.vol }}{% if publication.no %}, no. {% endif %}{{ publication.no }} ({{ publication.date }})</p>
             </hgroup>
-                <p>{{ publication.summary }}</p>
+                <p>{{ publication.summary | safe }}</p>
         </li>
     {% endfor %}
     </ul>

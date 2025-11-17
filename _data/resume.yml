@@ -1,128 +1,115 @@
-summary: Micah Torcellini enjoys learning and teaching about everything in both practical and academic contexts. His interests and skills especially include music, history, philosophy, and agriculture. He has experience in web development, musical instrument maintenance, museum interpretation, classroom teaching, and academic research. He is currently a MA student in Musicology at the Indiana University Jacobs School of Music.
+summary: Micah Torcellini enjoys learning and teaching in both practical and academic contexts. His interests and skills especially include music, history, philosophy, and agriculture. He has experience in web development, musical instrument maintenance, museum interpretation, classroom teaching, and academic research. He is currently a MA student in Musicology at the Indiana University Jacobs School of Music.
 experiences: 
-  -
-    title: Graduate Assistant
-    org: 
-      name: Indiana University Jacobs School of Music Musicology Department
-      location: Bloomington, IN
-      url: "https://blogs.iu.edu/jsommusicology/"
-    begin: 2025
-    end: 2025
-    responsibilities: 
-      - Assisting professors.
-      - Course development, including posting materials on Canvas.
-      - Administrative assistance.
-      - Research assistance. 
   -
     title: Assistant Harpsichord Technician
     org: 
       name: Indiana University Jacobs School of Music Historical Performance Institute
       location: Bloomington, IN
       url: "https://music.indiana.edu/degrees-programs/areas-of-study/historical-performance.html"
-    begin: 2024
+    begin: August 2024
     end: present
     responsibilities: 
-      - Maintain harpsichords to support the historical performance program.
+      - Maintaining harpsichords to support the historical performance program.
       - Moving harpsichords.
       - Voicing and tuning harpsichords.
+  -
+    title: Graduate Assistant
+    org: 
+      name: Indiana University Jacobs School of Music Musicology Department
+      location: Bloomington, IN
+      url: "https://blogs.iu.edu/jsommusicology/"
+    begin: January 2025
+    end: May 2025
+    responsibilities: 
+      - Assisting professors.
+      - Course development, including posting materials on Canvas.
+      - Administrative assistance.
+      - Research assistance. 
   -
     title: Grader for Music in General Studies
     org: 
       name: Indiana University Jacobs School of Music Music in General Studies
       location: Bloomington, IN
       url: "https://blogs.iu.edu/jsommgs/"
-    begin: 2024
-    end: 2024
+    begin: August 2024
+    end: December 2024
     responsibilities: 
-      - Assist with grading for Music of the Silk Road in Music and General Studies.
+      - Assisting with grading for Music of the Silk Road for Music in General Studies.
   - 
     title: Webmaster
     org: 
       name: Eastford Communicator
       location: Eastford, CT
       url: "https://eastford.news"
-    begin: 2024
+    begin: August 2024
     end: present
     responsibilities: 
-      - Manage content on <a href="https://eastford.news">eastford.news</a>.
-      - Build and maintain a performant front-end design. 
-      - Manage hosting built on various Cloudflare products. 
+      - Managing content for <a href="https://eastford.news">The Eastford <i>Communicator</i>&rsquo;s</a> website to distribute news to the local community in Eastford, Connecticut.
+      - Building and maintaining a performant front-end design. 
+      - Managing hosting built on various Cloudflare products. 
   -
     title: Co-President and Founder
     org: 
       name: Duck Day
       location: Eastford, CT
       url: "https://scrambletheduck.org"
-    begin: 2017
+    begin: January 2017
     end: present
     responsibilities: 
-      -	Communicate with press and public.
-      -	Code and manage <a href="https://scrambletheduck.org">scrambletheduck.org</a>.
-      -	Assist with supervision and coordination of audio-visual equipment.
+      -	Communication with press and public.
+      -	Coding and managing <a href="https://scrambletheduck.org">scrambletheduck.org</a>.
+      -	Assisting with supervision and coordination of audio-visual equipment.
       -	Received recognition from the Connecticut General Assembly.
-  - 
-    title: Farm Hand
-    org:
-      name: Eastford Farm
-      location: Eastford, CT
-      url: "https://www.eastfordfarm.com/"
-    begin: 2010
-    end: present
-    responsibilities: 
-      - Clear fields.
-      - Build fencing.
-      - Manage animals. 
-      - Maintain garden.
-      - Drive tractor. 
   - 
     title: Intern in Latin
     org:
       name: Providence Preparatory Academy
       location: Round Hill, VA
       url: "https://www.providenceprep.net/"
-    begin: 2023
-    end: 2024
+    begin: August 2023
+    end: June 2024
     responsibilities: 
-      - Prepared lessons and materials.
-      - Instructed high school Latin III.
+      - Preparing lessons and materials.
+      - Instructing high school Latin III.
   - 
     title: Web Editor
     org:
       name: Westmarch Literary Journal
       location: Purcellville, VA
       url: "https://westmarchjournal.org"
-    begin: 2023
-    end: 2024
+    begin: January 2023
+    end: May 2024
     responsibilities: 
-      - Coded and maintained <a href="https://westmarchjournal.org">westmarchjournal.org</a>
-      - Prepared and published academic journal content. 
-      - Coordinated with editorial team and print publishing. 
+      - Coding and maintaining <a href="https://westmarchjournal.org">westmarchjournal.org</a>
+      - Preparing and publishing academic journal content. 
+      - Coordination with editorial team and print publishing. 
   - 
     title: Summer Staff
     org:
       name: Foley-Baker, Inc.
       location: Tolland, CT
       url: "https://foleybaker.com/"
-    begin: 2023
-    end: 2023
+    begin: May 2023
+    end: August 2023
     responsibilities: 
-      - Built pipe organs.
-      - Performed repetitive tasks with close attention to detail. 
-      - Handled valuable and delicate materials. 
-      - Worked in tight, inaccessible, and unconditioned spaces. 
+      - Building pipe organs.
+      - Performing repetitive tasks with close attention to detail. 
+      - Handling valuable and delicate materials. 
+      - Working in tight, inaccessible, and unconditioned spaces. 
   - 
     title: College Intern in Historical Interpretation and Music
     org: 
       name: Old Sturbridge Village
       location: Sturbridge, MA
       url: "https://www.osv.org/"
-    begin: 2022
+    begin: May 2022
+    end: August 2022
     responsibilities:
-      - "Interpreted history for the public in costume."
-      - "Researched to improve the museum’s ability to answer questions. "
-      - "Wrote interactive lecture materials. "
-      - "Performed instrumental music."
-      - "Demonstrated agriculture. "
+      - "Costumed interpretation of history for the public."
+      - "Research to improve the museum’s ability to answer questions. "
+      - "Writing interactive lecture materials. "
+      - "Performance of instrumental music."
+      - "Demonstrating agriculture. "
       - "Customer service in a high-pressure and complex environment. "
   -
     title: Harpsichordist
@@ -130,8 +117,8 @@ experiences:
       name: Patrick Henry College Orchestra
       location: Purcellville, VA
       url: "https://www.phc.edu/phc-chamber-orchestra"
-    begin: 2021
-    end: 2024
+    begin: January 2021
+    end: May 2024
     responsibilities:
       - Rebuilt two harpsichord actions and restrung one harpsichord. 
       - Harpsichord maintenance, voicing, and tuning. 
@@ -143,23 +130,42 @@ experiences:
       name: Patrick Henry College Student Government
       location: Purcellville, VA
       url: "https://www.phc.edu/student-government"
-    begin: 2021
-    end: 2023
+    begin: August 2021
+    end: May 023
     responsibilities: 
-      -	Collaborated with other Senators to responsibly spend money.
-      -	Communicated with administration and students.
+      -	Collaboration with other Senators to responsibly spend money.
+      -	Communication with administration and students.
+  - 
+    title: Farm Hand
+    org:
+      name: Eastford Farm
+      location: Eastford, CT
+      url: "https://www.eastfordfarm.com/"
+    begin: 2010
+    end: 2024
+    responsibilities: 
+      - Clearing fields.
+      - Building fencing.
+      - Managing animals. 
+      - Maintaining garden.
+      - Driving a tractor. 
   -
     title: Cafeteria Assistant
     org: 
       name: Patrick Henry College Food Service
       location: Purcellville, VA
       url: "https://www.phc.edu/food-services"
-    begin: 2020
-    end: 2024
+    begin: August 2020
+    end: May 2024
     responsibilities:
-      -	Managed cash register.
-      -	Prepared and served food while maintaining sanitary and safety standards.
+      -	Managing cash register.
+      -	Preparing and serving food while maintaining sanitary and safety standards.
 publications:
+  - author: Micah Torcellini
+    title: "Philip the Chancellor: Music and Poetry on Virtue and Humanity"
+    date: 2026
+    venue: Society for Christian Scholarship in Music (February) and International Congress of Medieval Studies (May)
+    summary: "While Leonin and Perotin’s contributions to music are common knowledge, the intellectual environment that nurtured them in Paris deserves deeper examination. One figure within this philosophical and musical milieu, Philip the Chancellor, is pivotal for understanding the sounds, ideas, and struggles of thirteenth-century Paris, as has been highlighted by Thomas Payne. This paper examines the relationship between the intellectual environment of the time, Philip’s own philosophy, and the music associated with his circle, focusing on Philip’s expression of virtue ethics in his poetry, with special consideration of the context of the university culture of disputation and Philip’s own treatise <i>De Bono</i>. In addition, this paper seeks to reconcile some difficult translation problems through an understanding of Philip’s doctrine of humanity, particularly his idea of the interaction between Soul, Flesh, and Reason. Philip’s pursuit of virtue extends beyond theological and philosophical speculation to a practical pursuit of truth and justice. Philip criticizes corrupt clergy in <i>In Veritate Comperi / Veritatem</i>, while the tenor and other musical aspects emphasize that his ultimate concern is for truth, which is learned from Reason in <i>Anima, Iuge Lacrima</i> and “Christ the truth” in <i>Doce nos hodie / Docebit</i>. In addition, musical aspects of these pieces also parallel the intellectual environment of the time and how Philip thought of moral action within that context. In <i>Anima, Iuge Lacrima</i>, for example, the musical portrayal of academic disputation (as discussed in Novikoff 2013) corresponds to the spiritual struggle against worldly temptation. This paper also considers issues of authorship, examining what poetry can explain about someone’s environment considering both philosophical and aesthetic factors, even when exact attribution may be impossible."
   - 
     author: Micah Torcellini
     title: Erictho and the Manipulation of Memory in Bellum Civile
@@ -169,14 +175,6 @@ publications:
     summary: "Lucan’s Bellum Civile serves as a eulogy for the Republic, in which he expresses his agony about its death. For the Romans, remembering was an important part of proper piety, and proper remembering required proper rites of remembrance. Bellum Civile serves as this sort of rite. To construct such a monument to the Republic, however, Lucan must demonstrate that he has the power to do this, which he does in the Erictho episode. The Erictho episode also serves as a discussion of the importance of memory. Thus, in mourning the Republic, Lucan both makes a memory of it and destroys and manipulates that very memory; the Erictho episode serves as a cornerstone of Lucan’s mastery over memory."
     vol: 3
     no: 1
-  -
-    author: Micah Torcellini
-    title: The Identity of Godot
-    journal: Westmarch
-    date: 2021
-    vol: 2
-    no: 1
-    summary: "This paper discusses a potential answer for the identity of Samuel Beckett's mysterious character \"Godot.\""
   - 
     author: Micah Torcellini
     title: Music Education in the 1830s
@@ -185,15 +183,23 @@ publications:
     location: Sturbridge, MA
     date: 2022
     summary: "An interactive lecture discussing music education in the 1830s and its cultural background, using artifacts and reproductions."
+  -
+    author: Micah Torcellini
+    title: The Identity of Godot
+    journal: Westmarch
+    date: 2021
+    vol: 2
+    no: 1
+    summary: "This paper discusses a potential answer for the identity of Samuel Beckett's mysterious character \"Godot.\""
 education: 
   - B.A. in Classical Liberal Arts, Patrick Henry College (2024)
   - M.A. in Musicology, Indiana University Jacobs School of Music (expected graduation 2026)
 scholarships:
   - 
-    name: Ethel Cushing Gardner Scholarship (2020-2024)
+    name: Ethel Cushing Gardner Scholarship (2020-2026)
     description: For a student from Eastford, CT with a serious interest in the study of music. 
   - 
-    name: Town of Eastford Scholarships (2020-2023)
+    name: Town of Eastford Scholarships (2020-2023, 2024-2026)
     description: various scholarships for academic and personal merit. 
   - 
     name: Merit Scholarships, Patrick Henry College (2020-2024)
