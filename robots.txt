@@ -82,6 +82,7 @@ Disallow: /
 
 User-agent: *
 Crawl-delay: 10
-Disallow: /philip-timeline/
+Disallow: /philip/*
+Disallow: /philip/
 
-Sitemap: https://micah.torcellini.org/sitemap.xml
+Sitemap: https://micah.torcellini.org/sitemap.xml11ty
