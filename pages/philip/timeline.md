@@ -4,6 +4,8 @@ date: 2025-10-13
 permalink: /philip/timeline/
 ---
 
+Click on timeline to enable scrolling.{.no-dropcap}
+
 {% capture philipTimeline %} 
 @ [1160~1236-12-26] {Philip the Chancellor} Life: 1160s-1236
 - [1217] {Philip the Chancellor} appointed chancellor
