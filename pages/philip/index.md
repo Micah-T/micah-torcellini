@@ -4,6 +4,27 @@ permalink: /philip/
 ---
 ## Musical Excerpts
 
+<figure>
+<figcaption></figcaption>
+<picture>
+  <img src="/assets/images/philip-large-1.svg" alt="figure 1" />
+</picture>
+</figure>
+
+<figure>
+<figcaption></figcaption>
+<picture>
+  <img src="/assets/images/philip-large-2.svg" alt="figure 2" />
+</picture>
+</figure>
+
+<figure>
+<figcaption></figcaption>
+<picture>
+  <img src="/assets/images/philip-large-3.svg" alt="figure 3" />
+</picture>
+</figure>
+
 ## Other resources
 - [Interactive timeline](/philip/timeline/)
 - [Table of pieces](/philip/table/)
