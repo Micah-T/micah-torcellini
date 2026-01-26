@@ -15,6 +15,7 @@ module.exports = function(containerElement, markdown, options) {
         type="text/css"
         >
         <div id="${containerElement}">
+        <div id="${containerElement}-placeholder">Loading...</div>
             <noscript>This timeline requires JavaScript to view</noscript>
         </div>
         <script type="text/javascript">
@@ -27,6 +28,8 @@ module.exports = function(containerElement, markdown, options) {
             );
             var options = ${options};
             var timeline = new vis.Timeline(container, items, groups, options);
+            var placeholder = document.getElementById("${containerElement}-placeholder");
+            placeholder.remove();
         </script>
         `;
     return html
