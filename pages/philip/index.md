@@ -42,6 +42,10 @@ Example 3: From <i>Doce Nos Hodie / Docebit</i>^[Payne (2011), 81]
 - [Interactive timeline](/philip/timeline/)
 - [Table of pieces](/philip/table/)
 
+Coming soon:
+- Download slides (PDF)
+- Download handout (PDF)
+
 ## Bibliography
 
 - Andrews, E. A., William Freund, Charlton T. Lewis, and Charles Short. *[A Latin Dictionary](https://www.perseus.tufts.edu/hopper/text?doc=Perseus%3atext%3a1999.04.0059)*. New York: Oxford Univ. Press, 2002.
