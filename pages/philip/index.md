@@ -5,21 +5,34 @@ permalink: /philip/
 ## Musical Excerpts
 
 <figure>
-<figcaption></figcaption>
+<figcaption>
+
+Example 1: From *In Veritate Comperi / Veritatem*^[Payne (2011), 68-71]
+
+
+</figcaption>
 <picture>
   <img src="/assets/images/philip-large-1.svg" alt="figure 1" />
 </picture>
 </figure>
 
 <figure>
-<figcaption></figcaption>
+<figcaption>
+
+Example 2: From <i>In Veritate Comperi / Veritatem</i>^[Payne (2011), 69]
+
+</figcaption>
 <picture>
   <img src="/assets/images/philip-large-2.svg" alt="figure 2" />
 </picture>
 </figure>
 
 <figure>
-<figcaption></figcaption>
+<figcaption>
+
+Example 3: From <i>Doce Nos Hodie / Docebit</i>^[Payne (2011), 81]
+
+</figcaption>
 <picture>
   <img src="/assets/images/philip-large-3.svg" alt="figure 3" />
 </picture>
