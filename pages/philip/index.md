@@ -7,7 +7,7 @@ permalink: /philip/
 <figure>
 <figcaption>
 
-Example 1: From *In Veritate Comperi / Veritatem*^[Payne (2011), 68-71]
+Example 1: From *In Veritate Comperi / Veritatem*^[Payne (2011), 68-71.]
 
 
 </figcaption>
@@ -19,7 +19,7 @@ Example 1: From *In Veritate Comperi / Veritatem*^[Payne (2011), 68-71]
 <figure>
 <figcaption>
 
-Example 2: From <i>In Veritate Comperi / Veritatem</i>^[Payne (2011), 69]
+Example 2: From <i>In Veritate Comperi / Veritatem</i>^[Payne (2011), 69.]
 
 </figcaption>
 <picture>
@@ -30,7 +30,7 @@ Example 2: From <i>In Veritate Comperi / Veritatem</i>^[Payne (2011), 69]
 <figure>
 <figcaption>
 
-Example 3: From <i>Doce Nos Hodie / Docebit</i>^[Payne (2011), 81]
+Example 3: From <i>Doce Nos Hodie / Docebit</i>^[Payne (2011), 81.]
 
 </figcaption>
 <picture>
