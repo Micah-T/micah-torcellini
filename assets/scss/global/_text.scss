@@ -64,3 +64,25 @@ sub {
 sup {
     font-feature-settings: "sups";
 }
+
+.full-width {
+    min-width: calc(100vw - 4rem); 
+    position:relative; 
+    @media (min-width: 52rem) {
+        right: calc(50vw - 26rem);
+    }
+}
+
+.table-container {
+    overflow: scroll;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td, th {
+    padding: 0.5em;
+    border: 1px solid #{$primary-text-color};
+}

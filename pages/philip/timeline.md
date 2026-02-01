@@ -45,4 +45,4 @@ Click on timeline to enable scrolling.{.no-dropcap}
 - [1228] {Aristotle} Gregory IX writes against Aristotelianism
 {% endcapture %}
 <div>
-<div style="min-width: calc(100vw - 4rem); position:relative; right: calc(50vw - 26rem);">{% timeline "philip-timeline-container", philipTimeline, "{clickToUse: true, start: '1200-01-01', end: '1265-01-01'}" %}</div></div>
+<div class="full-width">{% timeline "philip-timeline-container", philipTimeline, "{clickToUse: true, start: '1200-01-01', end: '1265-01-01'}" %}</div></div>
