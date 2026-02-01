@@ -74,7 +74,22 @@ sup {
 }
 
 .table-container {
+    // https://www.bram.us/2019/10/24/pure-css-scroll-shadows-vertical-horizontal/
     overflow: scroll;
+    --background-color: #{$primary-background-color};
+    --shadow-color: #{$grey-800};
+    --shadow-size: 0.75em;
+    --transparent: rgba(255, 255, 255, 0); /* We can't use "transparent" directly, because Safari would interpret the color as "transparent black" (see https://css-tricks.com/thing-know-gradients-transparent-black/). Using this workaround, it works fine. */
+
+    background:
+    linear-gradient(to right, var(--background-color), var(--background-color), var(--transparent) calc(var(--shadow-size) * 2)),
+    radial-gradient(farthest-side at 0 50%, var(--shadow-color), var(--transparent)),
+    linear-gradient(to left, var(--background-color), var(--background-color), var(--transparent) calc(var(--shadow-size) * 2)),
+    radial-gradient(farthest-side at 100% 50%, var(--shadow-color), var(--transparent)) 100%;
+  background-color: var(--background-color);
+  background-repeat: no-repeat;
+  background-attachment: local, scroll, local, scroll;
+  background-size: 100% 100%, var(--shadow-size) 100%, 100% 100%, var(--shadow-size) 100%;
 }
 
 table {
