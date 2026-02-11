@@ -19,7 +19,8 @@
     margin-left: calc((var(--start) - var(--timeline-start)) * var(--timeline-scale));
     --period: calc(var(--end) - var(--start));
     width: max(calc(var(--period) * var(--timeline-scale)), var(--timeline-bar-height));
-    background-color: var(--bar-color);   
+    background-color: var(--bar-color);  
+    print-color-adjust: exact; 
     display: block;
     height: var(--timeline-bar-height);
     white-space: nowrap;
@@ -30,20 +31,20 @@
     }
 
 li.timeline-group-1 {
-    --bar-color: green;
+    --bar-color: #3fe268;
 }
 li.timeline-group-2 {
-    --bar-color: purple;
+    --bar-color: #3f58e2;
 }
 li.timeline-group-3 {
-    --bar-color: red;
+    --bar-color: #e25a3f;
 }
 li.timeline-group-4 {
-    --bar-color: violet;
+    --bar-color: #e2993f;
 }
 li.timeline-group-5 {
-    --bar-color: blue;
+    --bar-color: #683fe2;
 }
 li.timeline-group-6 {
-    --bar-color: orange;
+    --bar-color: #d23fe2;
 }
