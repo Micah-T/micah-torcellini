@@ -28,3 +28,22 @@
     max-width: unset;
     align-content: center;
     }
+
+li.timeline-group-1 {
+    --bar-color: green;
+}
+li.timeline-group-2 {
+    --bar-color: purple;
+}
+li.timeline-group-3 {
+    --bar-color: red;
+}
+li.timeline-group-4 {
+    --bar-color: violet;
+}
+li.timeline-group-5 {
+    --bar-color: blue;
+}
+li.timeline-group-6 {
+    --bar-color: orange;
+}
