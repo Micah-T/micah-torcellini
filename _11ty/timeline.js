@@ -1,36 +1,37 @@
 const chronos = require("chronos-timeline-md")
 
-module.exports = function(containerElement, markdown, options) {
+module.exports = function(markdown, timelineStart, timelineEnd) {
     const data = chronos.parseChronos(markdown);
-    let dataList = JSON.stringify(data.items);
-    let groupsList = JSON.stringify(data.groups);
+    console.log()
+    console.log(data.items)
+    let htmlList = "";
+    data.items.forEach(i => {
+        let startYear = i.start.getFullYear();
+        let endYear = undefined;
+        let years = startYear
+        if (i.end) {
+            endYear = i.end.getFullYear();
+            years = `${startYear}-${endYear}`
+        }
+        else {
+            endYear = startYear;
+        }
+        let htmlListItem = `<li style="--start: ${startYear}; --end: ${endYear}" class="timeline-group-${i.group}">
+        ${years}: 
+        ${i.content}
+        </li>`
+        htmlList = htmlList + htmlListItem;
+    });
     const html = `
-        <script
-        type="text/javascript"
-        src="/assets/js/vis-timeline-graph2d.min.js"
-        ></script>
         <link
-        href="/assets/css/vis-timeline-graph2d.min.css"
+        href="/assets/css/timeline.css"
         rel="stylesheet"
         type="text/css"
         >
-        <div id="${containerElement}">
-        <div id="${containerElement}-placeholder">Loading...</div>
-            <noscript>This timeline requires JavaScript to view</noscript>
-        </div>
-        <script type="text/javascript">
-            var container = document.getElementById("${containerElement}");
-            var items = new vis.DataSet(
-                ${dataList}
-            );
-            var groups = new vis.DataSet(
-                ${groupsList}
-            );
-            var options = ${options};
-            var timeline = new vis.Timeline(container, items, groups, options);
-            var placeholder = document.getElementById("${containerElement}-placeholder");
-            placeholder.remove();
-        </script>
+        <div class="timeline-container">
+        <ul class="timeline" style="--timeline-start: ${timelineStart}; --timeline-end: ${timelineEnd}">
+            ${htmlList}
+        </ul></div>
         `;
     return html
 }

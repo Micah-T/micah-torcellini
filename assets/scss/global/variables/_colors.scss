@@ -32,9 +32,14 @@ $cream-100: hsl(60, 100%, 90%);
 
 
 $primary-background-color: $grey-100;
+$shade-color: $grey-500;
 $primary-text-color: $grey-1000;
 $header-background-color: $primary-background-color;
 $navbar-dropdown-background-color: $header-background-color;
 
 // special colors
 $alert-color: hsl(0, 57%, 50%);
+
+:root {
+    --shade-color: #{$shade-color};
+}

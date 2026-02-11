@@ -72,7 +72,7 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.addPassthroughCopy("robots.txt");
   eleventyConfig.addPassthroughCopy("CNAME");
   eleventyConfig.addPassthroughCopy("favicon.ico");
-  eleventyConfig.addPassthroughCopy("node_modules/vis-timeline");
+  // eleventyConfig.addPassthroughCopy("node_modules/vis-timeline");
 
   /* Markdown Plugins */
   let markdownIt = require("markdown-it");

@@ -1,0 +1,25 @@
+.timeline-container {
+    overflow: scroll;
+}
+.timeline {
+    --timeline-width: 100vw;
+    --timeline-period: calc(var(--timeline-end) - var(--timeline-start));
+    --timeline-scale: calc((1 / var(--timeline-period)) * var(--timeline-width));
+    width: var(--timeline-width);
+}
+.timeline li {
+    --timeline-bar-height: 3em;
+    --bar-color: var(--shade-color);
+    margin: 0.5em auto;
+    margin-left: calc((var(--start) - var(--timeline-start)) * var(--timeline-scale));
+    --period: calc(var(--end) - var(--start));
+    width: max(calc(var(--period) * var(--timeline-scale)), var(--timeline-bar-height));
+    background-color: var(--bar-color);   
+    display: block;
+    height: var(--timeline-bar-height);
+    white-space: nowrap;
+    border-radius: calc(var(--timeline-bar-height) / 2);
+    padding: calc((var(--timeline-bar-height) / 2) - 1em) calc(var(--timeline-bar-height) / 2);
+    max-width: unset;
+    align-content: center;
+    }
