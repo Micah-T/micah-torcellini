@@ -42,7 +42,7 @@ permalink: /philip/timeline/
 - [1230~1260] {Aristotle} Aristotle "only tacitly permitted"
 - [1260~1277] {Aristotle} Heterodox Aristotelianism
 - [1228] {Aristotle} Gregory IX writes against Aristotelianism
-- [1243] {Aristotle} Student notebook includes *De Bono*
+- [1243] {Aristotle} Student notebook includes <i>De Bono</i>
 - [1255] {Aristotle} Addition of Aristotelian books to arts curriculum
 {% endcapture %}
 
