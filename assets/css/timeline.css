@@ -1,5 +1,5 @@
 .timeline-container {
-    overflow: scroll;
+    overflow-x: scroll;
 }
 .timeline {
     --timeline-width: 100%;
