@@ -15,7 +15,7 @@ permalink: /philip/timeline/
 - [1218~1219] {University of Paris} Bishop excommunicates the scholars; Philip extendes excommunication
 - [1219] {University of Paris} Pope Honorius III removes chancellor's power of imprisonment
 - [1222] {University of Paris} Papal bull makes a temporary compromise
-- [1222] Abbot of Ste. Geneviève-du-Mont grants teaching license. Papal bull says that chancellor can't prevent that. 
+- [1222] {University of Paris} Abbot of Ste. Geneviève-du-Mont grants teaching licenses. Papal bull says that chancellor can't prevent that. 
 - [1225] {University of Paris} Papal legate destroys university seal
 - [1229~1230] {University of Paris} The Great Dispersion
 - [1231-04-13] {University of Paris} <i>Parens Scientiarum</i>
