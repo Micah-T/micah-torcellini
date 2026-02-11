@@ -6,11 +6,13 @@ module.exports = function(markdown, timelineStart, timelineEnd) {
     console.log(data.items)
     let htmlList = "";
     data.items.forEach(i => {
-        let startYear = i.start.getFullYear();
+        let startYear = i.start.getUTCFullYear();
+        console.log(i.start)
+        console.log(startYear)
         let endYear = undefined;
         let years = startYear
         if (i.end) {
-            endYear = i.end.getFullYear();
+            endYear = i.end.getUTCFullYear();
             years = `${startYear}-${endYear}`
         }
         else {

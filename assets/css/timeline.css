@@ -2,9 +2,14 @@
     overflow: scroll;
 }
 .timeline {
-    --timeline-width: 100vw;
+    --timeline-width: 100%;
     --timeline-period: calc(var(--timeline-end) - var(--timeline-start));
     --timeline-scale: calc((1 / var(--timeline-period)) * var(--timeline-width));
+    --grid-color: var(--grey-400);
+    --grid-line-width: 3px;
+    --grid-line-space: calc(var(--timeline-scale) * 10);
+    background: repeating-linear-gradient(to right, var(--grid-color) 0 var(--grid-line-width), transparent var(--grid-line-width) var(--grid-line-space), transparent var(--grid-line-space));
+    padding: 1em 0;
     width: var(--timeline-width);
 }
 .timeline li {

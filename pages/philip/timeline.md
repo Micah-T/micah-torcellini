@@ -5,7 +5,7 @@ permalink: /philip/timeline/
 ---
 
 {% capture philipTimeline %} 
-- [1160~1236-12-26] {Philip the Chancellor} Life: 1160s-1236
+- [1160~1236-12-26] {Philip the Chancellor} Philip the Chancellor
 - [1217] {Philip the Chancellor} appointed chancellor
 - [1217] {Philip the Chancellor} trip to Rome to obtain dispensation to be chancellor
 - [1230] {Philip the Chancellor} late date for <i>De Bono</i> (Leff)
@@ -46,4 +46,4 @@ permalink: /philip/timeline/
 - [1228] {Aristotle} Gregory IX writes against Aristotelianism
 {% endcapture %}
 
-<div class="full-width">{% timeline philipTimeline, 1160, 1265 %}</div>
+<div class="full-width">{% timeline philipTimeline, 1160, 1276 %}</div>
