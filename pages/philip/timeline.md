@@ -38,12 +38,12 @@ permalink: /philip/timeline/
 - [1223-07-14~1226-11-08] {French Kings} Louis VIII
 - [1226-11-08~1270-08-25] {French Kings} Louis IX
   
-- [1255] {Aristotle} Addition of Aristotelian books to arts curriculum
-- [1243] {Aristotle} Student notebook includes *De Bono*
 - [1210~1230] {Aristotle} Natural and Metaphysical writings of Aristotle prohibited in the faculty of arts, along with Avicenna, John Scotus Eriugena, David of Dinant, Amaury of Bène
 - [1230~1260] {Aristotle} Aristotle "only tacitly permitted"
 - [1260~1277] {Aristotle} Heterodox Aristotelianism
 - [1228] {Aristotle} Gregory IX writes against Aristotelianism
+- [1243] {Aristotle} Student notebook includes *De Bono*
+- [1255] {Aristotle} Addition of Aristotelian books to arts curriculum
 {% endcapture %}
 
 <div class="full-width">{% timeline philipTimeline, 1160, 1276 %}</div>
