@@ -2,13 +2,9 @@ const chronos = require("chronos-timeline-md")
 
 module.exports = function(markdown, timelineStart, timelineEnd) {
     const data = chronos.parseChronos(markdown);
-    console.log()
-    console.log(data.items)
     let htmlList = "";
     data.items.forEach(i => {
         let startYear = i.start.getUTCFullYear();
-        console.log(i.start)
-        console.log(startYear)
         let endYear = undefined;
         let years = startYear
         if (i.end) {

@@ -2,12 +2,137 @@
 title: "Philip the Chancellor: Music and Poetry on Virtue and Humanity"
 permalink: /philip/
 ---
-## Musical Excerpts
+
+Aristotelian texts used by Philip^[Leff, 204.]:{.no-dropcap}
+- Metaphysics
+- Physics
+- Old and new Ethics
+- De Generatione
+- De Caelo
+- De Animalibus
+
+From *De Bono*
+> For there is in the rational soul a fuller approach to the composition
+> of material and form than in knowledge, because \[the soul\] is
+> extended in its nature according to how it is united into bodily
+> material. From which, in itself, there are varied disputes of acting
+> and possible understanding; in true angelic perception there are not
+> so varied disputes.
+
+> And so, with this said, we are able to solve the question, if one is
+> asked about the distinction between an angel and the soul, because
+> \[the soul\] nevertheless is joined to itself in the end because it is
+> ordained to the blessing of itself and the body. The angel, however,
+> is ordained for the impartation of blessing only into himself, for he
+> will lack the dowry of a body; for thus he does not deserve \[to be\]
+> in a body, and so he ought not to be valued \[as if\] in a body. He is
+> separated in the end by antecedent perfection, because the angel is
+> incorporeal substance of illuminations which are, from the beginning,
+> perceived first by relation; the soul, however, is an incorporeal
+> substance of illuminations which are, from the beginning, perceived
+> last by relation. Therefore they are separated in power to which this
+> perfection responds, because the power of \[the soul\] is rational
+> capability which has the capability of being put together and divided,
+> the intelligible with the sensible; \[the power of an angel\],
+> however, is not.^[My translation. Philip, *Philippi Cancellarii Parisiensis Summa de Bono*, 157–58.]
+
+
+## Examples
+
+Example 1: *Anima, Iuge Lacrima* {.no-dropcap}
+
+<table>
+<tbody>
+<tr class="odd">
+<td>
+<p><strong>Tenor</strong></p>
+</td>
+<td>
+<p><strong>Motetus</strong></p>
+</td>
+<td>
+<p><strong>Triplum</strong></p>
+</td>
+</tr>
+<tr>
+<td>
+<p>Anima (<strong>g</strong>),<br>
+iuge (g)<br>
+lacrima (g)<br>
+diffilue, (D)<br>
+dilue (g) saucie (g)<br>
+<u><em>sordes conscientie. (<strong>G</strong>)</em></u></p>
+</td>
+<td>
+<p>Caro, (<strong>d)<br>
+</strong>spiritui quid sub-<em>de</em>-ris? (C) Quid, <br>
+<em>Tenu</em>-i flatu su-<em>spende</em>-ris? (C)<br>
+<br>
+Ad <em>soli</em>-ta revertere (<strong>d</strong>)<br>
+<u><em>via trita curritur libere. (<strong>G</strong>)</em></u></p>
+</td>
+<td>
+<p>Lis hec, (<strong>g</strong>)<br>
+ratio, tuo (d)<br>
+iuditio (g)<br>
+finem subeat, (D)<br>
+Cohibeat (g) carnis impetus (<strong>g</strong>)<br>
+iusti iudicis metus. (<strong>D</strong>). </p>
+</td>
+
+</tr>
+
+<tr>
+<td>
+<p><u>Fac tibi tutum. (B)<br>
+Luteum vas, exue, lutum (<strong>A</strong>)<br>
+subitus (<strong>d</strong>)<br>
+exitus (a)<br>
+pium ne propositum (<strong>G</strong>)<br>
+perimat (<strong>c</strong>)</u><br>
+meritum (<strong>G</strong>)</p>
+</td>
+
+<td>
+<p><u>Stes legi divitum.<br>
+Vetitum licitum, putes ad libitum, (<strong>D</strong>)<br>
+devia (<strong>d)</strong><br>
+curans, non de patria (d)<br>
+nature debite culture (<strong>G)</strong><br>
+<em>Letos</em> age dies (<strong>g</strong>)</u><br>
+leves requies. (<strong>G)</strong></p>
+</td>
+
+<td>
+<p>Expietur anima,<br>
+carnis victima. (<strong>D</strong>)<br>
+libere (<strong>a</strong>)<br>
+servitutis<br>
+opere, spe salutis, (<strong>D)</strong><br>
+vigeat (<strong>c)</strong><br>
+penitentia. (<strong>D)</strong></p>
+</td>
+
+
+</tr>
+<tr>
+<td>
+<p>Redimat vite dampna perdite (<strong>D</strong>)</p>
+</td>
+<td>
+<p>Cure tedium sit, quod iuvat pium. (<strong>D)</strong></p>
+</td>
+<td>
+<p>Gratie pateat patrie via. (<strong>A</strong>)</p>
+</td>
+</tr>
+</tbody>
+</table>
 
 <figure>
 <figcaption>
 
-Example 1: From *In Veritate Comperi / Veritatem*^[Payne (2011), 68-71.]
+Example 2: From *In Veritate Comperi / Veritatem*^[Payne 2011, 68-71.]
 
 
 </figcaption>
@@ -19,7 +144,7 @@ Example 1: From *In Veritate Comperi / Veritatem*^[Payne (2011), 68-71.]
 <figure>
 <figcaption>
 
-Example 2: From <i>In Veritate Comperi / Veritatem</i>^[Payne (2011), 69.]
+Example 3: From <i>In Veritate Comperi / Veritatem</i>^[Payne 2011, 69.]
 
 </figcaption>
 <picture>
@@ -30,14 +155,12 @@ Example 2: From <i>In Veritate Comperi / Veritatem</i>^[Payne (2011), 69.]
 <figure>
 <figcaption>
 
-Example 3: From <i>Doce Nos Hodie / Docebit</i>^[Payne (2011), 81.]
+Example 4: From <i>Doce Nos Hodie / Docebit</i>^[Payne 2011, 81.]
 
 </figcaption>
 <picture>
   <img src="/assets/images/philip-large-3.svg" alt="figure 3" />
 </picture>
-</figure>
-
 </figure>
 
 <figure>
