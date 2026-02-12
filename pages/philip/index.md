@@ -132,7 +132,7 @@ penitentia. (<strong>D)</strong></p>
 <figure>
 <figcaption>
 
-Example 2: From *In Veritate Comperi / Veritatem*^[Payne 2011, 68-71.]
+Example 2: From *In Veritate Comperi / Veritatem*^[Philip, *Motets and Prosulas*, 68-71.]
 
 
 </figcaption>
@@ -144,7 +144,7 @@ Example 2: From *In Veritate Comperi / Veritatem*^[Payne 2011, 68-71.]
 <figure>
 <figcaption>
 
-Example 3: From <i>In Veritate Comperi / Veritatem</i>^[Payne 2011, 69.]
+Example 3: From <i>In Veritate Comperi / Veritatem</i>^[Philip, *Motets and Prosulas*, 69.]
 
 </figcaption>
 <picture>
@@ -155,7 +155,7 @@ Example 3: From <i>In Veritate Comperi / Veritatem</i>^[Payne 2011, 69.]
 <figure>
 <figcaption>
 
-Example 4: From <i>Doce Nos Hodie / Docebit</i>^[Payne 2011, 81.]
+Example 4: From <i>Doce Nos Hodie / Docebit</i>^[Philip, *Motets and Prosulas*, 81.]
 
 </figcaption>
 <picture>
