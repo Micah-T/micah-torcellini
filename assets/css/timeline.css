@@ -24,7 +24,7 @@
     display: block;
     white-space: nowrap;
     padding: 0;
-    border-bottom: var(--timeline-bar-height) solid var(--bar-color);
+    border-top: var(--timeline-bar-height) solid var(--bar-color);
     max-width: unset;
     align-content: center;
     }
