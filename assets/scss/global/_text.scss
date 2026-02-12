@@ -49,6 +49,10 @@ blockquote {
     quotes: "\201C""\201D""\2018""\2019";
   }
 
+figure {
+    margin: 2em 0;
+}
+
 pre {
     overflow-x: auto;
 }
@@ -60,7 +64,7 @@ body {
 }
 sub {
     font-feature-settings: "subs";
-}
+}fi
 sup {
     font-feature-settings: "sups";
 }
