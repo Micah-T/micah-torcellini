@@ -198,4 +198,4 @@ Coming soon:
 - Thomas, Albertus, R. E. Houser, and Philip. *The Cardinal Virtues: Aquinas, Albert and Philip the Chancellor*. Mediaeval Sources in Translation 39. Toronto: Pontifical Institute of Mediaeval Studies, 2004.
 - Saltzstein, Jennifer. *Song, Landscape, and Identity in Medieval Northern France: Toward an Environmental History.* Oxford University Press, 2023.
 
-Thanks to [Dr. Jennifer Saltzstein](https://music.indiana.edu/faculty/current_adjunct/saltzstein-jennifer.html), [IU Musicology Department](https://blogs.iu.edu/jsommusicology/), Catherine Torcellini, [Deacon Daniel Johnson](https://danieljohnson.name/)
+Thanks to [Dr. Jennifer Saltzstein](https://music.indiana.edu/faculty/current_adjunct/saltzstein-jennifer.html), [IU Musicology Department](https://blogs.iu.edu/jsommusicology/), Catherine Torcellini, [Isaac Torcellini](https://isaac.torcellini.org), [Deacon Daniel Johnson](https://danieljohnson.name/)
