@@ -39,7 +39,7 @@ From *De Bono*:
 
 ## Examples
 
-Example 1: *Anima, Iuge Lacrima* {.no-dropcap}
+Example 1: *Anima, Iuge Lacrima*. This table displays the texts with line breaks at cadential points, matching portions of text with where they align in the music and noting where the line rests. Where all three voices cadence simultaneously, the note is written in boldface type. Uppercase letters represent the ends of phrases. Hockets are italicized. In the underlined portion shows where the tenor and motetus voices cross.  {.no-dropcap}
 
 <table>
 <tbody>
@@ -187,6 +187,7 @@ Coming soon:
 
 - Andrews, E. A., William Freund, Charlton T. Lewis, and Charles Short. *[A Latin Dictionary](https://www.perseus.tufts.edu/hopper/text?doc=Perseus%3atext%3a1999.04.0059)*. New York: Oxford Univ. Press, 2002.
 - Boethius, Calvin M. Bower, and Claude V. Palisca. *Fundamentals of Music*. Music Theory Translation Series. New Haven: Yale University Press, 1989.
+- Dronke, Peter. “The Lyrical Compositions of Philip the Chancellor.” Studi Medievali, 3, vol. 28, no. 2 (1987): 563–92.
 - Eardley, Peter. “[Medieval Theories of Conscience](https://plato.stanford.edu/archives/fall2023/entries/conscience-medieval/).” *In The Stanford Encyclopedia of Philosophy*, Fall 2023, edited by Edward N. Zalta and Uri Nodelman. Metaphysics Research Lab, Stanford University, 2023.
 - Leff, Gordon. *Paris and Oxford Oxford Universities in the Thirteenth and Fourteenth Centuries: An Institutional and Intellectual History*. Paris and Oxford Oxford Universities in the Thirteenth and Fourteenth Centuries. Wiley, 1968.
 - McCluskey, Colleen, and Anthony Celano. “[Philip the Chancellor](https://plato.stanford.edu/archives/spr2024/entries/philip-chancellor/).” *In The Stanford Encyclopedia of Philosophy*, edited by Edward N. Zalta and Uri Nodelman, Spring 2024. Metaphysics Research Lab, Stanford University, 2024.
@@ -197,5 +198,6 @@ Coming soon:
 - Philip. *Philippi Cancellarii Parisiensis Summa de Bono*. Edited by Nikolaus Wicki. Corpus Philosophorum Medii Aevi. Opera philosophica Mediae Aetatis Selecta, v. 2. Francke, 1985.
 - Thomas, Albertus, R. E. Houser, and Philip. *The Cardinal Virtues: Aquinas, Albert and Philip the Chancellor*. Mediaeval Sources in Translation 39. Toronto: Pontifical Institute of Mediaeval Studies, 2004.
 - Saltzstein, Jennifer. *Song, Landscape, and Identity in Medieval Northern France: Toward an Environmental History.* Oxford University Press, 2023.
+- Wright, Craig M. *Music and Ceremony at Notre Dame of Paris, 500-1550*. Cambridge University Press, 1989.
 
 Thanks to [Dr. Jennifer Saltzstein](https://music.indiana.edu/faculty/current_adjunct/saltzstein-jennifer.html), [IU Musicology Department](https://blogs.iu.edu/jsommusicology/), Catherine Torcellini, [Isaac Torcellini](https://isaac.torcellini.org), [Deacon Daniel Johnson](https://danieljohnson.name/)
