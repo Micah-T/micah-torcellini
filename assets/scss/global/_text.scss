@@ -105,3 +105,12 @@ td, th {
     padding: 0.5em;
     border: 1px solid #{$primary-text-color};
 }
+
+#works-cited + ul, #bibliography + ul, #references + ul {
+    list-style-type: none;
+    padding: 0;
+    li {
+        margin: 1em 0 1em 3em;
+        text-indent: -3em;
+    }
+}

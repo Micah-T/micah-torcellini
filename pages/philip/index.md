@@ -11,7 +11,7 @@ Aristotelian texts used by Philip^[Leff, 204.]:{.no-dropcap}
 - De Caelo
 - De Animalibus
 
-From *De Bono*
+From *De Bono*:
 > For there is in the rational soul a fuller approach to the composition
 > of material and form than in knowledge, because \[the soul\] is
 > extended in its nature according to how it is united into bodily
