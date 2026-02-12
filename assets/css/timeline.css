@@ -6,7 +6,7 @@
     --timeline-period: calc(var(--timeline-end) - var(--timeline-start));
     --timeline-scale: calc((1 / var(--timeline-period)) * var(--timeline-width));
     --grid-color: var(--grey-400);
-    --grid-line-width: 3px;
+    --grid-line-width: 1px;
     --grid-line-space: calc(var(--timeline-scale) * 10);
     background: repeating-linear-gradient(to right, var(--grid-color) 0 var(--grid-line-width), transparent var(--grid-line-width) var(--grid-line-space), transparent var(--grid-line-space));
     padding: 1em 0;
@@ -14,19 +14,17 @@
     max-width: unset;
 }
 .timeline li {
-    --timeline-bar-height: 3em;
+    --timeline-bar-height: 1em;
     --bar-color: var(--shade-color);
     margin: 0.5em auto;
     margin-left: calc((var(--start) - var(--timeline-start)) * var(--timeline-scale));
     --period: calc(var(--end) - var(--start));
     width: max(calc(var(--period) * var(--timeline-scale)), var(--timeline-bar-height));
-    background-color: var(--bar-color);  
     print-color-adjust: exact; 
     display: block;
-    height: var(--timeline-bar-height);
     white-space: nowrap;
-    border-radius: calc(var(--timeline-bar-height) / 2);
-    padding: calc((var(--timeline-bar-height) / 2) - 1em) calc(var(--timeline-bar-height) / 2);
+    padding: 0;
+    border-bottom: var(--timeline-bar-height) solid var(--bar-color);
     max-width: unset;
     align-content: center;
     }
