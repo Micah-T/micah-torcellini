@@ -38,6 +38,19 @@ Example 3: From <i>Doce Nos Hodie / Docebit</i>^[Payne (2011), 81.]
 </picture>
 </figure>
 
+</figure>
+
+<figcaption>
+
+Paris in the 13<sup>th</sup> century.^[“Pl. III. Paris de 1180 a 1223.,” accessed January 24, 2026, www.davidrumsey.com/luna/servlet/detail/RUMSEY~8~1~301348~90072383:Pl--III--Paris-de-1180-a-1223-.]
+
+</figcaption>
+
+![A black-and white map; walls in a circle, with roads leading to the center, to the cathedral](/assets/images/map-transparent.png)
+
+</figure>
+
+
 ## Other resources
 - [Interactive timeline](/philip/timeline/)
 - [Table of pieces](/philip/table/)
