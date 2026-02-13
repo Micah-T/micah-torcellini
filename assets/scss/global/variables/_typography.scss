@@ -17,10 +17,10 @@ $font-family-default:
 
 
 //insert preferred font where $font-family-default is, leaving $font-family-default as a fallback, unless preferred font is much different
-$font-family: "Cormorant Garamond", "EB Garamond", Garamond, Georgia, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", serif;
+$font-family: "EB Garamond", Garamond, Georgia, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", serif;
 
 //font family for headings
-$font-family-headings: $font-family;
+$font-family-headings: "Cormorant Garamond", #{$font-family};
 $line-height-headings: 1.2;
 
 $line-height: 1.5;
