@@ -4,14 +4,14 @@ permalink: /philip/
 ---
 
 Aristotelian texts used by Philip^[Leff, 204.]:{.no-dropcap}
-- Metaphysics
-- Physics
-- Old and new Ethics
-- De Generatione
-- De Caelo
-- De Animalibus
+- *Metaphysics*
+- *Physics*
+- Old and new *Ethics*
+- *De Generatione*
+- *De Caelo*
+- *De Animalibus*
 
-From *De Bono*:
+Philip's discussion of the soul and body from *De Bono*:
 > For there is in the rational soul a fuller approach to the composition
 > of material and form than in knowledge, because \[the soul\] is
 > extended in its nature according to how it is united into bodily
@@ -181,7 +181,6 @@ Paris in the 13<sup>th</sup> century.^[“Pl. III. Paris de 1180 a 1223.,” acc
 
 Coming soon:
 - Download slides (PDF)
-- Download handout (PDF)
 
 ## Bibliography
 
@@ -198,6 +197,6 @@ Coming soon:
 - Philip. *Philippi Cancellarii Parisiensis Summa de Bono*. Edited by Nikolaus Wicki. Corpus Philosophorum Medii Aevi. Opera philosophica Mediae Aetatis Selecta, v. 2. Francke, 1985.
 - Thomas, Albertus, R. E. Houser, and Philip. *The Cardinal Virtues: Aquinas, Albert and Philip the Chancellor*. Mediaeval Sources in Translation 39. Toronto: Pontifical Institute of Mediaeval Studies, 2004.
 - Saltzstein, Jennifer. *Song, Landscape, and Identity in Medieval Northern France: Toward an Environmental History.* Oxford University Press, 2023.
-- Wright, Craig M. *Music and Ceremony at Notre Dame of Paris, 500-1550*. Cambridge University Press, 1989.
+- Wright, Craig. *Music and Ceremony at Notre Dame of Paris, 500-1550*. Cambridge University Press, 1989.
 
 Thanks to [Dr. Jennifer Saltzstein](https://music.indiana.edu/faculty/current_adjunct/saltzstein-jennifer.html), [IU Musicology Department](https://blogs.iu.edu/jsommusicology/), Catherine Torcellini, [Isaac Torcellini](https://isaac.torcellini.org), [Deacon Daniel Johnson](https://danieljohnson.name/)

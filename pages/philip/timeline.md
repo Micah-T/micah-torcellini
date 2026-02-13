@@ -47,3 +47,5 @@ permalink: /philip/timeline/
 {% endcapture %}
 
 <div class="full-width">{% timeline philipTimeline, 1160, 1276 %}</div>
+
+Stamford Encyclopedia of Philosophy, s.v. Philip the Chancellor. Payne 46, 50-52, 56-57, 58-59, 63, 65-66, 64, 67ff, 70--71, 84. Leff 204, 148, 163, 190ff. Wright 291. 
