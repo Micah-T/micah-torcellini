@@ -178,9 +178,7 @@ Paris in the 13<sup>th</sup> century.^[“Pl. III. Paris de 1180 a 1223.,” acc
 ## Other resources
 - [Interactive timeline](/philip/timeline/)
 - [Table of pieces](/philip/table/)
-
-Coming soon:
-- Download slides (PDF)
+- [Download slides (PDF)](https://files.torcellini.org/2026-02-12-colloquium.pdf)
 
 ## Bibliography
 
