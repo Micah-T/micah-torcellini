@@ -11,32 +11,6 @@ Aristotelian texts used by Philip^[Leff, 204.]:{.no-dropcap}
 - *De Caelo*
 - *De Animalibus*
 
-Philip's discussion of the soul and body from *De Bono*:
-> For there is in the rational soul a fuller approach to the composition
-> of material and form than in knowledge, because \[the soul\] is
-> extended in its nature according to how it is united into bodily
-> material. From which, in itself, there are varied disputes of acting
-> and possible understanding; in true angelic perception there are not
-> so varied disputes.
-
-> And so, with this said, we are able to solve the question, if one is
-> asked about the distinction between an angel and the soul, because
-> \[the soul\] nevertheless is joined to itself in the end because it is
-> ordained to the blessing of itself and the body. The angel, however,
-> is ordained for the impartation of blessing only into himself, for he
-> will lack the dowry of a body; for thus he does not deserve \[to be\]
-> in a body, and so he ought not to be valued \[as if\] in a body. He is
-> separated in the end by antecedent perfection, because the angel is
-> incorporeal substance of illuminations which are, from the beginning,
-> perceived first by relation; the soul, however, is an incorporeal
-> substance of illuminations which are, from the beginning, perceived
-> last by relation. Therefore they are separated in power to which this
-> perfection responds, because the power of \[the soul\] is rational
-> capability which has the capability of being put together and divided,
-> the intelligible with the sensible; \[the power of an angel\],
-> however, is not.^[My translation. Philip, *Philippi Cancellarii Parisiensis Summa de Bono*, 157–58.]
-
-
 ## Examples
 
 Example 1: *Anima, Iuge Lacrima*. This table displays the texts with line breaks at cadential points, matching portions of text with where they align in the music and noting where the line rests. Where all three voices cadence simultaneously, the note is written in boldface type. Uppercase letters represent the ends of phrases. Hockets are italicized. In the underlined portion shows where the tenor and motetus voices cross.  {.no-dropcap}
@@ -178,7 +152,32 @@ Paris in the 13<sup>th</sup> century.^[“Pl. III. Paris de 1180 a 1223.,” acc
 ## Other resources
 - [Interactive timeline](/philip/timeline/)
 - [Table of pieces](/philip/table/)
-- [Download slides (PDF)](https://files.torcellini.org/2026-02-12-colloquium.pdf)
+- [Download slides (PDF)](https://files.torcellini.org/2026-02-13-colloquium.pdf)
+
+Philip's discussion of the soul and body from *De Bono*:
+> For there is in the rational soul a fuller approach to the composition
+> of material and form than in knowledge, because \[the soul\] is
+> extended in its nature according to how it is united into bodily
+> material. From which, in itself, there are varied disputes of acting
+> and possible understanding; in true angelic perception there are not
+> so varied disputes.
+
+> And so, with this said, we are able to solve the question, if one is
+> asked about the distinction between an angel and the soul, because
+> \[the soul\] nevertheless is joined to itself in the end because it is
+> ordained to the blessing of itself and the body. The angel, however,
+> is ordained for the impartation of blessing only into himself, for he
+> will lack the dowry of a body; for thus he does not deserve \[to be\]
+> in a body, and so he ought not to be valued \[as if\] in a body. He is
+> separated in the end by antecedent perfection, because the angel is
+> incorporeal substance of illuminations which are, from the beginning,
+> perceived first by relation; the soul, however, is an incorporeal
+> substance of illuminations which are, from the beginning, perceived
+> last by relation. Therefore they are separated in power to which this
+> perfection responds, because the power of \[the soul\] is rational
+> capability which has the capability of being put together and divided,
+> the intelligible with the sensible; \[the power of an angel\],
+> however, is not.^[My translation. Philip, *Philippi Cancellarii Parisiensis Summa de Bono*, 157–58.]
 
 ## Bibliography
 
