@@ -152,7 +152,7 @@ Paris in the 13<sup>th</sup> century.^[“Pl. III. Paris de 1180 a 1223.,” acc
 ## Other resources
 - [Interactive timeline](/philip/timeline/)
 - [Table of pieces](/philip/table/)
-- [Download slides (PDF)](https://files.torcellini.org/2026-02-13-colloquium.pdf)
+- [Download slides (PDF)](https://files.torcellini.org/2026-02-28-scsm.pdf)
 
 Philip's discussion of the soul and body from *De Bono*:
 > For there is in the rational soul a fuller approach to the composition
