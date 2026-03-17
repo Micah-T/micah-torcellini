@@ -1,13 +1,23 @@
+/* parent element for timeline--creates sideways-scrolling */
 .timeline-container {
     overflow-x: scroll;
 }
+
+/* timeline list--should be <ol> */
 .timeline {
+    /* keeps the timeline a reasonable width; on
+     smaller screens it'll overflow because of the container. */
     --timeline-width: max(100%, 50em);
+    /* the total number of years that we need to include */
     --timeline-period: calc(var(--timeline-end) - var(--timeline-start));
+    /* the width of each year; is factor to determine the width of each item */
     --timeline-scale: calc((1 / var(--timeline-period)) * var(--timeline-width));
+    /* gridlines */
     --grid-color: var(--grey-400);
     --grid-line-width: 1px;
+    /* we want a gridline every decade */
     --grid-line-space: calc(var(--timeline-scale) * 10);
+    /* and then we use gradients to make the lines */
     background: repeating-linear-gradient(to right, var(--grid-color) 0 var(--grid-line-width), transparent var(--grid-line-width) var(--grid-line-space), transparent var(--grid-line-space));
     padding: 1em 0;
     width: var(--timeline-width);
@@ -15,18 +25,29 @@
 }
 .timeline li {
     --timeline-bar-height: 1em;
+    /* I have --shade-color set in my CSS elsewhere. 
+       You should set this default based on your theming */
     --bar-color: var(--shade-color);
     margin: 0.5em auto;
+    /* While there are other methods for positioning, margin is simple and 
+      works enough for this. 
+      We calculate the total width of the years to the beginning of the bar */
     margin-left: calc((var(--start) - var(--timeline-start)) * var(--timeline-scale));
+    /* how many years it is long */
     --period: calc(var(--end) - var(--start));
+    /* and the finding the width */
     width: max(calc(var(--period) * var(--timeline-scale)), var(--timeline-bar-height));
+    /* if we don't have this, it won't print the border colors */
     print-color-adjust: exact; 
+    /* causes all kinds of problems if it's a list */
     display: block;
+    /* keeps all the words on the same line */
     white-space: nowrap;
     padding: 0;
+    /* actually creating the bar */
     border-top: var(--timeline-bar-height) solid var(--bar-color);
+    /* if we were using max-width elsewhere we want to clear it */
     max-width: unset;
-    align-content: center;
     }
 
 li.timeline-group-1 {
