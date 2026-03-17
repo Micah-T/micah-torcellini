@@ -2,7 +2,7 @@
 title: Simple Pure CSS/HTML Timeline (with Extra Eleventy Integration)
 tags: ["digital-humanities", "web development", eleventy]
 ---
-I wanted an online time for a companion website for an academic presentation that I'm presenting at a couple of different conferences this semester. I don't have time to cover all the historical events, so I wanted to provide a timeline to aid people in orienting themselves and making further historical connections. Initially I thought I would have to use JavaScript, but I ultimately was able to do it in pure CSS and semantic HTML. While this is a very basic timeline, it does the basic job well in a performant and accessible manner. 
+I wanted an online timeline for a companion website for an academic presentation. I don't have time to cover all the historical events that might be relevant to people's own interests, so I wanted to provide a timeline to aid people in orienting themselves and making further historical connections. Initially I thought I would have to use JavaScript, but I ultimately was able to do it in pure CSS and semantic HTML. While there are many JavaScript libraries, they are for the most part, bloated, not performant, inaccessible, and don't degrade nicely in supported browsers. While my solution is quite basic, it does the job well in a performant and accessible manner, and degrades gracefully in older browsers. While there might be times for more complicated solutions, I suspect that most situations will be served well by a simpler one like this. 
 
 ## The CSS and HTML
 
@@ -10,7 +10,7 @@ The basic principle is to represent the timeline items as a list, and draw the t
 
 The basic method is to calculate a "scale" (how wide each year is) and then use that as a factor to calculate how far from the beginning of the timeline each item should begin and how wide each item should be. the lines are drawn using borders, and text is allowed to overflow. In math
 - period (total number of years in timeline) = end - beginning. 
-- scale (how wide each year is) = (1 / period) &times; the width of the timeline. 
+- scale (how wide each year is) = (1 / period) &times; the width of the timeline (which itself can be defined using any CSS necessary for your layout).
 - give each item a left-margin of how many years it is from the the beginning (start year of the item - the start year of the timeline) &times; the scale. 
 - each item width = (end year of item - beginning year of item ) &times; scale. 
 
@@ -53,9 +53,10 @@ For accessibility, both because borders do not have any representation in the ac
 
 /* timeline list--should be <ol> */
 .timeline {
-    /* keeps the timeline a reasonable width; on smaller screens it'll overflow because of the container. */
+    /* keeps the timeline a reasonable width; on
+     smaller screens it'll overflow because of the container. */
     --timeline-width: max(100%, 50em);
-    /* the total number of years that we need include */
+    /* the total number of years that we need to include */
     --timeline-period: calc(var(--timeline-end) - var(--timeline-start));
     /* the width of each year; is factor to determine the width of each item */
     --timeline-scale: calc((1 / var(--timeline-period)) * var(--timeline-width));
@@ -76,8 +77,9 @@ For accessibility, both because borders do not have any representation in the ac
        You should set this default based on your theming */
     --bar-color: var(--shade-color);
     margin: 0.5em auto;
-    /* While there are other methods for positioning, margin is simple and works enough for this. 
-       We calculate the total width of the years to the beginning of the bar */
+    /* While there are other methods for positioning, margin is simple and 
+      works enough for this. 
+      We calculate the total width of the years to the beginning of the bar */
     margin-left: calc((var(--start) - var(--timeline-start)) * var(--timeline-scale));
     /* how many years it is long */
     --period: calc(var(--end) - var(--start));
@@ -110,7 +112,7 @@ In your content, the shortcode will work like this. It's a bit neater to capture
 ```
 {% raw %}
 {% capture myTimeline %} 
-- [1920~1960] {40 year periods} Stuff that happened for 40 years
+- [1920~1960] {category name} Stuff that happened for 40 years
 {% endcapture %}
 {% timeline myTimeline, 1900, 2000 %}
 {% endraw %}
@@ -169,4 +171,4 @@ li.timeline-group-2 {
 ...
 ```
 
-To emphasize, this Eleventy/Obsidian integration is probably questionable and you probably shouldn't do it for anything extremely important. It's working for me for the time being, though. If the data could be represented in markdown directly, that would also make things better. Since timelines are important for digital humanities, I think it is worthwhile to give more thought to how these can work effectively with modern web technologies for best performance and accessibility. If we can make it work with our notetaking tools, all the better. 
+To emphasize, this Eleventy/Obsidian integration is probably questionable and you probably shouldn't do it for anything important. It's working for me for the time being, though. If the data could be represented in markdown directly, that would also make things better. Since timelines are important for digital humanities, I think it is worthwhile to give more thought to how these can work effectively with modern web technologies for best performance and accessibility. If we can make it work with our notetaking tools, all the better. 
