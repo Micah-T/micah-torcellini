@@ -1,6 +1,7 @@
 ---
 title: Simple Pure CSS/HTML Timeline (with Extra Eleventy Integration)
 tags: ["digital-humanities", "web development", eleventy]
+highlight: true
 ---
 I wanted a simple historical timeline for a companion website for an academic presentation. I don't have time to cover all the historical events that might be relevant to people's own interests, so I wanted to provide a timeline to aid people in orienting themselves and making further historical connections. Initially I thought I would have to use JavaScript, but I ultimately was able to do it in pure CSS and semantic HTML. While there are many JavaScript libraries, they are for the most part, bloated, not performant, inaccessible, and don't degrade nicely in unsupported browsers. While my solution is quite basic, it does the job well in a performant and accessible manner, and does degrade gracefully in older browsers. While there might be times for more complicated solutions, I suspect that most situations will be served well by a simpler one like this. 
 
