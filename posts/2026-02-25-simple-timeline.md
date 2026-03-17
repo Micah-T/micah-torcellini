@@ -2,19 +2,21 @@
 title: Simple Pure CSS/HTML Timeline (with Extra Eleventy Integration)
 tags: ["digital-humanities", "web development", eleventy]
 ---
-I wanted an online timeline for a companion website for an academic presentation. I don't have time to cover all the historical events that might be relevant to people's own interests, so I wanted to provide a timeline to aid people in orienting themselves and making further historical connections. Initially I thought I would have to use JavaScript, but I ultimately was able to do it in pure CSS and semantic HTML. While there are many JavaScript libraries, they are for the most part, bloated, not performant, inaccessible, and don't degrade nicely in supported browsers. While my solution is quite basic, it does the job well in a performant and accessible manner, and degrades gracefully in older browsers. While there might be times for more complicated solutions, I suspect that most situations will be served well by a simpler one like this. 
+I wanted a simple historical timeline for a companion website for an academic presentation. I don't have time to cover all the historical events that might be relevant to people's own interests, so I wanted to provide a timeline to aid people in orienting themselves and making further historical connections. Initially I thought I would have to use JavaScript, but I ultimately was able to do it in pure CSS and semantic HTML. While there are many JavaScript libraries, they are for the most part, bloated, not performant, inaccessible, and don't degrade nicely in unsupported browsers. While my solution is quite basic, it does the job well in a performant and accessible manner, and does degrade gracefully in older browsers. While there might be times for more complicated solutions, I suspect that most situations will be served well by a simpler one like this. 
 
 ## The CSS and HTML
 
-The basic principle is to represent the timeline items as a list, and draw the timeline using CSS variables. Using a list means that the items are represented semantically. This aids accessibility and allows it to gracefully degrade in browsers that do not support CSS variables. 
+The basic principle is to represent the timeline items as a list, and create the the timeline's visual presentation using CSS variables. Using a list means that the items are represented semantically. This aids accessibility and allows it to gracefully degrade in browsers that do not support CSS variables. 
 
-The basic method is to calculate a "scale" (how wide each year is) and then use that as a factor to calculate how far from the beginning of the timeline each item should begin and how wide each item should be. the lines are drawn using borders, and text is allowed to overflow. In math
+The basic method is to calculate a "scale" (how wide each year is) and then use that as a factor to calculate how far from the beginning of the timeline each item should begin and how wide each item should be. the lines are drawn using borders, and text is allowed to overflow. In other words:
 - period (total number of years in timeline) = end - beginning. 
 - scale (how wide each year is) = (1 / period) &times; the width of the timeline (which itself can be defined using any CSS necessary for your layout).
-- give each item a left-margin of how many years it is from the the beginning (start year of the item - the start year of the timeline) &times; the scale. 
+- give each item a left-margin of the distance it is from the beginning: (start year of the item - the start year of the timeline) &times; scale. 
 - each item width = (end year of item - beginning year of item ) &times; scale. 
 
-For accessibility, both because borders do not have any representation in the accessibility tree and because it is helpful to all users to know precise years, you should include the years in the text of each item. This also means that the meaning will still be accessible in browsers that do not support CSS variables. 
+For accessibility, both because borders do not have any representation in the accessibility tree and because it is helpful to all users to know precise years, you should include the years in the text of each item. This also means that the meaning will still be accessible in browsers that do not support CSS variables; the timeline will degrade to a simple list. 
+
+There is one bug that I haven't solved yet, which is that the gridlines are not of a consistent thickness in Firefox, but are in Chromium-based browsers.
 
 ### Example
 
@@ -103,7 +105,7 @@ For accessibility, both because borders do not have any representation in the ac
 
 ## Extra Eleventy (and Obsidian!) Integration
 
-I use [Obsidian](https://obsidian.md/) for my notes, so I use the [Chronos plugin](https://github.com/clairefro/obsidian-plugin-chronos) to make timelines to organize myself. It isn't perfect, but its available. Because I'm already using it, it would be nice to use its markup style to create timelines, especially since the raw HTML markup is a bit verbose. To do this, I installed the [Chronos Timeline MD](https://github.com/clairefro/chronos-timeline-md) and created a shortcode. 
+I use [Obsidian](https://obsidian.md/) for my notes (which works nicely because markdown is native to [Eleventy](https://eleventy.dev)), so I use the [Chronos plugin](https://github.com/clairefro/obsidian-plugin-chronos) to make timelines to organize historical information. It isn't perfect, but it's available. Because I'm already using it, it would be nice to use its markup style to create timelines, especially since the raw HTML markup is a bit verbose. To do this, I installed the [Chronos Timeline MD](https://github.com/clairefro/chronos-timeline-md) package and created a shortcode. 
 
 Add ```eleventyConfig.addShortcode("timeline", require("./_11ty/timeline.js"));``` into `.eleventy.js` ([Eleventy shortcode documentation ](https://www.11ty.dev/docs/shortcodes/)). 
 
@@ -113,6 +115,7 @@ In your content, the shortcode will work like this. It's a bit neater to capture
 {% raw %}
 {% capture myTimeline %} 
 - [1920~1960] {category name} Stuff that happened for 40 years
+- [1930] {another category} thing that happened in 1930
 {% endcapture %}
 {% timeline myTimeline, 1900, 2000 %}
 {% endraw %}
@@ -158,7 +161,7 @@ module.exports = function(markdown, timelineStart, timelineEnd) {
 }
 ```
 
-This worked with Chronos Timeline MD 1.0.5; since this really isn't a documented method, it might won't work in any other version. In reality, creating your own parser is a better idea, and if you are good at Markdown-It plugins and make something, please do share it to <micah@torcellini.org> and I'll link to it from here (with your permission). This also only supports items, and not periods. 
+This worked with Chronos Timeline MD 1.0.5; since only using the parser and not also the final rendering really isn't a documented method, it might not work in any other version. In reality, creating your own parser is a better idea, so if you are good at Markdown-It plugins and make something, please do share it to <micah@torcellini.org> and I'll link to it from here (with your permission). My solution also only supports events, and not periods. 
 
 
 This does result in CSS classes that we can use to control the colors, like so:
@@ -171,4 +174,4 @@ li.timeline-group-2 {
 ...
 ```
 
-To emphasize, this Eleventy/Obsidian integration is probably questionable and you probably shouldn't do it for anything important. It's working for me for the time being, though. If the data could be represented in markdown directly, that would also make things better. Since timelines are important for digital humanities, I think it is worthwhile to give more thought to how these can work effectively with modern web technologies for best performance and accessibility. If we can make it work with our notetaking tools, all the better. 
+To emphasize, this Eleventy/Obsidian integration is probably questionable and you probably shouldn't use it for anything important. It's working for me for the time being, though. If the data could be represented in markdown directly, that would also make things better. Since timelines are important for digital humanities, I think it is worthwhile to give more thought to how these can work effectively with modern web technologies for best performance and accessibility. If we can make it work with our notetaking tools, all the better. 
