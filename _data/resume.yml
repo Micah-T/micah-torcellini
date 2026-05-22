@@ -183,14 +183,21 @@ publications:
     location: Sturbridge, MA
     date: 2022
     summary: "An interactive lecture discussing music education in the 1830s and its cultural background, using artifacts and reproductions."
-  -
-    author: Micah Torcellini
-    title: The Identity of Godot
-    journal: Westmarch
-    date: 2021
-    vol: 2
-    no: 1
-    summary: "This paper discusses a potential answer for the identity of Samuel Beckett's mysterious character \"Godot.\""
+#  -
+#    author: Micah Torcellini
+#    title: The Identity of Godot
+#    journal: Westmarch
+#    date: 2021
+#    vol: 2
+#    no: 1
+#    summary: "This paper discusses a potential answer for the identity of Samuel Beckett's mysterious character \"Godot.\""
+professionalDevelopment:
+  - 
+    name: Digital Medieval Studies Institute
+    url: https://wmich.edu/medievalcongress/dmsi
+    location: International Congress on Medieval Studies, Kalamazoo
+    date: May 2026
+    description: The DMSI is a series of workshops on medieval studies and digital humanities. This DMSI included a workshop on Digital Scriptorium and Schoenberg Database of Manuscripts and on manuscript description. Participants described uncatalogued manuscripts from the Western Michigan University collection for inclusion within the Digital Scriptorium database. 
 education: 
   - B.A. in Classical Liberal Arts, Patrick Henry College (2024)
   - M.A. in Musicology, Indiana University Jacobs School of Music (2026)
